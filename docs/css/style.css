@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Cormorant+Garamond|Lobster|Pacifico|Pattaya&display=swap');
 @import url('responsive.css');
+@import url('animation.css');
 
 *, *::before, *::after {
 	padding: 0;
@@ -85,24 +86,7 @@ h1{
     border: 1px solid gray;
     overflow: hidden;
     border-radius: 20px;
-    margin-bottom: -60px;
     background: white;
-    margin-left: 30px;
-}
-
-body > main > section > div.home-main > main > article:nth-child(1){
-    position: relative;
-    top: -185px;
-}
-
-body > main > section > div.home-main > main > article:nth-child(2){
-    position: relative;
-    top: -145px;
-}
-
-body > main > section > div.home-main > main > article:nth-child(3){
-    position: relative;
-    top: -100px;
 }
 
     .img{
@@ -153,6 +137,20 @@ footer {
 
 .site-nav>ul>li{
     margin: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 3px solid black;
+}
+
+.site-nav>ul>li>a{
+    padding: 15px;
+}
+
+.site-nav>ul>li:hover{
+    cursor: pointer;
+    background: gray;
+    border-radius: 25%;
+    border-bottom: none;
 }
 
 .site-nav>ul>li>a{
@@ -221,17 +219,35 @@ footer {
         flex-direction: column;
     }
 
+    .img-3,
+    .img-2,
+    .img-1 {
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
     .home-main > main > article:nth-child(1){
-        margin-top: 185px;
+        position: relative;
+        top: 33em;
+        left: 7em;
+        
     }
 
     .home-main > main > article:nth-child(2){
-        margin-top: -42px;
-        margin-bottom: -46px;
+        position: relative;
+        top: 30em;
+        left: 4.5em;
+        width: 100%;
+        margin: auto;
     }
 
     .home-main > main > article:nth-child(3){
-        margin-bottom: -100px;
+        position: relative;
+        top: 27em;
+        left: 3.8em;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2.2em;
     }
 
     .home-main > main > article{

@@ -1,0 +1,19 @@
+---
+layout: main
+title: Повече...
+permalink: /blog/
+---
+<div class="additional">
+    {% include navigation.html%}
+</div>
+
+
+<div class="content">
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{post.url}}">{{post.title}}</a>
+        </li>
+        {%endfor%}
+    </ul>
+</div>

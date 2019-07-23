@@ -1,0 +1,157 @@
+*, *::before, *::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;   
+}
+
+#body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;  
+    position: relative;
+    top: -70px;
+    margin-bottom: -183px;
+}
+
+.lessons{
+    background-image: radial-gradient(circle, #9aa0aa, #a3a8b0, #acb0b7, #b5b8bd, #bec0c4);
+    display: flex;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.articles>article{
+    margin-top: 40px;
+    width: 28%;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.articles>article>p{
+    width: 85%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.articles>article>img{
+    width: 18%;
+    height: 26%;
+}
+
+body > main > section > main > div:nth-child(1) > article:nth-child(4),
+body > main > section > main > div:nth-child(1) > article:nth-child(5),
+body > main > section > main > div:nth-child(1) > article:nth-child(6){
+    margin-top: 0;
+}
+
+.articles-additional{
+    display: none;
+}
+
+@media all and (max-width: 768px){
+
+    .articles{
+        display: none;
+    }
+
+    body > main > section > main > div.articles.additional{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+    }
+    
+    .articles>article{
+        margin-top: 1.7rem;
+        margin-bottom: 15px;
+        width: 50%;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+
+    body > main > section > main > div.articles.additional > article:nth-child(1),
+    body > main > section > main > div.articles.additional > article:nth-child(2){
+        margin-top: 40px;
+    }
+
+    body > main > section > main > div.articles.additional > article:nth-child(3),
+    body > main > section > main > div.articles.additional > article:nth-child(4),
+    body > main > section > main > div.articles.additional > article:nth-child(5),
+    body > main > section > main > div.articles.additional > article:nth-child(6){
+        margin-top: 10px;
+    }
+
+    .articles>article>p{
+        width: 85%;
+        padding-bottom: 20px;
+    }
+    
+    .articles>article>img{
+        width: 18%;
+        height: 38%;
+    }
+}
+
+@media all and (max-width: 768px){
+    .articles>article>img{
+        width: 18%;
+        height: 20%;
+    }
+
+    .articles>article{
+        margin-top: 0.8rem;
+        margin-bottom: 2px;
+        width: 50%;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+
+    .articles>article>p{
+        margin-bottom: 0;
+    }
+}
+
+@media all and (max-width: 480px){
+    body > main > section > main > div.articles.additional > article:nth-child(6){
+        margin-bottom: -95px;
+    }
+
+    body > main > section > main > div.articles.additional > article:nth-child(1){
+        margin-top: 60px;
+    }
+
+    .articles>article{
+        width: 100%;
+        margin: auto;
+        text-align: left;
+        margin-bottom: 6rem;
+        border-bottom: 2px solid black;
+    }
+
+    .articles>article>img{
+        width: 18%;
+        height: 33%;
+        margin-left: auto;
+    }
+
+    .articles>article>p{
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+}

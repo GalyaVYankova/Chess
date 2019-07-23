@@ -78,3 +78,56 @@
         transform: translateX(50px) translateY(-100px);
      } 
 } 
+
+.knight{
+    
+    -webkit-animation: knight 4s both linear;
+    
+            animation: knight 4s both linear;
+    -webkit-animation-iteration-count: 2;
+            animation-iteration-count: 2;
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused; 
+}
+
+.knight:hover{
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+}
+
+@-webkit-keyframes knight{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(-40px) translateX(120px);
+    }
+    75%{
+        transform: translateY(-40px) translateX(0);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes knight{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px);
+    }
+    50%{
+        transform: translateY(-40px) translateX(120px);
+    }
+    75%{
+        transform: translateY(-40px) translateX(0);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+

@@ -12,12 +12,6 @@ html {
 	box-sizing: border-box;
 }
 
-.wrapper{
-    background: url("../images/New11.jpg") no-repeat center;
-    background-size: 100% 100%;
-    height: 36rem;
-}
-
 body{
     margin: 0;
     font-family: 'Cormorant Garamond', serif;   
@@ -31,16 +25,18 @@ body{
     margin-bottom: -183px;
 }
 
-.logo{
+.main {
+    display: block;
+    margin-top: -78px;
+}
+
+.main>h1{
     position: relative;
-    top: 100px;
-    width: 30%;
-    float: right;
-    margin-right: 50px;
-    color: goldenrod;
-    font-size: 1.5rem;
-    font-weight: 300;
-    text-align: end;
+    top: 104px;
+}
+
+.additional {
+    display: none;
 }
 
 h1{
@@ -49,7 +45,6 @@ h1{
     text-shadow: 1px 4px 3px rgba(0,0,0,0.6);
     font-size: 4rem;
     font-weight: 900;
-    background: #222627;
 }
 
 .wrapper-home>header>nav>ul {
@@ -60,25 +55,27 @@ h1{
     list-style-type: none;
 }
 
-
 .wrapper-home>header>nav>ul>li {
     padding-top: 25px;
     padding-bottom: 15px;
 }
 
-.wrapper-home>header>nav>ul>li>a {
+.site-nav>ul>li>a{
     color: goldenrod;
+    font-size: 34px;
     text-decoration: none;
-    font-size: 28px;
-    font-weight: 900; 
+    font-weight: 900;
 }
-
 
 .home-main>main{
     background-image: radial-gradient(circle, #222627, #2e3233, #3b3f40, #484c4d, #55595b);
     display: flex;
     justify-content: center;
-    
+    margin-bottom: -4em;
+}
+
+.second-home-main{
+    display: none;
 }
 
 .home-main>main>article{
@@ -89,17 +86,15 @@ h1{
     background: white;
 }
 
-    .img{
-        opacity: 0.9;
-        margin-bottom: -85px;
-    }
 
-    body > main > section > div.home-main > main > article:nth-child(1) > div > img,
-    body > main > section > div.home-main > main > article:nth-child(2) > div > img,
-    body > main > section > div.home-main > main > article:nth-child(3) > div > img{
+body > main > section > div.home-main > main > article:nth-child(1) > div > img,
+body > main > section > div.home-main > main > article:nth-child(2) > div > img,
+body > main > section > div.home-main > main > article:nth-child(3) > div > img{
         width: 100%;
         height: 50%;
-    }
+        opacity: 0.9;
+        margin-bottom: -85px;
+}
 
 .home-main > main > article > p{
     text-align: center;
@@ -136,9 +131,9 @@ footer {
 }
 
 .site-nav>ul>li{
-    margin: 20px;
-    margin-bottom: 10px;
-    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 3px;
     border-bottom: 3px solid black;
 }
 
@@ -146,19 +141,14 @@ footer {
     padding: 15px;
 }
 
-.site-nav>ul>li:hover{
+.site-nav>ul>li>a:hover{
     cursor: pointer;
     background: gray;
     border-radius: 25%;
     border-bottom: none;
 }
 
-.site-nav>ul>li>a{
-    color: goldenrod;
-    font-size: 36px;
-    text-decoration: none;
-    font-weight: 700;
-}
+
 
 .site-header>h1{
     position: relative;
@@ -177,30 +167,66 @@ footer {
 
 
 @media all and (max-width: 768px) {
-    .home-main > main > article > p {
-        margin-bottom: 2px;
+    .site-header{
+        display: none;
+    }
+    
+    .additional>h1{
+        margin-top: -102px;
     }
 
-    article{
-        width: 80%;
-        margin-bottom: -183px;
+    .home-main{
+        display: none;
+    }
+    
+    .second-home-main{
+        display: block;
+        background-image: radial-gradient(circle, #222627, #2e3233, #3b3f40, #484c4d, #55595b);
+    }
+    
+    .second-home-main>article{
+        width: 100%;
+        border-radius: 0;
+        border: 1px solid black; 
+        margin-bottom: 1rem;
+    }
+    
+    .no-animation{
+        background: white;
+        margin-bottom: 0.3rem;
+    }
+
+    body > main > section > div.second-home-main > main > article:nth-child(3){
+        margin-bottom: 0;
+    }
+
+    .second-home-main > main > article > div > img{
+        width: 100%;
+    }
+    
+    body > main > section > div.second-home-main > main > article > p{
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    .second-home-main > main > article > p {
+        margin-top: 5rem;
+        margin-bottom: 2px;
+        padding-top: 2rem;
+    }
+
+    .site-nav{
+        padding-top: 0;
     }
 
     .site-header>.site-nav{
         display: none;
+        padding-top: 0;
+        margin-top: 20px;
     }
-
-    .site-nav>ul>li {
-        margin: 17px;
-    }
-
-    .wrapper{
-        height: 19rem;
-        padding-top: 30px;
-    }
-
-    h1{
-        font-size: 3rem;
+    
+    .main>h1{
+        display: none;
     }
 
     .additional{
@@ -209,56 +235,40 @@ footer {
     
     .additional > nav > ul{
         flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .site-nav>ul>li:nth-child(5){
+        padding-bottom: 0;
     }
 
     .additional > nav > ul > li{
         text-align: center;
+        margin: 0;
+        padding: 30px 0;
+        border-bottom: none;
+    }
+
+    .additional > nav > ul > li:nth-child(1){
+        padding-top: 0px;
+        margin-top: 30px;
+    }
+
+    .additional > nav > ul > li:nth-child(5){
+        margin-bottom: 30px;
+    }
+
+    .additional > nav > ul > li>a{
+        border-bottom: 3px solid black;
+        padding: 20px 150px;
+        margin: 0;
     }
 
     main{
         flex-direction: column;
     }
 
-    .img-3,
-    .img-2,
-    .img-1 {
-        -webkit-animation-play-state: paused;
-                animation-play-state: paused;
-    }
-
-    .home-main > main > article:nth-child(1){
-        position: relative;
-        top: 33em;
-        left: 7em;
-        
-    }
-
-    .home-main > main > article:nth-child(2){
-        position: relative;
-        top: 30em;
-        left: 4.5em;
-        width: 100%;
-        margin: auto;
-    }
-
-    .home-main > main > article:nth-child(3){
-        position: relative;
-        top: 27em;
-        left: 3.8em;
-        width: 100%;
-        margin: auto;
-        margin-bottom: 2.2em;
-    }
-
-    .home-main > main > article{
-        margin-left: 0;
-        border-radius: 0;
-        border: 1px solid black;
-        width: 100%;
-        margin: auto;
-    }
-
-    .home-main > main > article > button{
+    .second-home-main > main > article > button{
         display: block;
         width: 47%;
         margin: auto;
@@ -272,7 +282,7 @@ footer {
         padding: 15px 3px 15px 3px;
     }
     
-    .home-main > main > article > button>a{
+    .second-home-main > main > article > button>a{
         font-size: 1.2rem;
         text-align: center;
         font-weight: 800;
@@ -280,31 +290,82 @@ footer {
         color: goldenrod;
         letter-spacing: 4px;
      }  
+
+}
+
+
+/**Wrapper**/
+@media all and (max-width: 1800px) {
+    .wrapper{
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .wrapper>img{
+        width: 100%;
+        height: 25em;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .wrapper>img{
+        padding-top: 45px;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .wrapper>img{
+        width: 100%;
+        height: 22em;
+    }
+
+    .additional>h1 {
+        bottom: -20rem;
+        
+    }
 }
 
 @media all and (max-width: 480px) {
-    .wrapper{
-        margin-top: -90px;
+    .wrapper>img{
+        width: 100%;
+        height: 18em;
+    }
+
+    .site-header>h1 {
+        display: inline;
+        margin: auto;
+        bottom: -17rem;
+        font-size: 2.5rem;
+    }
+
+    .additional > nav > ul > li>a{
+        border-bottom: 3px solid black;
+        padding: 20px 50px;
+        margin: 0;
+        font-size: 26px;
     }
 }
 
-@media all and (max-width: 480px) and (min-width: 367px){
-    .site-header>h1 {
-        bottom: -240px;
+@media all and (max-width: 380px) {
+    .wrapper>img{
+        width: 100%;
+        height: 16em;
     }
-    .wrapper{
+
+    .additional>h1 {
+        font-size: 2.8rem;
+        margin-top: -75px;
+        margin-bottom: 15px;
+    }
+
+    .additional > nav > ul {
         margin-top: 0;
-        height: 15rem;
     }
 }
 
-@media all and (max-width: 367px){
-    .site-header>h1 {
-        bottom: -220px;
-        font-size: 3rem;
-    }
-    .wrapper{
-        height: 13rem;
-        margin-top: 20px;
+
+@media all and (max-width: 275px) {
+    .additional>h1 {
+        font-size: 2.1rem;
     }
 }
+

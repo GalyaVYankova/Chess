@@ -1,0 +1,44 @@
+.img-1 { 
+    animation: first ease 4.8s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+
+@keyframes first { 
+    0% { 
+        transform: translateX(-120px) translateY(-520px);
+    } 
+    100% { 
+        transform: translateX(-40px) translateY(-220px);
+     } 
+} 
+
+.img-2 { 
+    animation: second ease 3.8s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes second { 
+    0% { 
+        transform: translateX(-80px) translateY(-460px);
+    } 
+    100% { 
+        transform: translateX(0px) translateY(-160px);
+     } 
+}
+
+.img-3 { 
+    animation: third ease 2.8s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+
+@keyframes third { 
+    0% { 
+        transform: translateX(-70px) translateY(-400px);
+    } 
+    100% { 
+        transform: translateX(50px) translateY(-100px);
+     } 
+} 

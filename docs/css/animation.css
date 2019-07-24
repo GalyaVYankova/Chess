@@ -533,7 +533,7 @@
 }
 
 /****************Pen********************/
-.pencil{
+.pencil:hover{
     -webkit-animation-name: pencil;
             animation-name: pencil;
     -webkit-animation-delay: 1s;
@@ -548,14 +548,29 @@
     0%{
         transform: translateX(0);
     }
-    25%{
-        transform: translateY(-40px) translateX(50px);
+    20%{
+        transform: translateY(-16px) translateX(8px);
+    }
+    30%{
+        transform: translateY(12px) translateX(14px);
+    }
+    40%{
+        transform: translateY(-7px) translateX(20px);
     }
     50%{
-        transform: translateX(0);
+        transform: translateY(7px) translateX(26px);
     }
-    75%{
-        transform: translateY(-40px) translateX(-50px);
+    60%{
+        transform: translateY(-7px) translateX(32px);
+    }
+    70%{
+        transform: translateY(7px) translateX(38px);
+    }
+    80%{
+        transform: translateY(-10px) translateX(15px);
+    }
+    90%{
+        transform: translateY(16px);
     }
     100%{
         transform: translateX(0);
@@ -566,14 +581,29 @@
     0%{
         transform: translateX(0);
     }
-    25%{
-        transform: translateY(-40px) translateX(50px);
+    20%{
+        transform: translateY(-16px) translateX(8px);
+    }
+    30%{
+        transform: translateY(12px) translateX(14px);
+    }
+    40%{
+        transform: translateY(-7px) translateX(20px);
     }
     50%{
-        transform: translateX(0);
+        transform: translateY(7px) translateX(26px);
     }
-    75%{
-        transform: translateY(-40px) translateX(-50px);
+    60%{
+        transform: translateY(-7px) translateX(32px);
+    }
+    70%{
+        transform: translateY(7px) translateX(38px);
+    }
+    80%{
+        transform: translateY(-10px) translateX(15px);
+    }
+    90%{
+        transform: translateY(16px);
     }
     100%{
         transform: translateX(0);

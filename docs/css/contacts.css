@@ -1,0 +1,15 @@
+.contacts {
+    background-image: radial-gradient(circle, #9aa0aa, #a3a8b0, #acb0b7, #b5b8bd, #bec0c4);
+    height: 600px;
+}
+
+.contacts-image{
+    margin-right: 150px;
+    padding-top: 150px;
+    width: 20%;
+    margin-left: auto;
+}
+
+.contacts-image>img{
+    width: 100%;
+}

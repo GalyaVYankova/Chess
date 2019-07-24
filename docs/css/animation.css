@@ -79,55 +79,503 @@
      } 
 } 
 
+/***RETURN STATE***/
+@-webkit-keyframes out{
+    to {transform: translateY(0);}
+}
+@keyframes out{
+    to {transform: translateY(0);}
+}
+
+/*********Knight********/
+
 .knight{
-    
-    -webkit-animation: knight 4s both linear;
-    
-            animation: knight 4s both linear;
-    -webkit-animation-iteration-count: 2;
-            animation-iteration-count: 2;
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused; 
+    -webkit-animation: out 2s;
+            animation: out 2s;
 }
 
+.knight:target,
+.knight:active,
+.knight:focus,
 .knight:hover{
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
+    -webkit-animation-name: knight-in;
+            animation-name: knight-in;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes knight{
+@-webkit-keyframes knight-in{
     0%{
         transform: translateX(0);
     }
-    25%{
+    10%{
         transform: translateY(-40px);
     }
+    20%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    30%{
+        transform: translateY(-40px) translateX(0);
+    }
+    40%{
+        transform: translateX(0);
+    }
     50%{
-        transform: translateY(-40px) translateX(120px);
+        transform: translateY(-40px);
+    }
+    60%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    70%{
+        transform: translateY(-40px) translateX(0);
+    }
+    80%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes knight-in{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateY(-40px);
+    }
+    20%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    30%{
+        transform: translateY(-40px) translateX(0);
+    }
+    40%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+    60%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    70%{
+        transform: translateY(-40px) translateX(0);
+    }
+    80%{
+        transform: translateX(0);
+    }
+}
+
+/*********Pawn*********************/
+.pawn{
+    -webkit-animation: out 2s;
+            animation: out 2s;
+}
+
+.pawn:target,
+.pawn:active,
+.pawn:focus,
+.pawn:hover{
+    -webkit-animation-name: pawn-in;
+            animation-name: pawn-in;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pawn-in{
+    0%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateY(-40px);
+    }
+    30%{
+        transform: translateY(0);
+    }
+    45%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    60%{
+        transform: translateY(0);
     }
     75%{
-        transform: translateY(-40px) translateX(0);
+        transform: translateY(-40px) translateX(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes pawn-in{
+    0%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateY(-40px);
+    }
+    30%{
+        transform: translateY(0);
+    }
+    45%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    60%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/****************Rook********************/
+.rook{
+    -webkit-animation: out 2s;
+            animation: out 2s;
+}
+
+.rook:target,
+.rook:active,
+.rook:focus,
+.rook:hover{
+    -webkit-animation-name: rook-in;
+            animation-name: rook-in;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rook-in{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateY(-40px);
+    }
+    35%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateX(40px);
+    }
+    65%{
+        transform: translateX(0);
+    }
+    80%{
+        transform: translateX(-40px);
     }
     100%{
         transform: translateX(0);
     }
 }
 
-@keyframes knight{
+@keyframes rook-in{
     0%{
         transform: translateX(0);
     }
-    25%{
+    20%{
         transform: translateY(-40px);
     }
-    50%{
-        transform: translateY(-40px) translateX(120px);
+    35%{
+        transform: translateY(0);
     }
-    75%{
-        transform: translateY(-40px) translateX(0);
+    50%{
+        transform: translateX(40px);
+    }
+    65%{
+        transform: translateX(0);
+    }
+    80%{
+        transform: translateX(-40px);
     }
     100%{
         transform: translateX(0);
     }
 }
 
+/****************Queen********************/
+.queen{
+    -webkit-animation: out 2s;
+            animation: out 2s;
+}
+
+.queen:target,
+.queen:active,
+.queen:focus,
+.queen:hover{
+    -webkit-animation-name: queen-in;
+            animation-name: queen-in;
+    -webkit-animation-duration: 6.5s;
+            animation-duration: 6.5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes queen-in{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateY(-40px);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    40%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    60%{
+        transform: translateY(0);
+    }
+    70%{
+        transform: translateX(40px);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    90%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes queen-in{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateY(-40px);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    40%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    60%{
+        transform: translateY(0);
+    }
+    70%{
+        transform: translateX(40px);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    90%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/****************King********************/
+.king{
+    -webkit-animation: out 2s;
+            animation: out 2s;
+}
+
+.king:target,
+.king:active,
+.king:focus,
+.king:hover{
+    -webkit-animation-name: king-in;
+            animation-name: king-in;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes king-in{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-40px);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateY(-40px) translateX(-40px);
+    }
+    40%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateY(-40px) translateX(0);
+    }
+    60%{
+        transform: translateX(0);
+    }
+    70%{
+        transform: translateY(-40px) translateX(40px);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    90%{
+        transform: translateY(0) translateX(40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes king-in{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-40px);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateY(-40px) translateX(-40px);
+    }
+    40%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateY(-40px) translateX(0);
+    }
+    60%{
+        transform: translateX(0);
+    }
+    70%{
+        transform: translateY(-40px) translateX(40px);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    90%{
+        transform: translateY(0) translateX(40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/****************Bishop********************/
+.bishop{
+    -webkit-animation: out 2s;
+            animation: out 2s;
+}
+
+.bishop:target,
+.bishop:active,
+.bishop:focus,
+.bishop:hover{
+    -webkit-animation-name: bishop-in;
+            animation-name: bishop-in;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bishop-in{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px) translateX(50px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateY(-40px) translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes bishop-in{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px) translateX(50px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateY(-40px) translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/****************Pen********************/
+.pencil{
+    -webkit-animation-name: pencil;
+            animation-name: pencil;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pencil{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px) translateX(50px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateY(-40px) translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes pencil{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px) translateX(50px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateY(-40px) translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

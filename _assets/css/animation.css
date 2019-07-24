@@ -43,32 +43,286 @@
      } 
 } 
 
+/***RETURN STATE***/
+@keyframes out{
+    to {transform: translateY(0);}
+}
+
+/*********Knight********/
+
 .knight{
-    
-    animation: knight 4s both linear;
-    animation-iteration-count: 2;
-    animation-play-state: paused; 
+    animation: out 2s;
 }
 
+.knight:target,
+.knight:active,
+.knight:focus,
 .knight:hover{
-    animation-play-state: running;
+    animation-name: knight-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes knight{
+@keyframes knight-in{
     0%{
         transform: translateX(0);
     }
-    25%{
+    10%{
         transform: translateY(-40px);
     }
+    20%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    30%{
+        transform: translateY(-40px) translateX(0);
+    }
+    40%{
+        transform: translateX(0);
+    }
     50%{
-        transform: translateY(-40px) translateX(120px);
+        transform: translateY(-40px);
+    }
+    60%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    70%{
+        transform: translateY(-40px) translateX(0);
+    }
+    80%{
+        transform: translateX(0);
+    }
+}
+
+/*********Pawn*********************/
+.pawn{
+    animation: out 2s;
+}
+
+.pawn:target,
+.pawn:active,
+.pawn:focus,
+.pawn:hover{
+    animation-name: pawn-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pawn-in{
+    0%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateY(-40px);
+    }
+    30%{
+        transform: translateY(0);
+    }
+    45%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    60%{
+        transform: translateY(0);
     }
     75%{
-        transform: translateY(-40px) translateX(0);
+        transform: translateY(-40px) translateX(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/****************Rook********************/
+.rook{
+    animation: out 2s;
+}
+
+.rook:target,
+.rook:active,
+.rook:focus,
+.rook:hover{
+    animation-name: rook-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rook-in{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateY(-40px);
+    }
+    35%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateX(40px);
+    }
+    65%{
+        transform: translateX(0);
+    }
+    80%{
+        transform: translateX(-40px);
     }
     100%{
         transform: translateX(0);
     }
 }
 
+/****************Queen********************/
+.queen{
+    animation: out 2s;
+}
+
+.queen:target,
+.queen:active,
+.queen:focus,
+.queen:hover{
+    animation-name: queen-in;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes queen-in{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateY(-40px);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    40%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    60%{
+        transform: translateY(0);
+    }
+    70%{
+        transform: translateX(40px);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    90%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/****************King********************/
+.king{
+    animation: out 2s;
+}
+
+.king:target,
+.king:active,
+.king:focus,
+.king:hover{
+    animation-name: king-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes king-in{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-40px);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateY(-40px) translateX(-40px);
+    }
+    40%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateY(-40px) translateX(0);
+    }
+    60%{
+        transform: translateX(0);
+    }
+    70%{
+        transform: translateY(-40px) translateX(40px);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    90%{
+        transform: translateY(0) translateX(40px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/****************Bishop********************/
+.bishop{
+    animation: out 2s;
+}
+
+.bishop:target,
+.bishop:active,
+.bishop:focus,
+.bishop:hover{
+    animation-name: bishop-in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bishop-in{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px) translateX(50px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateY(-40px) translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/****************Pen********************/
+.pencil{
+    animation-name: pencil;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pencil{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(-40px) translateX(50px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateY(-40px) translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

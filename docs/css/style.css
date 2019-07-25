@@ -37,7 +37,7 @@ body{
 
 .main>h1{
     position: relative;
-    top: 104px;
+    top: 460px;
 }
 
 .additional {
@@ -167,12 +167,39 @@ footer {
 
 
 @media all and (max-width: 768px) {
+    .home-main{
+        display: none;
+    }
+    
+    .second-home-main{
+        display: block;
+        background-image: radial-gradient(circle, #222627, #2e3233, #3b3f40, #484c4d, #55595b);
+    }
+    
+    .second-home-main>main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+        
+    .second-home-main>article{
+        border: 1px solid black; 
+        margin-bottom: 1rem;
+    }
+
     .no-animation{
-        width: 98%;
-        margin: auto;
+        width: 49%;
+        background: white;
+        margin-bottom: 0.3rem;
+        font-size: var(--font-size-article-tablet, 14px);
+    }
+
+    body > main > section > div.second-home-main > main > article:nth-child(3){
+        width: 100%;
     }
 
     .img>img{
+        width: 100%;
         height: 350px;
     }
     
@@ -184,35 +211,12 @@ footer {
         margin-top: -102px;
     }
 
-    .home-main{
-        display: none;
-    }
     
-    .second-home-main{
-        display: block;
-        background-image: radial-gradient(circle, #222627, #2e3233, #3b3f40, #484c4d, #55595b);
-    }
-    
-    .second-home-main>article{
-        width: 100%;
-        border-radius: 0;
-        border: 1px solid black; 
-        margin-bottom: 1rem;
-    }
-    
-    .no-animation{
-        background: white;
-        margin-bottom: 0.3rem;
-        font-size: var(--font-size-article-tablet, 14px);
-    }
 
     body > main > section > div.second-home-main > main > article:nth-child(3){
         margin-bottom: 0;
     }
 
-    .second-home-main > main > article > div > img{
-        width: 100%;
-    }
     
     body > main > section > div.second-home-main > main > article > p{
         margin: 5px 15px;
@@ -271,12 +275,8 @@ footer {
 
     .additional > nav > ul > li>a{
         border-bottom: 3px solid black;
-        padding: 20px 150px;
+        padding: 10px 150px;
         margin: 0;
-    }
-
-    main{
-        flex-direction: column;
     }
 
     .second-home-main > main > article > button{
@@ -313,13 +313,16 @@ footer {
     }
     .wrapper>img{
         width: 100%;
-        height: 25em;
+        height: 52em;
+        margin-top: -155px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) {    
     .wrapper>img{
+        margin-top: 0;
         padding-top: 45px;
+        height: 35em;
     }
 }
 

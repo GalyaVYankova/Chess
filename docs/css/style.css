@@ -179,6 +179,7 @@ footer {
     .second-home-main > main {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .second-home-main > main > article{
@@ -381,6 +382,7 @@ footer {
 
     .second-home-main > main {
         display: flex;
+        margin: auto;
     }
 
     .no-animation.first, .no-animation.second, .no-animation.third {

@@ -66,7 +66,7 @@ body{
         display: none;
     }
 
-    body > main > section > main > div.articles.additional{
+    .articles.additional{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -164,10 +164,6 @@ body{
     .articles.additional > article > p{
         font-size: 14px;
         margin-left: 10px;
-    }
-
-    .additional-buttons>button{
-        margin-bottom: 10px;
     }
 
     .additional-buttons>button>a{

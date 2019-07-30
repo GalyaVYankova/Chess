@@ -27,20 +27,28 @@
 
 .articles>article>img{
     width: 20%;
-    height: 20%;
+    height: 18%;
 }
 
 .articles-additional{
     display: none;
 }
 
-body > main > section > main > div.articles.additional{
+.articles.additional{
     margin-bottom: 0;
 }
 
-buttons{
-    margin-right: 0;
+.main-button{
+    display: none;
 }
+
+@media all and (max-width: 980px){
+    .articles>article>img{
+        width: 20%;
+        height: 16%;
+    }
+}
+
 @media all and (max-width: 800px){
     .articles{
         display: none;
@@ -53,6 +61,10 @@ buttons{
     .articles.additional{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-button{
         justify-content: center;
     }
     
@@ -96,31 +108,28 @@ buttons{
 }
 
 @media all and (max-width: 480px){
+    .main-button > button:nth-child(1),
+    .main-button > button:nth-child(2){
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.main-button > button{
+    border: none;
+}
+
+.lessons > button:nth-child(1){
+    border-top-right-radius: 0;
+}
+
+.lessons > button:nth-child(2){
+    border-top-left-radius: 0;
+}
+
     .additional-buttons{
         display: flex;
         justify-content: center;
     }
-
-    .additional-buttons>button{
-        width: 33%;
-        margin-top: 2rem;
-        margin-right: 0;
-        margin-left: 0;
-        text-align: center;
-        border: none;
-        background-image: linear-gradient(to right bottom, #393838, #504f4f, #696767, #828181, #9d9b9b);
-        font-family: 'Lobster', cursive;
-        padding: 15px 3px;
-    }
-    
-    .additional-buttons>button>a{
-        font-size: 1.2rem;
-        text-align: center;
-        font-weight: 800;
-        text-decoration: none;
-        color: goldenrod;
-        letter-spacing: 4px;
-     }  
 
     .articles.additional > article > img{
         width: 18%;

@@ -1,6 +1,10 @@
+@media all and (max-width: 1800px){
 .lessons{
-    background-image: radial-gradient(circle, #9aa0aa, #a3a8b0, #acb0b7, #b5b8bd, #bec0c4);
-    display: flex;
+    background-image: var(--main-background);
+}
+
+.chess-article-laptop{
+    display: none;
 }
 
 header{
@@ -8,52 +12,42 @@ header{
 }
 
 .articles {
-    display: flex;
-    flex-wrap: wrap;
+    padding-top: 70px;
     justify-content: center;
-    margin-bottom: 60px;
-    padding-top: 20px;
-}
-
-.articles>article{
-    margin-top: 40px;
-    width: 28%;
-    justify-content: space-evenly;
     text-align: center;
-    margin-bottom: 13px;
-}
-
-.articles>article>p{
-    width: 85%;
-    font-size: 1.2rem;
-    margin: 7px 0 2rem 30px;
-}
-
-.articles>article>img{
-    width: 20%;
-    height: 18%;
-}
-
-.articles-additional{
-    display: none;
-}
-
-.articles.additional{
-    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(2, 300px);
+    grid-gap: 35px;
+    & > article>p{
+        font-size: 1.2rem;
+    }
+    &>article>img{
+        width: 17%;
+        height: 30%;
+    }
+    &-additional{
+        display: none;
+    }
 }
 
 .main-button{
     display: none;
 }
+}
 
-@media all and (max-width: 980px){
+@include bp(laptop){
+    .additional>h1,
+    .additional > .site-nav {
+        display: block;
+    }
+
     .articles>article>img{
-        width: 20%;
-        height: 16%;
+        width: 20%; 
     }
 }
 
-@media all and (max-width: 800px){
+@include bp(laptop-mobile){
     .articles{
         display: none;
     }
@@ -62,136 +56,84 @@ header{
         display: none;
     }
 
-    .articles.additional{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .main-button{
-        justify-content: center;
-    }
-    
-    .articles>article{
-        margin-top: 0.8rem;
-        margin-bottom: 2px;
-        width: 50%;
-        justify-content: space-evenly;
-        text-align: center;
-    }
-
-    .articles.additional > article{
+    .chess-article-laptop{
+    padding-top: 0;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 390px);
+    grid-gap: 5px;
+    & > article{
         border: 1px solid black;
-        padding-top: 50px;
         border-radius: 20px;
         overflow: hidden;
-        height: 350px;
+        padding-top: 70px;
+        &>div>p{
+            margin: 0 20px;
+            justify-content: center;
+            font-size: var(--font-size-article-tablet, 14px);
+        }
+        &>img{
+            width: 16%;
+            height: 28%;
+        }
     }
+}
+}
 
-    .articles>article>p{
-        width: 85%;
-        padding-bottom: 20px;
-        font-size: var(--font-size-article-tablet, 14px);
+@include bp(gsm){
+    .chess-article-laptop{
+        display: block;
+        & > article{
+            border-radius: 0;
+            & > img{
+                width: 70px;
+                height: 120px;
+            }
+            & > div > p{
+                padding-bottom: 40px;
+                padding-top: 25px;
+            }
+        }
     }
     
-    .articles>article>img{
-        width: 18%;
-        height: 22%;
-    }
-
-    .articles>article>p{
-        margin-bottom: 0;
-    }
-
-    .txt{
-        font-size: 18px;
-    }
-}
-
-@media all and (max-width: 600px){
-    .articles.additional > article{
-        margin-top: 20px;
-    }
-
-   .articles.additional > article > img{
-        width: 18%;
-        height: 20%;
-    }
-}
-
-@media all and (max-width: 480px){
-    .articles.additional > article{
-        height: 400px;
-    }
-    
-    .main-button > button:nth-child(1),
-    .main-button > button:nth-child(2){
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.main-button > button{
-    border: none;
-}
-
-.lessons > button:nth-child(1){
-    border-top-right-radius: 0;
-}
-
-.lessons > button:nth-child(2){
-    border-top-left-radius: 0;
-}
-
-    .additional-buttons{
+    .main-button.lessons{ 
         display: flex;
         justify-content: center;
+        & > button:nth-child(1),
+        & > button:nth-child(2){
+            margin-right: 0;
+            margin-left: 0;
+        }
+        & > button{
+            border: none;
+            &:nth-child(1){
+                border-top-right-radius: 0;
+            }
+            &:nth-child(2){
+                border-top-left-radius: 0;
+            }
+        }
     }
 
-    .articles.additional > article > img{
-        width: 20%;
-        height: 30%;
-    }
-
-    .articles>article{
-        width: 100%;
-        margin: auto;
-        padding-top: 55px;
-        border-bottom: 2px solid black;
-    }
-
-    .articles>article>p{
-        margin-top: 25px;
-    }
-
-    .main-button{
-        display: flex;
-    }
-
-    .articles.additional > article{
-        height: 400px;
+    .main-button.lessons > button > a{
+        @include button-a
     }
 }
 
 @media all and (max-width: 400px){
-    .articles.additional > article > img{
-        width: 18%;
-        height: 25%;
-    }
-
-    .articles.additional > article > p{
-        font-size: 18px;
-        margin-left: 10px;
-    }
-
-    .additional-buttons>button>a{
-        font-size: 0.8rem;
-    }
-
-    .articles.additional > article > div.txt{
-        height: 220px;
-    }
-
-    .articles.additional > article{
-        height: 460px;
+    .articles.additional{ 
+        & > article{
+            height: 500px; 
+            & > img{
+                width: 18%;
+                height: 80px;
+            }
+            & > .height {
+                padding-top: 0;
+               
+            }
+        }
     }
 }

@@ -5,18 +5,76 @@
         }
     }
     @else if $point == desktop{
-        @media(max-width: 1250px){
+        @media(max-width: 1024px){
+            @content;
+        }
+    }
+    @else if $point == laptop{
+        @media(max-width: 960px){
+            .articles{
+                grid-template-rows: repeat(2, 350px);
+                &>article>img{
+                    width: 22%; 
+                    height: 18%;
+                }
+            }
+        }
+    }
+
+    @else if $point == laptop-mobile{
+        @media(max-width: 800px){
             @content;
         }
     }
     @else if $point == mobile{
-        @media(max-width: 900px){
+        @media(max-width: 640px){
+            @content;
+        }
+    }
+
+    @else if $point == gsm{
+        @media(max-width: 480px){
             @content;
         }
     }
     @else if $point == phone{
-        @media(max-width: 600px){
+        @media(max-width: 320px){
             @content;
         }
     }
 }
+
+
+@mixin tablet-grid{
+    padding-top: 70px;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(2, 300px);
+    grid-gap: 35px;
+}
+
+@mixin laptop-grid{
+        padding-top: 0;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 390px);
+        grid-gap: 5px;
+}
+
+@mixin article {
+        border: 1px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+}
+
+@mixin button-a{
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-decoration: none;
+        color: goldenrod;
+        letter-spacing: 4px;
+}
+

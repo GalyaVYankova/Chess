@@ -1,14 +1,44 @@
-.img-1 { 
-    animation: first ease 1.8s; 
+@mixin home-page-animation{
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
-    animation-delay: 3s;
     opacity: 0;
+}
+
+@mixin home-transform-first-step{
+    transform: translateX(-330px) translateY(-460px);
+}
+
+@mixin lessons-animation{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.img-1 { 
+    animation: first ease 1.8s; 
+    animation-delay: 3s;
+    @include home-page-animation
 } 
+
+.img-2 { 
+    animation: second ease 1.8s;  
+    animation-delay: 2s;
+    @include home-page-animation
+} 
+
+.img-3 { 
+    animation: third ease 1.8s; 
+    animation-delay: 1s;
+    @include home-page-animation
+} 
+
+.img-4 { 
+    animation: forth ease 1.8s; 
+    @include home-page-animation
+}
 
 @keyframes first { 
     0% { 
-        transform: translateX(-330px) translateY(-460px);
+       @include home-transform-first-step 
     } 
     100% { 
         transform: translateX(-40px) translateY(-200px);
@@ -16,17 +46,9 @@
      } 
 } 
 
-.img-2 { 
-    animation: second ease 1.8s;  
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-    animation-delay: 2s;
-    opacity: 0;
-} 
-  
 @keyframes second { 
     0% { 
-        transform: translateX(-330px) translateY(-460px);
+        @include home-transform-first-step
     } 
     100% { 
         transform: translateX(10px) translateY(-200px);
@@ -34,17 +56,9 @@
      } 
 }
 
-.img-3 { 
-    animation: third ease 1.8s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-    animation-delay: 1s;
-    opacity: 0;
-} 
-
 @keyframes third { 
     0% { 
-        transform: translateX(-330px) translateY(-460px);
+        @include home-transform-first-step
     } 
     100% { 
         transform: translateX(60px) translateY(-200px);
@@ -52,16 +66,9 @@
      } 
 } 
 
-.img-4 { 
-    animation: forth ease 1.8s; 
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-    opacity: 0;
-} 
-
 @keyframes forth { 
     0% { 
-        transform: translateX(-330px) translateY(-460px);
+        @include home-transform-first-step
     } 
     100% { 
         transform: translateX(110px) translateY(-200px);
@@ -74,19 +81,22 @@
     to {transform: translateY(0);}
 }
 
-/*********Knight********/
-
+.bishop,
+.king,
+.queen,
+.rook,
+.pawn,
 .knight{
     animation: out 2s;
 }
 
+/*********Knight********/
 .knight:target,
 .knight:active,
 .knight:focus,
 .knight:hover{
     animation-name: knight-in;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    @include lessons-animation
 }
 
 @keyframes knight-in{
@@ -120,17 +130,12 @@
 }
 
 /*********Pawn*********************/
-.pawn{
-    animation: out 2s;
-}
-
 .pawn:target,
 .pawn:active,
 .pawn:focus,
 .pawn:hover{
     animation-name: pawn-in;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    @include lessons-animation
 }
 
 @keyframes pawn-in{
@@ -158,17 +163,12 @@
 }
 
 /****************Rook********************/
-.rook{
-    animation: out 2s;
-}
-
 .rook:target,
 .rook:active,
 .rook:focus,
 .rook:hover{
     animation-name: rook-in;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    @include lessons-animation
 }
 
 @keyframes rook-in{
@@ -196,10 +196,6 @@
 }
 
 /****************Queen********************/
-.queen{
-    animation: out 2s;
-}
-
 .queen:target,
 .queen:active,
 .queen:focus,
@@ -219,44 +215,44 @@
     20%{
         transform: translateY(0);
     }
+
+
     30%{
-        transform: translateY(-40px) translateX(60px);
-    }
-    40%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-40px) translateX(-60px);
-    }
-    60%{
-        transform: translateY(0);
-    }
-    70%{
         transform: translateX(40px);
     }
-    80%{
+    40%{
         transform: translateX(0);
     }
-    90%{
+    50%{
         transform: translateX(-40px);
     }
-    100%{
+    60%{
         transform: translateX(0);
     }
+
+    70%{
+        transform: translateY(-40px) translateX(60px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    90%{
+        transform: translateY(-40px) translateX(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+    
 }
 
 /****************King********************/
-.king{
-    animation: out 2s;
-}
-
 .king:target,
 .king:active,
 .king:focus,
 .king:hover{
     animation-name: king-in;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    @include lessons-animation
 }
 
 @keyframes king-in{
@@ -296,17 +292,12 @@
 }
 
 /****************Bishop********************/
-.bishop{
-    animation: out 2s;
-}
-
 .bishop:target,
 .bishop:active,
 .bishop:focus,
 .bishop:hover{
     animation-name: bishop-in;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+   @include lessons-animation
 }
 
 @keyframes bishop-in{

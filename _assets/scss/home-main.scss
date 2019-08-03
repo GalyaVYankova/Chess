@@ -1,0 +1,113 @@
+@media all and (max-width: 1800px) {
+
+    .additional>.site-nav{
+        display: none;
+    }
+    
+    .wrapper{
+        width: 100%;
+        margin-bottom: -10px;
+    }
+
+    .wrapper>img{
+        width: 100%;
+    }
+}
+
+h1{
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.6);
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.second-home-main,
+.additional>h1{
+    display: none;
+}
+
+.wrapper{
+    margin-top: -78px;
+    & > img {
+    height: 550px;
+    }
+}
+
+.main{
+    & > h1{
+        position: relative;
+        top: 25px;
+    } 
+}
+
+.site-nav{
+    background: #222627;
+    opacity: 0.8;
+    & > ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+        margin: auto;
+        list-style-type: none;
+        & > li {
+            padding: 25px 0 15px 0;
+            margin: 25px 0 15px 0;
+            padding: 3px;
+            border-bottom: 3px solid black;
+            & > a{
+                color: goldenrod;
+                font-size: 34px;
+                text-decoration: none;
+                font-weight: 900;
+                padding: 15px;
+            }
+        }     
+    }
+}
+
+.site-nav>li.selected>a,
+.site-nav>ul>li>a:hover{
+    cursor: pointer;
+    background: gray;
+    border-radius: 25%;
+    border-bottom: none;
+}
+
+.home-main{
+    background-image: var(--index-page-background);
+    & > main{
+        display: flex;
+        justify-content: center;
+        margin-bottom: -10em;
+        & > article{
+        width: 15%;  
+        border: 1px solid gray;
+        overflow: hidden;
+        border-radius: 20px;
+        background: white;
+            & > div > img{
+            width: 100%;
+            height: 120px;
+            opacity: 0.9;
+            }
+            & > p{
+            font-size: var(--font-size-article-pc, 14px);
+            text-align: right;
+            margin: 0 10px 15px 10px;
+            }  
+        }
+    }
+}
+
+footer {
+    background: black;
+    color: silver;
+    font-size: 18px;
+    padding-bottom: 25px;
+    & > nav > ul{
+        padding-top: 15px;
+        padding-left: 20px;
+        list-style-type: none;
+    }
+}

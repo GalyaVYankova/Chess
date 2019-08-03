@@ -1,0 +1,105 @@
+@media all and (max-width: 800px) {
+    .main>h1,
+    .home-main,
+    .site-header{
+        display: none;
+    }
+
+    .additional>.site-nav{
+        display: block;
+    }
+
+    .wrapper{
+        margin-top: -78px;
+        & > img {
+        height: 400px;
+        padding-top: 80px;
+        }
+    }
+
+    .additional>h1{
+        display: block;
+        margin-top: -105px;
+    }
+
+    .second-home-main {
+        display: block;
+        background-image: var(--index-page-background);
+    }
+
+    .second-home-main > main{
+        padding-top: 0;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 390px);
+        grid-gap: 5px;
+        & > article {
+            border: 1px solid black;
+            border-radius: 20px;
+            overflow: hidden;
+            background: white;
+            & > .txt {
+            height: 100px;
+                & > p{
+                font-size: var(--font-size-article-tablet, 14px);
+                padding-left: 20px;
+                }
+            } 
+        }
+    }
+
+    .main-button {
+        display: block; 
+        margin-top: 80px;
+        text-align: center;
+        & > button{
+        width: 70%;
+        text-align: center;
+        border-radius: 25px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background-image: var(--button-background);
+        font-family: 'Lobster', cursive;
+        padding: 15px 3px;
+        }
+    } 
+    
+    .main-button > button >  & > a{
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-decoration: none;
+        color: goldenrod;
+        letter-spacing: 4px;
+   }
+    
+    .img > img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .additional{
+        display: block;
+        margin: auto;
+        & > .site-nav {
+            margin: auto;
+            & > ul{
+                flex-direction: column;
+                padding-bottom: 20px;
+                padding-top: 30px;
+                & > li{
+                    margin: 0;
+                    padding: 20px 5px;
+                    border-bottom: none;
+                    text-align: center;
+                    & > a{
+                        border-bottom: 3px solid black;
+                        margin: 0;
+                        width: 50%;
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+     }
+}

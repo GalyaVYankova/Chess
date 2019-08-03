@@ -62,21 +62,24 @@ header{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 390px);
+    grid-template-rows: repeat(3, 430px);
     grid-gap: 5px;
     & > article{
         border: 1px solid black;
         border-radius: 20px;
         overflow: hidden;
         padding-top: 70px;
-        &>div>p{
-            margin: 0 20px;
-            justify-content: center;
-            font-size: var(--font-size-article-tablet, 14px);
+        &>div{
+            padding-top: 10px;
+            & > p{
+                margin: 20px 20px;
+                justify-content: center;
+                font-size: var(--font-size-article-tablet, 14px);
+            }
         }
         &>img{
             width: 16%;
-            height: 28%;
+            height: 22%;
         }
     }
 }
@@ -108,18 +111,29 @@ header{
         }
         & > button{
             border: none;
+            width: 45%;
+                text-align: center;
+                border-radius: 25px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                background-image: var(--button-background);
+                font-family: 'Lobster', cursive;
+                padding: 15px 3px;
             &:nth-child(1){
                 border-top-right-radius: 0;
             }
             &:nth-child(2){
                 border-top-left-radius: 0;
             }
+            & > a{
+                font-size: 1.2rem;
+                font-weight: 800;
+                text-decoration: none;
+                color: goldenrod;
+                letter-spacing: 4px;
+            }
         }
-    }
-
-    .main-button.lessons > button > a{
-        @include button-a
-    }
+    } 
 }
 
 @media all and (max-width: 400px){

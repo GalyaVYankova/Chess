@@ -22,62 +22,6 @@
         margin-top: -105px;
     }
 
-    .second-home-main {
-        display: block;
-        background-image: var(--index-page-background);
-    }
-
-    .second-home-main > main{
-        padding-top: 0;
-        justify-content: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 390px);
-        grid-gap: 5px;
-        & > article {
-            border: 1px solid black;
-            border-radius: 20px;
-            overflow: hidden;
-            background: white;
-            & > .txt {
-            height: 100px;
-                & > p{
-                font-size: var(--font-size-article-tablet, 14px);
-                padding-left: 20px;
-                }
-            } 
-        }
-    }
-
-    .main-button {
-        display: block; 
-        margin-top: 80px;
-        text-align: center;
-        & > button{
-        width: 70%;
-        text-align: center;
-        border-radius: 25px;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        background-image: var(--button-background);
-        font-family: 'Lobster', cursive;
-        padding: 15px 3px;
-        }
-    } 
-    
-    .main-button > button >  & > a{
-        font-size: 1.2rem;
-        font-weight: 800;
-        text-decoration: none;
-        color: goldenrod;
-        letter-spacing: 4px;
-   }
-    
-    .img > img{
-        width: 100%;
-        height: 200px;
-    }
-
     .additional{
         display: block;
         margin: auto;
@@ -96,10 +40,115 @@
                         border-bottom: 3px solid black;
                         margin: 0;
                         width: 50%;
-                        font-size: 40px;
+                        font-size: 30px;
                     }
                 }
             }
         }
      }
+
+    .second-home-main {
+        display: block;
+        background-image: var(--index-page-background);
+    }
+
+    .second-home-main > main{
+        padding-top: 0;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 445px);
+        grid-gap: 5px;
+        & > article {
+            border: 1px solid black;
+            border-radius: 20px;
+            overflow: hidden;
+            background: white;
+            & > .img > img{
+                width: 100%;
+                height: 200px;
+            }
+            & > .txt {
+            height: 100px;
+                & > p{
+                font-size: var(--font-size-article-tablet, 14px);
+                padding-left: 20px;
+                }
+            }
+            & > .main-button {
+                display: block; 
+                margin-top: 80px;
+                text-align: center;
+                & > button{
+                width: 70%;
+                text-align: center;
+                border-radius: 25px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                background-image: var(--button-background);
+                font-family: 'Lobster', cursive;
+                padding: 15px 3px;
+                & > a{
+                    font-size: 1.2rem;
+                    font-weight: 800;
+                    text-decoration: none;
+                    color: goldenrod;
+                    letter-spacing: 4px;
+               }
+            }
+        }
+    }
+} 
+
 }
+@media all and (max-width: 640px){
+    .additional>.site-nav > ul > li > a{
+        font-size: 30px;     
+    }
+    .wrapper > img {
+        height: 340px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .wrapper>img {
+        padding-top: 60px;
+    }
+
+    .second-home-main > main {
+        display: block;
+        & > article{
+            border-radius: 0;
+            border: 1px solid black; 
+            width: 99%;
+            & > img{
+                height: 210px;
+            }
+        }
+    }
+
+    .site-header>h1 {
+        display: inline;
+        margin: auto;
+        bottom: -17rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .additional>h1 {
+        font-size: 2.8rem;
+        margin-top: -75px;
+        margin-bottom: 15px;
+    }
+    .wrapper > img {
+        height: 240px;
+    }
+}
+
+@media all and (max-width: 275px) {
+    .additional>h1 {
+        font-size: 2.1rem;
+    }
+}
+

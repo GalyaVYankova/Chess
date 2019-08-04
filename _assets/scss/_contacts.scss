@@ -1,17 +1,26 @@
 .contacts {
+    display: flex;
+    flex-wrap: wrap;
     background-image: var(--main-background);
     text-align: center;
     margin: 0 auto;
+    padding: 25px 5px;
+    justify-content: center;
     & > header{
-        font-size: var(--font-size-article-tablet);
-        width: 80%;
+        font-size: 26px;
+        font-style: italic;
+        color: #065296;
+        font-weight: 600;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
     }
     & > article{
-        float: left;
-        width: 43%;
-        padding-left: 25px;
+        display: inline-block;
+        width: 30%;
+        margin-right: 10px;
+        margin-left: 20px;
+        margin-top: 50px;
         & > div {
             & > img{
                 width: 100%;
@@ -20,13 +29,43 @@
     }
 }
 
+.calendar{ 
+    display: inline-block;
+    padding-right: 15px;
+    margin-top: 50px;
+    & > ul{
+    list-style-type: none;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: 75px 50px 50px;
+        &>.first{
+            grid-column: span 7;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 24px; 
+            color: rgb(206, 34, 34);
+            font-weight: 900;
+        }
+        &>li{
+            word-wrap: break-word;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 16px;
+            padding: 1px;
+            font-weight: bold;
+        }
+    }
+}
+
 .contacts-area{
     display: inline-block;
+    width: 700px;
     background: url("../images/open-spiral-notebook-1405082_960_720.png");
     background-size: cover;
     padding: 45px 30px 0 65px;
-    height: 472px;
-    justify-content: left; 
+    height: 550px;
+    margin-top: 10px;
     & > label {
         min-width: 50px;
         text-align: right;
@@ -42,9 +81,9 @@
     }
     & > .textarea{
         & > textarea{
-            height: 200px; 
+            height: 232px; 
             margin-top: 20px;
-            width: 90%;
+            width: 85%;
         }
     }
     & > .submit{
@@ -56,7 +95,7 @@
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
         background-image: var(--button-background);
-        margin-top: 20px;
+        margin-top: 62px;
         text-decoration: none;
         font-family: 'Lobster', cursive;
         font-size: 1.2rem;
@@ -74,8 +113,8 @@
     }
     & > img{
         position: relative;
-        top: -250px;
-        left: 130px;
+        top: -350px;
+        left: 190px;
         width: 35%;
     }
     & > div:nth-child(1) {
@@ -90,39 +129,11 @@
     display: none;
 }
 
-.calendar{ 
-    width: 55%;
-    float: right;
-    padding-right: 15px;
-    margin-top: 30px;
-    & > ul{
-    list-style-type: none;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-        &>.first{
-            grid-column: span 7;
-            text-align: center;
-            font-size: 24px; 
-            color: rgb(206, 34, 34);
-            font-weight: 900;
-        }
-        &>li{
-            border: 1px solid black;
-            text-align: center;
-            font-size: 16px;
-            padding: 1px;
-        }
-    }
-}
-
-
-
 @media all and (max-width: 800px){
     .contacts {
         display: block;
         margin: auto;
+        height: 1560px;
         & > article{
             width: 90%;
             display: block;
@@ -136,13 +147,24 @@
     }
 
     .calendar{ 
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    article > div > img {
+        width: 75%;
+    }
+
+    .contacts-area{
+        display: inline-block;
         width: 80%;
-        padding-right: 200px;
+        margin: 0 auto;
     }
 }
 
  @media all and (max-width: 640px){
     .contacts{
+        margin: auto;
         padding-top: 370px;
         & > article{
             margin-left: 25px;
@@ -155,8 +177,22 @@
     .contacts-area{
         margin: 20px 30px 20px 20px;
         padding: 30px 30px 30px 70px;
-        height: 456px;
-        width: 90%;
+        height: 490px;
+        width: 80%;
+        & > .submit{
+            & > button {
+                margin-top: 20px;
+            }
+        }
+        & > .textarea > textarea {
+            width: 90%;
+        }
+    }
+
+    .contacts-area {
+        & > img {
+            display: none;
+        }
     }
  
     .calendar{
@@ -166,11 +202,12 @@
     .hours-mobile{ 
         display: grid;
         width: 65%;
+        margin-left: 30px;
         & > ul{
         margin: 20px;
         list-style-type: none;
         display: grid;
-        grid-template-columns: repeat(2, 80%);
+        grid-template-columns: 70% 70%;
         grid-template-rows: repeat(8, 1fr);
             &>li{
                 border: 1px solid black;
@@ -194,13 +231,14 @@
             }
         }
     }
+    
 }
 
 @media all and (max-width: 480px){
     .contacts-area {
         height: 515px;
         padding-right: 40px;
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         & > div:nth-child(1) {
             padding-bottom: 10px;
@@ -239,9 +277,7 @@
 }
 
 @media all and (max-width: 320px){
-    .contacts-area {
-        & > img {
-            display: none;
-        }
+    .hours-mobile{ 
+        margin-left: 0;
     }
 }

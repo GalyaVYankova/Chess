@@ -147,6 +147,12 @@
     }
 
     .calendar{ 
+        & > ul{
+            grid-template-columns: repeat(7, 90px);
+        }
+    }
+
+    .calendar{ 
         width: 100%;
         margin: 30px auto;
     }
@@ -159,10 +165,21 @@
         display: inline-block;
         width: 80%;
         margin: 0 auto;
+        & > .textarea{
+            & > textarea{
+                width: 90%;
+            }
+        }
     }
 }
 
  @media all and (max-width: 640px){
+    .contacts {
+        & > header{
+            font-size: 20px;
+        }
+    }
+
     .contacts{
         margin: auto;
         padding-top: 370px;
@@ -236,17 +253,15 @@
 
 @media all and (max-width: 480px){
     .contacts {
-        height: 1620px;
-        & > header{
-            font-size: 20px;
-        }
+        height: 1580px;
     }
-    
+
     .contacts-area {
         height: 515px;
         padding-right: 40px;
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 10px;
         & > div:nth-child(1) {
             padding-bottom: 10px;
         }

@@ -7,13 +7,9 @@ permalink: blog/
     {% include navigation.html%}
 </div>
 
+<ul>
+    {%for post in site.posts%}
+    <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+    {%endfor%}
+</ul>
 
-<div class="content">
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <a href="{{post.url}}">{{post.title}}</a>
-        </li>
-        {%endfor%}
-    </ul>
-</div>

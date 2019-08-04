@@ -1,0 +1,13 @@
+.chess-articles{
+    background-image: var(--main-background);
+    & > .first{
+        width: 30%;
+        & > img {
+            width: 100%;
+        }
+    }
+}
+
+.first-page.md{
+    background-image: red;
+}

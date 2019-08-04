@@ -1,6 +1,7 @@
 .contacts {
     background-image: var(--main-background);
-    height: 1000px;
+    text-align: center;
+    margin: 0 auto;
     & > header{
         font-size: var(--font-size-article-tablet);
         width: 80%;
@@ -19,26 +20,71 @@
     }
 }
 
-        .notebook{
-        position: relative;
+.contacts-area{
+    display: inline-block;
+    background: url("../images/open-spiral-notebook-1405082_960_720.png");
+    background-size: cover;
+    padding: 45px 30px 0 65px;
+    height: 472px;
+    justify-content: left; 
+    & > label {
+        min-width: 50px;
+        text-align: right;
+    }
+    & > .email{
+        display: block;
+        & > label{ 
+            padding-right: 18px;
+        }
+    }
+    & > .subject{
+        display: block;
+    }
+    & > .textarea{
+        & > textarea{
+            height: 200px; 
+            margin-top: 20px;
+            width: 90%;
+        }
+    }
+    & > .submit{
+        & > button {
+        margin: 0 auto;
+        border: none;
+        text-align: center;
+        border-radius: 25px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background-image: var(--button-background);
+        margin-top: 20px;
+        text-decoration: none;
+        font-family: 'Lobster', cursive;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: goldenrod;
+        letter-spacing: 4px;
+        padding: 10px 30px;
         width: 55%;
-        height: 430px;
-        margin-top: 60px;
-        margin-left: 150px;
         }
-        textarea{
+    }
+    & > div > input{
+        width: 75%;
+        margin-top: 20px;
+        padding: 3px 0;
+    }
+    & > img{
         position: relative;
-        bottom: 25rem;
-        left: 15.8rem;
-        width: 40%;
-        }
-        .pencil{
-        position: relative;
-        bottom: 29rem;
-        left: -2rem;
-        width: 17%;
-        }
-    
+        top: -250px;
+        left: 130px;
+        width: 35%;
+    }
+    & > div:nth-child(1) {
+        font-size: 24px; 
+        color: black;
+        font-weight: 900;
+        font-style: oblique;
+    }
+}
 
 .hours-mobile{
     display: none;
@@ -47,7 +93,7 @@
 .calendar{ 
     width: 55%;
     float: right;
-    padding-right: 2px;
+    padding-right: 15px;
     margin-top: 30px;
     & > ul{
     list-style-type: none;
@@ -71,9 +117,10 @@
     }
 }
 
+
+
 @media all and (max-width: 800px){
     .contacts {
-        height: 1400px;
         & > article{
             width: 90%;
             display: block;
@@ -94,14 +141,23 @@
 
  @media all and (max-width: 640px){
     .contacts{
-        height: 1600px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 500px;
+        padding-top: 370px;
+        & > article{
+            margin-left: 25px;
+        }
         & > header{
         margin-top: -300px;
         }
+    }
+
+    .contacts-area{
+        margin: 20px 30px 20px 20px;
+        padding: 30px 30px 30px 70px;
+        height: 456px;
+        width: 90%;
     }
  
     .calendar{
@@ -139,30 +195,52 @@
             }
         }
     }
-        textarea{
-        padding-bottom: 357px;
-        position: relative;
-        bottom: 25rem;
-        left: 11.8rem;
-        width: 40%;
-        }
-        .pencil{
-        position: relative;
-        bottom: 35rem;
-        left: 20rem;
-        width: 17%;
-        }
 }
 
-@media all and (max-width: 640px){
-    .notebook{
-        padding-left: 0;
-        margin-left: 30px;
-    }
-    textarea{
-        left: 3.8rem;
-    }
-        .pencil{
-        left: 10rem;
+@media all and (max-width: 480px){
+    .contacts-area {
+        height: 515px;
+        padding-right: 40px;
+        & > div:nth-child(1) {
+            padding-bottom: 10px;
         }
+        & > div{
+            & > label{
+                display: block;
+            }
+        }
+        & > img {
+            top: -220px;
+            left: 90px;
+            width: 45%;
+        }
+        & > .submit{
+            & > button{
+            font-size: 14px;
+            width: 100%;
+            margin-top: 26px;
+            padding: 10px 10px;
+            }
+        }
+        & > div > input{
+            margin-top: 0;
+        }
+        & > .textarea{
+            & > textarea{
+                height: 240px; 
+                width: 90%;
+            }
+        }
+        & > .email{
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media all and (max-width: 320px){
+    .contacts-area {
+        & > img {
+            display: none;
+        }
+    }
 }

@@ -235,6 +235,13 @@
 }
 
 @media all and (max-width: 480px){
+    .contacts {
+        height: 1620px;
+        & > header{
+            font-size: 20px;
+        }
+    }
+    
     .contacts-area {
         height: 515px;
         padding-right: 40px;

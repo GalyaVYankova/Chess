@@ -895,22 +895,22 @@ footer {
       padding: 1px; }
 
 @media all and (max-width: 800px) {
-  .contacts > article {
-    width: 90%;
-    display: block; }
-    .contacts > article > div {
-      text-align: center; }
-      .contacts > article > div > img {
-        width: 90%; }
+  .contacts {
+    display: block;
+    margin: auto; }
+    .contacts > article {
+      width: 90%;
+      display: block; }
+      .contacts > article > div {
+        text-align: center; }
+        .contacts > article > div > img {
+          width: 90%; }
   .calendar {
     width: 80%;
     padding-right: 200px; } }
 
 @media all and (max-width: 640px) {
   .contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding-top: 370px; }
     .contacts > article {
       margin-left: 25px; }
@@ -924,7 +924,7 @@ footer {
   .calendar {
     display: none; }
   .hours-mobile {
-    display: block;
+    display: grid;
     width: 65%; }
     .hours-mobile > ul {
       margin: 20px;
@@ -952,7 +952,9 @@ footer {
 @media all and (max-width: 480px) {
   .contacts-area {
     height: 515px;
-    padding-right: 40px; }
+    padding-right: 40px;
+    width: 75%;
+    margin: 0 auto; }
     .contacts-area > div:nth-child(1) {
       padding-bottom: 10px; }
     .contacts-area > div > label {

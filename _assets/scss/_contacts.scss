@@ -121,6 +121,8 @@
 
 @media all and (max-width: 800px){
     .contacts {
+        display: block;
+        margin: auto;
         & > article{
             width: 90%;
             display: block;
@@ -141,9 +143,6 @@
 
  @media all and (max-width: 640px){
     .contacts{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         padding-top: 370px;
         & > article{
             margin-left: 25px;
@@ -165,7 +164,7 @@
     }
 
     .hours-mobile{ 
-        display: block;
+        display: grid;
         width: 65%;
         & > ul{
         margin: 20px;
@@ -201,6 +200,8 @@
     .contacts-area {
         height: 515px;
         padding-right: 40px;
+        width: 75%;
+        margin: 0 auto;
         & > div:nth-child(1) {
             padding-bottom: 10px;
         }

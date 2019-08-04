@@ -1,15 +1,16 @@
 .contacts {
     background-image: var(--main-background);
-    height: 900px;
+    height: 1000px;
     & > header{
-        padding: 20px 0;
-        text-align: center;
         font-size: var(--font-size-article-tablet);
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
     }
     & > article{
         float: left;
-        width: 37%;
-        padding-left: 30px;
+        width: 43%;
+        padding-left: 25px;
         & > div {
             & > img{
                 width: 100%;
@@ -18,44 +19,35 @@
     }
 }
 
-.diff{
-    width: 80%;
-    text-align: center;
-    & > .contacts-image{
-        & > img{
+        .notebook{
         position: relative;
         width: 55%;
         height: 430px;
+        margin-top: 60px;
+        margin-left: 150px;
         }
-    }
-
-    & > .text-area{
+        textarea{
         position: relative;
         bottom: 25rem;
-        left: 0.2rem;
-        &>textarea{
-            width: 40%;
+        left: 15.8rem;
+        width: 40%;
         }
-    }
-
-    & > .pencil {
+        .pencil{
         position: relative;
         bottom: 29rem;
-        left: 8rem;
-        &>img{
-            width: 17%;
-        }   
-    }
-}
+        left: -2rem;
+        width: 17%;
+        }
+    
 
 .hours-mobile{
     display: none;
 }
 
 .calendar{ 
-    width: 58%;
+    width: 55%;
     float: right;
-    padding-right: 30px;
+    padding-right: 2px;
     margin-top: 30px;
     & > ul{
     list-style-type: none;
@@ -73,15 +65,15 @@
         &>li{
             border: 1px solid black;
             text-align: center;
-            font-size: 18px;
-            padding: 5px;
+            font-size: 16px;
+            padding: 1px;
         }
     }
 }
 
 @media all and (max-width: 800px){
     .contacts {
-        height: 1200px;
+        height: 1400px;
         & > article{
             width: 90%;
             display: block;
@@ -95,21 +87,27 @@
     }
 
     .calendar{ 
-        width: 100%;
+        width: 80%;
+        padding-right: 200px;
     }
 }
 
  @media all and (max-width: 640px){
     .contacts{
+        height: 1600px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 500px;
+        & > header{
+        margin-top: -300px;
+        }
     }
  
     .calendar{
         display: none;
     }
-    
+
     .hours-mobile{ 
         display: block;
         width: 65%;
@@ -141,4 +139,30 @@
             }
         }
     }
+        textarea{
+        padding-bottom: 357px;
+        position: relative;
+        bottom: 25rem;
+        left: 11.8rem;
+        width: 40%;
+        }
+        .pencil{
+        position: relative;
+        bottom: 35rem;
+        left: 20rem;
+        width: 17%;
+        }
+}
+
+@media all and (max-width: 640px){
+    .notebook{
+        padding-left: 0;
+        margin-left: 30px;
+    }
+    textarea{
+        left: 3.8rem;
+    }
+        .pencil{
+        left: 10rem;
+        }
 }

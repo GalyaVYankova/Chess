@@ -5,7 +5,7 @@ date: 2019-08-05 12:56 +0300
 ---
 
 ---
-![blog-image]({{site.baseurl}}/images/blog-7.jpg){:.image-left}
+![blog-image]({{site.baseurl}}/images/blog-1.jpg){:.image-left}
 
 <p><b>Пешечната структура</b> представлява броят и местоположението на пешките и е от огромно значение за всяка шахматна позиция.</p>
 <h3>Пешечен остров</h3>

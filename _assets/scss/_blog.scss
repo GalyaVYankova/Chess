@@ -34,6 +34,10 @@ font-size: 20px;
             margin-bottom: 30px;
         }
     }
+    & > ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
 }
      .link{
         width: 30%;
@@ -90,11 +94,12 @@ font-size: 20px;
     background:  var(--main-background);
     display: flex;
     flex-wrap: wrap;
+    justify-content: left;
     & > .blog-articles{
-        width: 30%;
+        width: 37%;
         margin: 10px;
         & > img{
-            width: 70%;
+            width: 100%;
         }
         & > p {
             display: inline-block;

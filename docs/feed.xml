@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/Chess/feed.xml" rel="self" type="application/atom+xml" /><link href="/Chess/" rel="alternate" type="text/html" /><updated>2019-08-05T14:34:09+03:00</updated><id>/Chess/feed.xml</id><title type="html">Chess</title><subtitle></subtitle><entry><title type="html">Активност на фигурите</title><link href="/Chess/2019/08/05/activity.html" rel="alternate" type="text/html" title="Активност на фигурите" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/activity</id><content type="html" xml:base="/Chess/2019/08/05/activity.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/Chess/feed.xml" rel="self" type="application/atom+xml" /><link href="/Chess/" rel="alternate" type="text/html" /><updated>2019-08-05T16:21:53+03:00</updated><id>/Chess/feed.xml</id><title type="html">Chess</title><subtitle></subtitle><entry><title type="html">Активност на фигурите</title><link href="/Chess/2019/08/05/activity.html" rel="alternate" type="text/html" title="Активност на фигурите" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/activity</id><content type="html" xml:base="/Chess/2019/08/05/activity.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-8.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Кон&lt;/h3&gt;
@@ -25,7 +25,86 @@
 &lt;h3&gt;Цар&lt;/h3&gt;
 &lt;p&gt;В началото на партията, царят трябва да се пази от противникови атаки. Той се активизира в ендшпила - помага на пешките си да бъдат произведени, пази ги, атакува противниковите пешки и ограничава противниковите фигури.&lt;/p&gt;
 
-&lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">value</title><link href="/Chess/2019/08/05/value.html" rel="alternate" type="text/html" title="value" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/value</id><content type="html" xml:base="/Chess/2019/08/05/value.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">tournaments</title><link href="/Chess/2019/08/05/tournaments.html" rel="alternate" type="text/html" title="tournaments" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/tournaments</id><content type="html" xml:base="/Chess/2019/08/05/tournaments.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">position</title><link href="/Chess/2019/08/05/position.html" rel="alternate" type="text/html" title="position" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/position</id><content type="html" xml:base="/Chess/2019/08/05/position.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">plan</title><link href="/Chess/2019/08/05/plan.html" rel="alternate" type="text/html" title="plan" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/plan</id><content type="html" xml:base="/Chess/2019/08/05/plan.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Пешечна структура</title><link href="/Chess/2019/08/05/structure.html" rel="alternate" type="text/html" title="Пешечна структура" /><published>2019-08-05T12:56:00+03:00</published><updated>2019-08-05T12:56:00+03:00</updated><id>/Chess/2019/08/05/structure</id><content type="html" xml:base="/Chess/2019/08/05/structure.html">&lt;hr /&gt;
+&lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Оценка на позицията</title><link href="/Chess/2019/08/05/value.html" rel="alternate" type="text/html" title="Оценка на позицията" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/value</id><content type="html" xml:base="/Chess/2019/08/05/value.html">&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-10.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;За да се оцени дадена позиция&lt;/b&gt; се анализират отделните й елементи. Преимуществата са дълготрайни или краткотрайни.&lt;/p&gt;
+&lt;p&gt;Дълготрайни преимущества са:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;- материал&lt;/li&gt;
+	&lt;li&gt;- безопасност на царя&lt;/li&gt;
+	&lt;li&gt;- пешечна структура&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;p&gt;Краткотрайни преимущества са:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;- активност на фигурите&lt;/li&gt;
+	&lt;li&gt;- наличие на заплахи за тактически комбинации&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Материалът е единственото измеримо преимущество, но не винаги е най-важното. Преимуществата, които не са материални са позиционни.&lt;/p&gt;
+&lt;p&gt;Безопасността на царя е от огромно значение, защото дори да не бъде матиран, атака срещу него може да доведе до големи преимущества.&lt;/p&gt;
+&lt;p&gt;От пешечната структура зависи всеки един от елементите на позицията. Повече или по-малко пешки означават повече или по-малко материал. Слабите пешки са предпоставка за загуба на материал. Произвеждането на пешки е единственият начин за увеличаване на материала, с който дадена страна разполага. Пешките осигуряват безопасността на царя. От тях зависи владеенето на пространство и център. От тяхното разположение зависят откритите и полуоткритите линии, форпостовете и активността на фигурите и дори могат да създадат или предотвратят тактически комбинации.&lt;/p&gt;
+&lt;p&gt;Активността на фигурите определя коя страна ще атакува и коя ще се отбранява. Атакуващата страна може да придобие преимущество, докато защитаващата се може само да запази такова ако вече го има.&lt;/p&gt;
+&lt;p&gt;Наличието на заплахи за тактически комбинации е преимущество, защото ако противникът не се предпази от тях, губи материал или дори партията. Но предпазването от тях може да доведе до позиционни проблеми.&lt;/p&gt;
+&lt;p&gt;По време на партията преимуществото се придобива и губи, както и едно преимущество може да бъде превърнато в друго. Например страната, чийто цар е в опасност може да пожертва материал за неговата безопасност. В оценката на позицията се включва и коя страна и на ход, тъй като това често е решаващо.&lt;/p&gt;
+&lt;p&gt;Оценката на позицията представлява сбор от дълготрайните и краткотрайните преимущества и се измерва в единици с точност до стотни. Пред полученото число се поставя знак, който я изразява. Ако числото е по-малко от -1,50, знакът е &quot;-+&quot;, който означава &quot;черните имат голямо преимущество&quot;. Ако числото е между -1,50 и -1,00, знакът е &quot;/+&quot;, който означава &quot;черните имат преимущество&quot;. Ако числото е между -1,00 и -0,50, знакът е &quot;=+&quot;, който означава &quot;черните имат малко преимущество&quot;. Ако числото е между -0,50 и 0,50, знакът е &quot;=&quot;, който означава &quot;позицията е равна&quot;. Ако числото е между 0,50 и 1,00, знакът е &quot;+=&quot;, който означава &quot;белите имат малко преимущество&quot;. Ако числото е между 1,00 и 1,50, знакът е &quot;+/&quot;, който означава &quot;белите имат преимущество&quot;. Ако числото е по-голямо от 1,50, знакът е &quot;+-&quot;, който означава &quot;белите имат голямо преимущество&quot;. Само компютърните програми оценяват позициите с такава точност и дори те не са на едно мнение. За всеки човек правилното оценяване е умение, което се развива с време и практика.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Турнири</title><link href="/Chess/2019/08/05/tournaments.html" rel="alternate" type="text/html" title="Турнири" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/tournaments</id><content type="html" xml:base="/Chess/2019/08/05/tournaments.html">&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-12.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Шахматните турнири&lt;/b&gt; представляват група шахматисти участващи в състезание, организирано и ръководено от главен съдия, който може да има помощник съдии.&lt;/p&gt;
+&lt;h3&gt;Характеристики на турнирите са:&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;- дата и час на провеждане&lt;/li&gt;
+	&lt;li&gt;- място на провеждане&lt;/li&gt;
+	&lt;li&gt;- система на провеждане&lt;/li&gt;
+	&lt;li&gt;- брой кръгове&lt;/li&gt;
+	&lt;li&gt;- времева контрола&lt;/li&gt;
+	&lt;li&gt;- брой участници&lt;/li&gt;
+	&lt;li&gt;- отчитане на рейтинг&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;h3&gt;Система на провеждане&lt;/h3&gt;
+&lt;p&gt;Най-разпространената система на провеждане на шахматни турнири е швейцарската. При нея всички участници участват във всички кръгове. Крайното класиране е на база на натрупаните точки. Победа носи една точка, реми - половин, а загуба - нула. При равен брой точки има вторични показатели, които определят класирането, например сбора от точки, които са направили противниците или нивото на постижение. Жребият за всеки кръг е определен от временното класиране преди него. Играчите се разпределят на точкови групи и играят срещу противници с равен брой точки. Играчите редуват цветовоте, с които играят, но е възможно да повторят. При нечетен брой играчи, последният почива, но почиването два пъти в един турнир е невъзможно.&lt;/p&gt;
+&lt;p&gt;При малък брой играчи е подходяща кръговата система - всеки играе срещу всеки.&lt;/p&gt;
+&lt;p&gt;Елиминационната система - който загуби отпада от турнира е рядко срещана.&lt;/p&gt;
+&lt;h3&gt;Отчитане на рейтинг&lt;/h3&gt;
+&lt;p&gt;Турнирите могат да важат за рейтинг. Например ако са признати от международната шахматна федерация FIDE - за международен рейтинг, а ако са признати от българската шахматна федерация - за български рейтинг. За всяка времева контрола има отделен рейтинг. Рейтингът на всеки шахматист е на основа на неговото представяне на важащите за рейтинг турнири.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Позиция на царя</title><link href="/Chess/2019/08/05/position.html" rel="alternate" type="text/html" title="Позиция на царя" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/position</id><content type="html" xml:base="/Chess/2019/08/05/position.html">&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-9.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Царят&lt;/b&gt; започва партията на една от централните линии. Там не е безопасно за него, защото може да бъде атакуван и от двата фланга, особено ако до него има открити линии. Затова се прави рокада, като така се развива и топа. Добри защитници на царя са пешките и те сформират пешечно прикритие. Най-доброто пешечно прикритие са три пешки на линията пред него. Понякога е полезно една от пешките да бъде преместена едно поле напред с цел да:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;- отнеме поле, от което противникова фигура може да атакува&lt;/li&gt;
+	&lt;li&gt;- освободи поле на царя, на което да избяга от мат на последна линия&lt;/li&gt;
+	&lt;li&gt;- позволи на офицер да бъде финкитиран&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;p&gt;Ако поне една от пешките е твърде напред или липсва, царят има нарушено пешечно прикритие.
+Един от факторите, определящи мителшпилните позиции са фланговете, на които царете са рокирали. Ако са рокирали на един и същ фланг, рокадите са едностранни. Ако са рокирали на различни флангове, рокадите са разностранни.
+При едностранни рокади надиграването е по-бавно и постепенно. Противниковият цар най-често е атакуван фигурно, защото фигурно-пешечна атака би означавала нарушаване на пешечното прикритие. Често се случва и надиграване в центъра или на фланга, на който не са царете.
+При разностранни рокади скоростта е от голямо значение. И двете страни атакуват противниковия цар фигурно-пешечно и това води до двуостри позиции с възможност за много тактически комбинации. Често даже се жертва материал, за да се вземе инициативата.
+В ендшпила, материалът на дъската е намалял и царете се активизират.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">План за игра</title><link href="/Chess/2019/08/05/plan.html" rel="alternate" type="text/html" title="План за игра" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/plan</id><content type="html" xml:base="/Chess/2019/08/05/plan.html">&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-1.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Планът за игра&lt;/b&gt; зависи от оценката на позицията. При наличие на дълготрайно преимущество, то трябва да бъде запазено и към него да се прибавят краткотрайни, а при наличие на краткотрайни - да бъдат превърнати в дълготрайни.&lt;/p&gt;
+&lt;h3&gt;Размени&lt;/h3&gt;
+&lt;p&gt;Леки и тежки фигури се стреми да сменя страната, която има материално преимущество. Колкото по-малко фигури има на дъската, толкова по-голямо значение има материалът в повече.&lt;/p&gt;
+&lt;p&gt;Леки и тежки фигури, особено дамитесе стреми да сменя страната, чийто цар е в опасност.&lt;/p&gt;
+&lt;p&gt;Колкото по-малко фигури има на дъската, толкова по в безопасност са царете.&lt;/p&gt;
+&lt;p&gt;Леки и тежки фигури се стреми да сменя страната, която има по-малко пространство или по-неактивни фигури. По този начин неутрализира противниковото преимущество.&lt;/p&gt;
+&lt;p&gt;Пешки се стреми да сменя страната, която в ендшпила е в по-лоша позиция. Пешечната редукция й помага да достигне равенство.&lt;/p&gt;
+&lt;p&gt;Всички смени трябва да бъдат поне равностойни, за да не се дава преимущество на противника.&lt;/p&gt;
+&lt;h3&gt;Жертви&lt;/h3&gt;
+&lt;p&gt;Жертвата е доброволно сдаване на материал. Ако целта на жертвата е постигане на позиционно преимущество, тя е позиционна жертва. Ако след жертвата има форсирана последователност на ходове, които водят до връщането на материала, тя е мнима жертва. Дебюти, които съдържат жертви се наричат гамбити. Съществуват гамбити както с позиционни, така и с мними жертви. Жертвата може да бъде приета или отказана. Ако приемането на пожертвана фигура или пешка води до форсирана загуба, то тя е отровна.&lt;/p&gt;
+&lt;h3&gt;Център&lt;/h3&gt;
+&lt;p&gt;Владеенето на центъра е важно, защото осигурява повече пространсвто и по-лесно маневриране на фигурите. Също така помага както при атака, така и при защита. Ако централните пешки могат да се придвижват напред, центърът е подвижен, а ако не могат - блокиран. Ако поне една от централните линии е открита, центърът е открит, а ако не е - е закрит.&lt;/p&gt;
+&lt;h3&gt;Флангова атака&lt;/h3&gt;
+&lt;p&gt;Флангова атака е подходяща, когато центърът е блокиран, а ако не е - за страната, която го владее. Както всяка атака, тя трябва да си има обект - противниковият цар, слаби пешки или слаби полета.&lt;/p&gt;
+&lt;h3&gt;Последователност от ходовете&lt;/h3&gt;
+&lt;p&gt;Планът, за да бъде изпълнен е необходимо да бъдат изиграни дадено количество ходове. Но тяхната последователност често е от решаващо значение. Погрешна последователност е възможно да позволи на противника предотвратяване на плана.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Пешечна структура</title><link href="/Chess/2019/08/05/structure.html" rel="alternate" type="text/html" title="Пешечна структура" /><published>2019-08-05T12:56:00+03:00</published><updated>2019-08-05T12:56:00+03:00</updated><id>/Chess/2019/08/05/structure</id><content type="html" xml:base="/Chess/2019/08/05/structure.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-7.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Пешечната структура&lt;/b&gt; представлява броят и местоположението на пешките и е от огромно значение за всяка шахматна позиция.&lt;/p&gt;
@@ -126,7 +205,7 @@
 &lt;p&gt;Това е мат, при който противниковият цар се намира на а1, а8, h1, или h8, конят е през едно поле по диагонал от царя, а топът е на съседно на царя поле, пазено от коня.&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Темп</title><link href="/Chess/2019/08/05/temp.html" rel="alternate" type="text/html" title="Темп" /><published>2019-08-05T12:55:00+03:00</published><updated>2019-08-05T12:55:00+03:00</updated><id>/Chess/2019/08/05/temp</id><content type="html" xml:base="/Chess/2019/08/05/temp.html">&lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-4.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-16.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;h3&gt;
 Шахматът&lt;/h3&gt; е спорт с два вида време. Единият вид е времето за мислене, с което всеки играч разполага на часовника. Другият вид е времето на дъската, необходимо да се изпълнят плановете. Един ход време се нарича един темп. В много позиции всеки темп е решаващ.&lt;/p&gt;
 &lt;h3&gt;Фиг.39. Цар и пешка&lt;/h3&gt;

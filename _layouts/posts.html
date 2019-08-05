@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+    <script src="https://kit.fontawesome.com/0f2451e173.js"> </script>
+    <title>Chess</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+</head>
+
+<body>
+
+    <header class="site-header">
+        {% include navigation.html%}
+    </header>
+
+    <div class="additional">
+        {% include navigation.html%}
+    </div>
+
+    <section class="post-wrapper">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <article class="post-content">
+            {{content}}
+        </article>
+        <p class="post-date">{{ page.date }}</p>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>Треньор: Никола Колев</li>
+                <li>GSM: 0884-94-31-41</li>
+                <li>lichess: aol_destroyer</li>
+                <li>youTube:</li>
+                <li>Df631ZuNOGfXeTdEvQ</li>
+                <li>facebook: silverblood.soulstealings</li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>

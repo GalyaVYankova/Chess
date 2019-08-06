@@ -113,7 +113,6 @@ font-size: 20px;
         color: black;
         font-weight: bold;
         font-style: italic;
-        font-size: 16px;
         }
     }
 }
@@ -129,20 +128,31 @@ font-size: 20px;
         opacity: 0.15;
 }
 
+.posts-list > ul{
+    padding-top: 5px;
+    list-style: none;
+    font-style: oblique;
+    & > li{
+        text-align: center;
+        & > a {
+        color: black;
+        font-weight: 900;
+        font-size: 18px;
+        display:inline-block;
+        width:100%;
+        height:100%;
+        letter-spacing: 2px;
+        }
+    }
+}
+
 .posts-list{
     grid-column: 1 / 3;
     grid-row: 1/10;
     margin: auto;
-}
-
-.posts-list > ul{
-    padding-top: 5px;
-    list-style: circle;
-    font-style: oblique;
-    & > li> a {
-        color: black;
-        font-weight: 900;
-        font-size: 16px;
+    text-align: center;
+    & > h3{
+        text-decoration: underline;
     }
 }
 
@@ -179,7 +189,7 @@ font-size: 20px;
 /*second row*/
 .game{
     grid-column: 3 / span 2;
-    grid-row: 2/13;
+    grid-row: 3/14;
     & > img{
         width: 100%;
         height: 70%;
@@ -243,7 +253,7 @@ font-size: 20px;
 
 .plan{
     grid-column: 5/6;
-    grid-row: 34/44;
+    grid-row: 35/45;
     & > img{
         width: 100%;
         object-fit: cover;
@@ -252,36 +262,86 @@ font-size: 20px;
 
 .position{
     grid-column: 5/6;
-    grid-row: 44/54;
+    grid-row: 45/55;
     & > img{
         width: 100%;
+        height: 100%;
         object-fit: cover;
     }
 }
 
-.posts-ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: justify;
-    list-style-type: none;
-    grid-column: 1/4;
-    grid-row: 80/95;
-    & > img{
-        width: 100%;
-        object-fit: cover;
+@media all and (max-width: 800px){
+    .background{
+        grid-column: 1 / 3;
+        grid-row: 1/16;
     }
-    & > li{
-        color: black;
-        font-size: 20px;
-        margin: 10px;
-        &:first-child{
-            text-decoration: none;
-        }
+    
+    .posts-list{
+        grid-column: 1/3;
+        grid-row: 1/13;
     }
-}
-
+    
+    .temp{
+        grid-column: 1 / 3;
+        grid-row: 16/26;
+    }
+    
+    .mat{
+        grid-column: 1 / 3;
+        grid-row: 32/40;
+    }
+    
+    .value{
+        grid-column: 1 / 3;
+        grid-row: 46/56;
+    }
+    
+    /*second row*/
+    .game{
+        grid-column: 3 / span 2;
+        grid-row: 4/13;
+    }
+    
+    .tactic{
+        grid-column: 3 / span 2;
+        grid-row: 16/22;
+    }
+    
+    .activity{
+        grid-column: 3 / span 2;
+        grid-row: 28/36;
+    }
+    
+    .structure{
+        grid-column: 3 / span 2;
+        grid-row: 42/50;
+    }
+    
+    .tournaments{
+        grid-column: 5/6;
+        grid-row: 1/10;
+    }
+    
+    .notation{
+        grid-column: 5/6;
+        grid-row: 12/23;
+    }
+    
+    .material{
+        grid-column: 5/6;
+        grid-row: 23/34;
+    }
+    
+    .plan{
+        grid-column: 5/6;
+        grid-row: 34/44;
+    }
+    
+    .position{
+        grid-column: 5/6;
+        grid-row: 44/52;
+    }
+} 
 
 @media all and (max-width: 640px){
     body{
@@ -322,7 +382,7 @@ font-size: 20px;
 
 .position{
     grid-column: 1/1;
-    grid-row: 32/36;
+    grid-row: 33/43;
 }
 
 .mat{
@@ -345,7 +405,7 @@ font-size: 20px;
 
 .game{
     grid-column: 2 / 2;
-    grid-row: 9/12;
+    grid-row: 9/14;
 }    
 
 .tactic{
@@ -375,13 +435,99 @@ font-size: 20px;
 }
 
 @media all and (max-width: 480px){
-    .blog-articles{
-        & > p{
-            display: none;
-        }
-        & > h3{
-            font-size: 16px;
-            word-wrap: break-word;
+    .posts-list > ul{
+        & > li{
+            & > a {
+            font-size: 15px;
+            }
         }
     }
+
+    .blog-articles{
+        padding-left: 0;
+        margin-left: 0;
+        word-wrap: break-word;
+        & > h3{
+            font-size: 16px;
+        }
+    }
+
+    .blogs{
+        grid-gap: 7px 2px;
+        margin: auto;
+        padding: 0 3px;
+        margin-left: 8px;
+    }
+
+.background{
+    grid-column: 1 / 1;
+    grid-row: 1/15;
 }
+
+.posts-list{
+    grid-column: 1/1;
+    grid-row: 1/14;
+}
+
+.value{
+    grid-column: 1 / 1;
+    grid-row: 14/20;
+}
+
+.material{
+    grid-column: 1/1;
+    grid-row: 23/27;
+}
+
+.position{
+    grid-column: 1/1;
+    grid-row: 32/38;
+}
+
+.mat{
+    grid-column: 1 / 1;
+    grid-row: 42/46;
+}
+
+.plan{
+    grid-column: 1/1;
+    grid-row: 50/55;
+}
+.notation{
+    grid-column: 1/1;
+    grid-row: 58/63;
+}
+
+/*second row*/
+
+.tournaments{
+    grid-column: 2/2;
+    grid-row: 1/6;
+}    
+
+.game{
+    grid-column: 2 / 2;
+    grid-row: 9/14;
+}    
+
+.tactic{
+    grid-column: 2 / 2;
+    grid-row: 19/22;
+}
+
+.activity{
+    grid-column: 2 / 2;
+    grid-row: 30/33;
+}
+
+.structure{
+    grid-column: 2 / 2;
+    grid-row: 40/44;
+}
+
+.temp{
+    grid-column: 2 / span 2;
+    grid-row: 51/60;
+}
+}
+

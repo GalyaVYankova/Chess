@@ -1436,7 +1436,9 @@ body > main > section > main > h2.oldest-posts {
   .posts-list > ol > li > a {
     font-size: 14px; }
   .posts-list > h3 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .blog > h2 {
+    grid-row: 3; } }
 
 @media all and (max-width: 640px) {
   .blog > h2 {

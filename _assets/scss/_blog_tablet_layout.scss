@@ -33,6 +33,11 @@
             font-size: 20px;
         }
     }
+    .blog{
+        & > h2 {
+        grid-row: 3;
+        }
+    }
 }
 
 @media all and (max-width: 640px){

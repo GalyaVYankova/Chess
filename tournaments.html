@@ -8,11 +8,98 @@ permalink: tournaments/
 </div>
 
 <main class="tournaments">
+    <div class="tournaments-dates">
+        <div class="date">
+            <div class="date">
+                <p>2019</p>
+                <p>Неделя</p>
+                <p class="number">23</p>
+                <p>Септември</p>
+            </div>
+            <div class="text">
+                <p>10:00 часа</p>
+                <p>Сградата на НПМГ</p>
+                <p>4 етаж стая 405</p>
+            </div>
+        </div>
+
+        <div class="date">
+            <div class="date">
+                <p>2019</p>
+                <p>Неделя</p>
+                <p class="number">23</p>
+                <p>Септември</p>
+            </div>
+            <div class="text">
+                <p>10:00 часа</p>
+                <p>Сградата на НПМГ</p>
+                <p>4 етаж стая 405</p>
+            </div>
+        </div>
+
+        <div class="date">
+            <div class="date">
+                <p>2019</p>
+                <p>Неделя</p>
+                <p class="number">23</p>
+                <p>Септември</p>
+            </div>
+            <div class="text">
+                <p>10:00 часа</p>
+                <p>Сградата на НПМГ</p>
+                <p>4 етаж стая 405</p>
+            </div>
+        </div>
+
+        <div class="date">
+            <div class="date">
+                <p>2019</p>
+                <p>Неделя</p>
+                <p class="number">23</p>
+                <p>Септември</p>
+            </div>
+            <div class="text">
+                <p>10:00 часа</p>
+                <p>Сградата на НПМГ</p>
+                <p>4 етаж стая 405</p>
+            </div>
+        </div>
+
+        <div class="date">
+            <div class="date">
+                <p>2019</p>
+                <p>Неделя</p>
+                <p class="number">23</p>
+                <p>Септември</p>
+            </div>
+            <div class="text">
+                <p>10:00 часа</p>
+                <p>Сградата на НПМГ</p>
+                <p>4 етаж стая 405</p>
+            </div>
+        </div>
+
+        <div class="date">
+            <div class="date">
+                <p>2019</p>
+                <p>Неделя</p>
+                <p class="number">23</p>
+                <p>Септември</p>
+            </div>
+            <div class="text">
+                <p>10:00 часа</p>
+                <p>Сградата на НПМГ</p>
+                <p>4 етаж стая 405</p>
+            </div>
+        </div>
+    </div>
+
+
     <form action="" class="tournaments-form">
         <p>
-            <label for="tournament">Турнир</label>
-            <select>
-                <option value="choose" id="tournament">Избери турнир...</option>
+            <label for="tournament">Избери Турнир</label>
+            <select required>
+                <option value="" id="tournament">Дати...</option>
                 <option value="22-09-2019" id="tournament">22-09-2019</option>
                 <option value="29-09-2019" id="tournament">29-09-2019</option>
                 <option value="06-10-2019" id="tournament">06-10-2019</option>
@@ -28,6 +115,10 @@ permalink: tournaments/
             <input type="text" name="" id="ln" placeholder="Иванов" required>
         </p>
         <p>
+            <label for="year">Година на Раждане</label>
+            <input type="number" name="" id="year" placeholder="1999" min="1999" max="2009" required>
+        </p>
+        <p>
             <label for="mail">Email</label>
             <input type="email" id="mail" placeholder="example@gmail.com" required>
         </p>
@@ -37,9 +128,9 @@ permalink: tournaments/
         </p>
 
         <p>
-            <label for="payment">Плащане</label>
-            <select>
-                <option value="ЕPay" id="tournament">Избери начин на плащане...</option>
+            <label for="payment">Начин на Плащане</label>
+            <select required>
+                <option value="" id="tournament">Избери форма на плащане...</option>
                 <option value="ЕPay" id="tournament">ЕPay</option>
                 <option value="EasyPay" id="tournament">EasyPay</option>
                 <option value="personal" id="tournament">В брой</option>
@@ -50,25 +141,39 @@ permalink: tournaments/
         <input type="submit" value="Изпрати">
     </form>
 
-    <table>
+    <table class="tournaments-table">
         <thead>
             <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Job Title</th>
+                <th>Rank</th>
+                <th>Име</th>
+                <th>Rating</th>
+                <th>Игри</th>
+                <th>Година на Раждане</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td data-label="First Name">James</td>
-                <td data-label="Last Name">Matman</td>
-                <td data-label="Job Title">Chief Sandwich Eater</td>
+                <td data-label="Rank">1</td>
+                <td data-label="Name">Иван Иванов</td>
+                <td data-label="Rating">2939</td>
+                <td data-label="Games">2</td>
+                <td data-label="B-Date">2003</td>
             </tr>
             <tr>
-                <td data-label="First Name">Doe</td>
-                <td data-label="Last Name">Chief Executive Eater</td>
-                <td data-label="Job Title">Jon</td>
+                <td data-label="Rank">2</td>
+                <td data-label="Name">Стоян Драганов</td>
+                <td data-label="Rating">2920</td>
+                <td data-label="Games">0</td>
+                <td data-label="B-Date">2003</td>
+            </tr>
+            <tr>
+                <td data-label="Rank">3</td>
+                <td data-label="Name">Ана Механджийска</td>
+                <td data-label="Rating">2902</td>
+                <td data-label="Games">0</td>
+                <td data-label="B-Date">2005</td>
             </tr>
         </tbody>
     </table>
+
 </main>

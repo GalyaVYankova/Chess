@@ -1,0 +1,69 @@
+
+/**form**/
+.tournaments-form{
+    width: 30%;
+    background: white;
+    & > p {
+    display: flex;
+    align-items: left;
+        & > label {
+        min-width: 100px;
+        }
+        & > input,
+        & > select{
+            width: 50%;
+        }
+    }
+    & > input[type="submit"] {
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    }
+}
+
+
+/**table**/
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width:600px) {
+    table{ 
+        border: 0; 
+    }
+
+    thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px; 
+    }
+    
+    table tr {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+    background: #fff5e7; 
+    }
+    
+    table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    }
+
+    table td {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 2px solid #ccc;
+    }
+
+    table td:last-child {
+    border-bottom: 0;
+    }
+}

@@ -1181,7 +1181,9 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #001f4d;
-  text-decoration: none; }
+  text-decoration: none;
+  width: 75%;
+  margin-left: 2px; }
 
 .posts-list > ol {
   padding-top: 5px;

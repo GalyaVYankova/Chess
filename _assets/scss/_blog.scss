@@ -58,7 +58,7 @@ font-size: 20px;
     font-family: 'Lobster', cursive;
     padding: 15px 3px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 100px;
         & > a{
         font-size: 1.2rem;
         font-weight: 800;
@@ -71,9 +71,15 @@ font-size: 20px;
         }
     }
 
-
-
+    .image-left-small{
+        width: 20%;
+        float: right;
+    }
 @media all and (max-width: 800px){
+    .link{
+        margin-top: 60px;
+    }
+
     .post-title{
         & > h2{
         font-size: 20px;
@@ -95,6 +101,10 @@ font-size: 20px;
                 margin: auto;
             }
         }
+    }
+    
+    .post-content > p:last-of-type{
+        margin-top: 60px;
     }
 }
 

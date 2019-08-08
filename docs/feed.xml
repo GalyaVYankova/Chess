@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/Chess/feed.xml" rel="self" type="application/atom+xml" /><link href="/Chess/" rel="alternate" type="text/html" /><updated>2019-08-08T01:50:55+03:00</updated><id>/Chess/feed.xml</id><title type="html">Chess</title><subtitle></subtitle><entry><title type="html">Активност на фигурите</title><link href="/Chess/2019/08/05/activity.html" rel="alternate" type="text/html" title="Активност на фигурите" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/activity</id><content type="html" xml:base="/Chess/2019/08/05/activity.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/Chess/feed.xml" rel="self" type="application/atom+xml" /><link href="/Chess/" rel="alternate" type="text/html" /><updated>2019-08-08T12:50:07+03:00</updated><id>/Chess/feed.xml</id><title type="html">Chess</title><subtitle></subtitle><entry><title type="html">Активност на фигурите</title><link href="/Chess/2019/08/05/activity.html" rel="alternate" type="text/html" title="Активност на фигурите" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/activity</id><content type="html" xml:base="/Chess/2019/08/05/activity.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-8.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Кон&lt;/h3&gt;
@@ -193,7 +193,7 @@
 &lt;p&gt;Ако и двете страни намят нито леки, нито тежки фигури, ендшпилът се нарича пешечен.&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Мат</title><link href="/Chess/2019/08/05/mat.html" rel="alternate" type="text/html" title="Мат" /><published>2019-08-05T12:55:00+03:00</published><updated>2019-08-05T12:55:00+03:00</updated><id>/Chess/2019/08/05/mat</id><content type="html" xml:base="/Chess/2019/08/05/mat.html">&lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-3.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-16.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left-small&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Мат&lt;/h3&gt;
 &lt;p&gt;Позициите, в които може да бъде даден мат са най-разнообразни, но има често срещани матови конструкции.&lt;/p&gt;
@@ -205,7 +205,7 @@
 &lt;p&gt;Това е мат, при който противниковият цар се намира на а1, а8, h1, или h8, конят е през едно поле по диагонал от царя, а топът е на съседно на царя поле, пазено от коня.&lt;/p&gt;
 
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Темп</title><link href="/Chess/2019/08/05/temp.html" rel="alternate" type="text/html" title="Темп" /><published>2019-08-05T12:55:00+03:00</published><updated>2019-08-05T12:55:00+03:00</updated><id>/Chess/2019/08/05/temp</id><content type="html" xml:base="/Chess/2019/08/05/temp.html">&lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-16.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left-side&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/Chess/images/blog-3.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left-side&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;h3&gt;
 Шахматът&lt;/h3&gt; е спорт с два вида време. Единият вид е времето за мислене, с което всеки играч разполага на часовника. Другият вид е времето на дъската, необходимо да се изпълнят плановете. Един ход време се нарича един темп. В много позиции всеки темп е решаващ.&lt;/p&gt;
 &lt;h3&gt;Фиг.39. Цар и пешка&lt;/h3&gt;

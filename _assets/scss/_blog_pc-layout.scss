@@ -65,6 +65,7 @@
         padding-top: 5px;
         font-style: oblique;
         list-style-type: none;
+        width: 75%;
         & > li{
             text-align: left;
             padding: 3px 0;
@@ -72,24 +73,27 @@
         color: #001f4d;
         font-size: 20px;
         display:inline-block;
-        width:100%;
-        height:100%;
+        margin-left: 2px;
         font-weight: 700;
         }
-        & > a:target,
-        & > a:active,
-        & > a:focus,
-        & > a:hover{
-        color: red;
-        cursor: pointer;
+            & > a:target,
+            & > a:active,
+            & > a:focus,
+            & > a:hover{
+            color: red;
+            cursor: pointer;
+            }
         }
     }
-    }
-
-    body > main > section > main > div.posts-list > h3{
-        text-decoration: none;
-    }
 }
+body > main > section > main > div.posts-list > h3{
+    text-decoration: none;
+}
+body > main > section > main > div.posts-list > ol{
+    width: 80%;
+    margin-left: 5px;
+}
+
 
 /*first row*/
 .background{

@@ -1126,7 +1126,7 @@ body {
   margin-bottom: 0;
   display: grid;
   grid-template-columns: repeat(8, 12%);
-  grid-template-rows: repeat(100, 1%);
+  grid-template-rows: repeat(92, 1%);
   grid-gap: 1px 10px;
   justify-content: center;
   word-wrap: break-word; }
@@ -1339,6 +1339,7 @@ body > main > section > main > h2.oldest-posts {
   text-shadow: none;
   text-decoration: underline; }
 
+/**/
 .material {
   grid-column: 1/2;
   grid-row: 75/82; }
@@ -1434,6 +1435,7 @@ body > main > section > main > h2.oldest-posts {
   font-size: 15px; }
 
 /**/
+/**/
 .activity {
   grid-column: 1 / 4;
   grid-row: 49/64; }
@@ -1469,8 +1471,10 @@ body > main > section > main > h2.oldest-posts {
     font-size: 14px; }
   .posts-list > h3 {
     font-size: 20px; }
-  .blog > h2 {
-    grid-row: 2; }
+  .blog {
+    margin-top: 20px; }
+    .blog > h2 {
+      grid-row: 1; }
   .blog > .blog-article-description > a > h3 {
     font-size: 16px; }
   .blog > .blog-article-description > a > p {

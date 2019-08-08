@@ -1134,32 +1134,68 @@ body {
     color: black;
     font-weight: bold;
     text-decoration: none; }
+    .blog > .blog-article-description > a > p {
+      font-size: 18px; }
+    .blog > .blog-article-description > a > p:last-child {
+      font-size: 16px;
+      color: #001f4d; }
   .blog > .blog-article-description > a:target,
   .blog > .blog-article-description > a:active,
   .blog > .blog-article-description > a:focus,
   .blog > .blog-article-description > a:hover {
     color: red;
-    cursor: pointer;
-    text-decoration: underline; }
+    cursor: pointer; }
 
+/****/
+.blog-article-description.mat > a,
+.blog-article-description.structure > a,
+.blog-article-description.material > a,
+.blog-article-description.position > a,
+.blog-article-description.notation > a,
+.blog-article-description.value-add > a {
+  text-align: left; }
+  .blog-article-description.mat > a > h3,
+  .blog-article-description.structure > a > h3,
+  .blog-article-description.material > a > h3,
+  .blog-article-description.position > a > h3,
+  .blog-article-description.notation > a > h3,
+  .blog-article-description.value-add > a > h3 {
+    font-size: 18px; }
+  .blog-article-description.mat > a > p,
+  .blog-article-description.structure > a > p,
+  .blog-article-description.material > a > p,
+  .blog-article-description.position > a > p,
+  .blog-article-description.notation > a > p,
+  .blog-article-description.value-add > a > p {
+    font-size: 16px; }
+  .blog-article-description.mat > a > p:last-child,
+  .blog-article-description.structure > a > p:last-child,
+  .blog-article-description.material > a > p:last-child,
+  .blog-article-description.position > a > p:last-child,
+  .blog-article-description.notation > a > p:last-child,
+  .blog-article-description.value-add > a > p:last-child {
+    font-size: 14px; }
+
+/****/
 .posts-list > h3 {
   font-size: 24px;
   font-weight: bold;
-  color: #001f4d; }
+  color: #001f4d;
+  text-decoration: none; }
 
 .posts-list > ol {
   padding-top: 5px;
   font-style: oblique;
   list-style-type: none; }
   .posts-list > ol > li {
-    text-align: left; }
+    text-align: left;
+    padding: 3px 0; }
     .posts-list > ol > li > a {
       color: #001f4d;
       font-size: 20px;
       display: inline-block;
       width: 100%;
       height: 100%;
-      letter-spacing: 2px;
       font-weight: 700; }
     .posts-list > ol > li > a:target,
     .posts-list > ol > li > a:active,
@@ -1167,6 +1203,9 @@ body {
     .posts-list > ol > li > a:hover {
       color: red;
       cursor: pointer; }
+
+.posts-list body > main > section > main > div.posts-list > h3 {
+  text-decoration: none; }
 
 /*first row*/
 .background {
@@ -1420,50 +1459,103 @@ body > main > section > main > h2.oldest-posts {
   grid-row: 64/68; }
 
 /**/
-.blog-article-description.value-add > a,
-.blog-article-description.mat > a,
-.blog-article-description.structure > a,
-.blog-article-description.material > a,
-.blog-article-description.position > a,
-.blog-article-description.notation > a {
-  font-size: 10px; }
-
 @media all and (max-width: 800px) {
   /**/
-  .blog-article-description > h3 {
-    font-size: 18px; }
-  .blog-article-description > p {
-    font-size: 16px; }
-  .blog-article-description.value-add > p,
-  .blog-article-description.mat > p,
-  .blog-article-description.structure > p,
-  .blog-article-description.material > p,
-  .blog-article-description.position > p,
-  .blog-article-description.notation > p {
-    font-size: 12px; }
-  .blog-article-description.value-add > h3,
-  .blog-article-description.mat > h3,
-  .blog-article-description.structure > h3,
-  .blog-article-description.material > h3,
-  .blog-article-description.position > h3,
-  .blog-article-description.notation > h3 {
-    font-size: 14px; }
   .posts-list > ol > li > a {
     font-size: 14px; }
   .posts-list > h3 {
     font-size: 20px; }
   .blog > h2 {
-    grid-row: 3; } }
+    grid-row: 2; }
+  .blog > .blog-article-description > a > h3 {
+    font-size: 16px; }
+  .blog > .blog-article-description > a > p {
+    font-size: 14px; }
+  .blog > .blog-article-description > a > p:last-child {
+    font-size: 14px; }
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 14px; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 12px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 12px; }
+  .posts-list > h3 {
+    font-size: 20px; }
+  .posts-list > ol > li {
+    text-align: left;
+    padding: 3px 0; }
+    .posts-list > ol > li > a {
+      font-size: 18px; } }
 
 @media all and (max-width: 640px) {
   .blog > h2 {
-    grid-column: 1 / 3;
+    text-align: left;
+    grid-column: 1 / 4;
     grid-row: 2;
-    font-size: 1.2rem; }
-  .blog-article-description > h3 {
-    font-size: 16px; }
-  .blog-article-description > p {
-    font-size: 14px; }
+    font-size: 1.4rem; }
+  .blog > .blog-article-description > a > h3 {
+    font-size: 22px; }
+  .blog > .blog-article-description > a > p {
+    font-size: 20px; }
+  .blog > .blog-article-description > a > p:last-child {
+    font-size: 18px; }
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 18px; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 16px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 16px; }
+  .posts-list > h3 {
+    font-size: 22px; }
+  .posts-list > ol > li {
+    text-align: left;
+    padding: 3px 0; }
+    .posts-list > ol > li > a {
+      font-size: 18px; }
   .blog {
     margin-top: 20px;
     grid-template-columns: 23% 23% 23% 23% 0% 0% 0% 0%;
@@ -1597,21 +1689,85 @@ body > main > section > main > h2.oldest-posts {
     grid-row: 94/99; }
   /**/ }
 
-@media all and (max-width: 505px) {
+@media all and (max-width: 580px) {
   .blog > h2 {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    font-size: 1.2rem; } }
+    font-size: 19px; }
+  .blog > .blog-article-description > a > h3 {
+    font-size: 20px; }
+  .blog > .blog-article-description > a > p {
+    font-size: 16px; }
+  .blog > .blog-article-description > a > p:last-child {
+    font-size: 18px; }
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 18px; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 16px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 16px; } }
 
 @media (max-width: 480px) {
-  .blog > h2 {
-    grid-column: 1 / 3;
+  body > main > section > main > h2:nth-child(1) {
     grid-row: 1;
-    font-size: 1.1rem; }
-  .blog-article-description > h3 {
+    grid-column: 1/3;
+    text-align: center;
+    font-size: 1.4rem; }
+  .blog > .blog-article-description > a > h3 {
+    font-size: 16px; }
+  .blog > .blog-article-description > a > p {
     font-size: 14px; }
-  .blog-article-description > p {
-    font-size: 12px; }
+  .blog > .blog-article-description > a > p:last-child {
+    font-size: 16px; }
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 14px;
+      text-decoration: underline; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 14px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 12px; }
   .blog {
     font-size: 14px;
     margin-bottom: 20px; }
@@ -1621,6 +1777,53 @@ body > main > section > main > h2.oldest-posts {
     font-size: 14px; } }
 
 @media all and (max-width: 320px) {
+  body > main > section > main > h2:nth-child(1) {
+    grid-row: 4;
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 1.4rem; }
+  .blog > .blog-article-description > a > h3 {
+    font-size: 18px; }
+  .blog > .blog-article-description > a > p {
+    font-size: 18px; }
+  .blog > .blog-article-description > a > p:last-child {
+    font-size: 16px; }
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 12px;
+      text-decoration: underline; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 12px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 12px; }
+  .posts-list > h3 {
+    font-size: 22px; }
+  .posts-list > ol > li {
+    text-align: left;
+    padding: 1px 0; }
+    .posts-list > ol > li > a {
+      font-size: 22px; }
   .blog {
     grid-template-rows: repeat(97, 1%);
     margin-top: 5px;
@@ -1757,6 +1960,48 @@ body > main > section > main > h2.oldest-posts {
     grid-column: 3 / 5;
     grid-row: 96/98; }
   /**/ }
+
+@media all and (max-width: 300px) {
+  body > main > section > main > h2:nth-child(1) {
+    grid-row: 3;
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 1.2rem; }
+  .blog > .blog-article-description > a > h3 {
+    font-size: 14px; }
+  .blog > .blog-article-description > a > p {
+    font-size: 14px; }
+  .blog > .blog-article-description > a > p:last-child {
+    font-size: 14px; }
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 10px;
+      text-decoration: underline; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 11px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 10px; } }
 
 /**form**/
 .tournaments-all {

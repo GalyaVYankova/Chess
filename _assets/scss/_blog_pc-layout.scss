@@ -14,6 +14,13 @@
         color: black;
         font-weight: bold;
         text-decoration: none;
+        & > p{
+            font-size: 18px;
+        }
+        & > p:last-child{
+            font-size: 16px;
+            color: #001f4d;
+        }
     }
     & > .blog-article-description > a:target,
     & > .blog-article-description > a:active,
@@ -21,15 +28,38 @@
     & > .blog-article-description > a:hover{
         color: red;
         cursor: pointer;
-        text-decoration: underline;
+       
     }
 }
+
+/****/
+.blog-article-description.mat,
+.blog-article-description.structure,
+.blog-article-description.material,
+.blog-article-description.position,
+.blog-article-description.notation,
+.blog-article-description.value-add{
+    & > a{
+        text-align: left;
+        & > h3{
+            font-size: 18px;
+        }
+        & > p{
+            font-size: 16px;
+        }
+        & > p:last-child{
+            font-size: 14px;
+        }
+    }
+}
+/****/
 
 .posts-list{
     & > h3{
         font-size: 24px;
         font-weight: bold;
         color: #001f4d;
+        text-decoration: none;
     } 
     & > ol{
         padding-top: 5px;
@@ -37,13 +67,13 @@
         list-style-type: none;
         & > li{
             text-align: left;
+            padding: 3px 0;
         & > a {
         color: #001f4d;
         font-size: 20px;
         display:inline-block;
         width:100%;
         height:100%;
-        letter-spacing: 2px;
         font-weight: 700;
         }
         & > a:target,
@@ -54,6 +84,10 @@
         cursor: pointer;
         }
     }
+    }
+
+    body > main > section > main > div.posts-list > h3{
+        text-decoration: none;
     }
 }
 
@@ -329,15 +363,5 @@ body > main > section > main > h2.oldest-posts{
 }
 /**/
 
-    .blog-article-description.value-add,
-    .blog-article-description.mat,
-    .blog-article-description.structure,
-    .blog-article-description.material,
-    .blog-article-description.position,
-    .blog-article-description.notation{
-        & > a{
-            font-size: 10px;
-        }
-    }
 
 

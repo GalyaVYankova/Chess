@@ -114,6 +114,7 @@
     .posts-list{
         & > h3{
             font-size: 22px;
+            grid-row: 7/10;
         } 
         & > ol{
             & > li{
@@ -140,12 +141,12 @@
     /*first row*/
 .background{
     grid-column: 3/5;
-    grid-row: 1/70;
+    grid-row: 5/70;
 }
 
 .posts-list{
     grid-column: 3/5;
-    grid-row: 3;
+    grid-row: 5;
     margin: auto;
     text-align: center;
     & > h3{

@@ -12,7 +12,7 @@
     display: flex;
     width: 65%;
     padding-top: 40px;
-    height: 520px;
+    height: 550px;
     flex-wrap: wrap;
     background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
     background-size: cover;
@@ -126,31 +126,37 @@
     }
 }
 
-/**table**/
 .tournaments-table{
-    border: 8px inset #492D3A;
-    background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
-    display: block;
+    margin: 0;
     margin-bottom: 50px;
-    margin-top: 20px;
-}
-
-th {
-    border-right: none;
-    border-left: none;
-    background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
-    padding: 17px;
-    color: goldenrod;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-td {
-    border-right: none;
-    border-left: none;
-    padding-left: 7px;
-    font-weight: bold;
-    height: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 90%;
+    border: 8px inset #492D3A;
+    word-wrap: break-word;
+    background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
+    & > h2{
+        text-align: center;
+    }
+    & > ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 10% 40% 15% 10% 25%;
+    grid-template-rows: 70px repeat(5, 40px);
+    text-align: center;
+    color: black;
+    font-weight: 900;
+        & > .a {
+            background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
+            color: goldenrod;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+        }
+        & .name{
+            text-align: left;
+        }
+    }
 }
 
 
@@ -160,13 +166,177 @@ td {
         height: 720px;
         & .date {
             width: 45%;
-            margin: 0;
+        }
+    }
+
+    .tournaments-form{
+        padding-top: 53px;
+        width: 35%;
+        & > input[type="submit"]{
+            margin-top: 140px;
+        } 
+    }
+
+    .tournaments-table{
+        & > .a {
+            font-size: 22px;
         }
     }
 }
 
+@media(max-width: 800px){
+    .tournaments-dates{
+        width: 60%;
+        & > h2{
+            font-size: 30px;
+        }
+        & > .date{
+        width: 48%;
+        height: 190px;
+        display: flex;
+        margin-left: 5px;
+        & > .date{
+            width: 80%;
+            & > .number{
+                margin-top: 0;
+                font-size: 40px;
+            }
+        }
+        }
+        & > .date > .text{
+            width: 62%;
+            margin-top: 5px;
+            margin-left: 15px;
+            & > p{
+            color: black;
+            font-weight: 600;
+            font-size: 16px;
+            }
+        }
+    }
+
+    .tournaments-form{
+        width: 37%;
+        padding: 0 10px;
+        padding-top: 53px;
+        & > input[type="submit"]{
+            margin-top: 140px;
+        } 
+    }
+
+    .tournaments-table{
+        margin: 0;
+        margin-right: 0;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+}
+
+
 @media(max-width: 640px){
     .tournaments-dates{
-        width: 80%;
+        width: 95%;
+    }
+
+    .tournaments-form{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        padding-top: 15px; 
+        
+        & > input[type="submit"]{
+            margin-top: 20px;
+        } 
+        & > p{
+            width: 40%;
+            &:first-child{
+                width: 80%;
+                &>select{
+                    width: 40%;
+                }
+                &>label{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    select, input[type="text"]{
+        margin: 0;
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .tournaments-table{
+        width: 95%;
+    }
+}
+
+
+@media(max-width: 480px){
+    .tournaments-dates{
+        height: 930px;
+        width: 95%;
+        padding-left: 5px;
+        padding-right: 10px;
+        & > .date{
+            flex-direction: column;
+            height: 260px;
+        }
+    }
+
+    .tournaments-form{
+        & > input[type="submit"]{
+            margin-top: 20px;
+        } 
+        & > p{
+            width: 45%;
+            margin: 5px;
+            &:first-child{
+                &>select{
+                    width: 60%;
+                }
+                &>label{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .tournaments-table{
+        & > ul{
+            word-break: normal;
+            grid-template-rows: 70px repeat(5, 40px);
+            font-size: 14px;
+            & > .a {
+            background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
+            color: goldenrod;
+            font-weight: bold;
+            text-align: center;
+            }
+        }
+    }
+}
+
+@media(max-width: 320px){
+    .tournaments-dates{
+        height: 1300px;
+        & > .date{
+            flex-direction: row;
+            width: 90%;
+            height: 180px;
+        }
+    }
+
+    .tournaments-table{
+        font-size: 14px;
+        word-wrap: break-word;
+        & > ul{
+            grid-template-rows: 70px repeat(5, 60px);
+            & > .a {
+            text-align: center;
+            font-size: 14px;
+            }
+        }
     }
 }

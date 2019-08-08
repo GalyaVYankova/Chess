@@ -170,22 +170,21 @@
             <input type="text" name="" id="ln" placeholder="Иванов" required>
         </p>
         <p>
-            <label for="year">Година на Раждане</label>
-            <input type="number" name="" id="year" placeholder="1999" min="1999" max="2009" required>
-        </p>
-        <p>
             <label for="mail">Email</label>
-            <input type="email" id="mail" placeholder="example@gmail.com" required>
+            <input type="email" id="mail" placeholder="mail@gmail.com" required>
         </p>
         <p>
             <label for="tel">Телефон</label>
             <input type="tel" id="tel" placeholder="+359885236225" required>
         </p>
-
+        <p>
+            <label for="year">Година на Раждане</label>
+            <input type="number" name="" id="year" placeholder="1999" min="1999" max="2009" required>
+        </p>
         <p>
             <label for="payment">Начин на Плащане</label>
             <select required>
-                <option value="" id="tournament">Избери форма на плащане...</option>
+                <option value="" id="tournament">Плащане...</option>
                 <option value="ЕPay" id="tournament">ЕPay</option>
                 <option value="EasyPay" id="tournament">EasyPay</option>
                 <option value="personal" id="tournament">В брой</option>
@@ -196,55 +195,41 @@
         <input type="submit" value="Изпрати" id="submit">
     </form>
 
-    <table class="tournaments-table">
-        <thead>
-            <tr>
-                <th>Rank</th>
-                <th>Име</th>
-                <th>Rating</th>
-                <th>Игри</th>
-                <th>Година на Раждане</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-label="Rank">1</td>
-                <td data-label="Име">Иван Иванов</td>
-                <td data-label="Rating">2939</td>
-                <td data-label="Игри">2</td>
-                <td data-label="Година на Раждане">2003</td>
-            </tr>
-            <tr>
-                <td data-label="Rank">2</td>
-                <td data-label="Име">Стоян Драганов</td>
-                <td data-label="Rating">2920</td>
-                <td data-label="Игри">0</td>
-                <td data-label="Година на Раждане">2003</td>
-            </tr>
-            <tr>
-                <td data-label="Rank">3</td>
-                <td data-label="Име">Ана Механджийска</td>
-                <td data-label="Rating">2902</td>
-                <td data-label="Игри">0</td>
-                <td data-label="Година на Раждане">2005</td>
-            </tr>
-            <tr>
-                <td data-label="Rank">3</td>
-                <td data-label="Име">Ана Механджийска</td>
-                <td data-label="Rating">2902</td>
-                <td data-label="Игри">0</td>
-                <td data-label="Година на Раждане">2005</td>
-            </tr>
-            <tr>
-                <td data-label="Rank">3</td>
-                <td data-label="Име">Ана Механджийска</td>
-                <td data-label="Rating">2902</td>
-                <td data-label="Игри">0</td>
-                <td data-label="Година на Раждане">2005</td>
-            </tr>
-        </tbody>
-    </table>
-
+    <div class="tournaments-table">
+        <h2>Най-добрите 5 шахматиста в НПМГ</h2>
+        <ul>
+            <li class="a">Rank</li>
+            <li class="a">Име</li>
+            <li class="a">Rating</li>
+            <li class="a">Игри</li>
+            <li class="a">Година на Раждане</li>
+            <li>1</li>
+            <li class="name">Иван Иванов</li>
+            <li>2939</li>
+            <li>2</li>
+            <li>2003</li>
+            <li>2</li>
+            <li class="name">Стоян Драганов</li>
+            <li>2920</li>
+            <li>0</li>
+            <li>2003</li>
+            <li>3</li>
+            <li class="name">Ана Механджийска</li>
+            <li>2902</li>
+            <li>0</li>
+            <li>2005</li>
+            <li>4</li>
+            <li class="name">Никола Колев</li>
+            <li>2850</li>
+            <li>0</li>
+            <li>2002</li>
+            <li>5</li>
+            <li class="name">Татяна Асенова</li>
+            <li>2840</li>
+            <li>0</li>
+            <li>2005</li>
+        </ul>
+    </div>
 </main></section>
     </main>
 

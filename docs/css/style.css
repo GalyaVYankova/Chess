@@ -724,7 +724,7 @@ body > footer > nav > ul > li:nth-child(1) > p {
   .additional > h1 {
     font-size: 2.1rem; } }
 
-@media all and (max-width: 1800px) {
+@media all and (max-width: 1920px) {
   .lessons {
     background-image: var(--main-background); }
   .chess-article-laptop {

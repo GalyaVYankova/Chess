@@ -582,15 +582,39 @@ h1 {
           width: 100%;
           height: 100%; }
 
+.home-main > main {
+  margin-bottom: -120px; }
+
 footer {
   background: black;
   color: silver;
   font-size: 18px;
-  padding-bottom: 25px; }
+  padding-bottom: 20px; }
   footer > nav > ul {
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding-top: 15px;
     padding-left: 20px;
     list-style-type: none; }
+    footer > nav > ul > li {
+      width: 50%; }
+      footer > nav > ul > li > a {
+        color: silver;
+        text-decoration: none; }
+      footer > nav > ul > li > i {
+        margin-right: 5px; }
+    footer > nav > ul > address {
+      word-wrap: break-word; }
+
+body > footer > nav > ul > li:nth-child(1) > p {
+  text-decoration: underline;
+  font-weight: 900; }
+
+@media (max-width: 800px) {
+  footer > nav > ul > li {
+    width: 100%; } }
 
 @media all and (max-width: 800px) {
   .main > h1,
@@ -874,7 +898,7 @@ footer {
 .contacts-area {
   display: inline-block;
   width: 700px;
-  background: url("../images/open-spiral-notebook-1405082_960_720.png");
+  background: url("../images/Notebook.png");
   background-size: cover;
   padding: 45px 30px 0 65px;
   height: 550px;
@@ -1241,7 +1265,7 @@ body > main > section > main > div.posts-list > ol {
   margin-top: 30px; }
   .blog > h2 {
     grid-column: 1 / 7;
-    grid-row: 1;
+    grid-row: 2;
     text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
     font-size: 1.8rem;
     font-weight: 900; }
@@ -1480,7 +1504,7 @@ body > main > section > main > h2.oldest-posts {
   .blog {
     margin-top: 20px; }
     .blog > h2 {
-      grid-row: 1; }
+      grid-row: 2; }
   .blog > .blog-article-description > a > h3 {
     font-size: 16px; }
   .blog > .blog-article-description > a > p {
@@ -1744,7 +1768,7 @@ body > main > section > main > h2.oldest-posts {
 
 @media (max-width: 480px) {
   body > main > section > main > h2:nth-child(1) {
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 1/4;
     text-align: center;
     font-size: 18px; }
@@ -2059,10 +2083,14 @@ body > main > section > main > h2.oldest-posts {
       box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
       font-weight: 900;
       font-style: oblique;
-      background: #fff2d4; }
+      background: #fff2d4;
+      color: #001f4d;
+      font-weight: 800;
+      word-wrap: break-word; }
       .tournaments-dates > .date > .date > .number {
         margin-top: 0;
-        font-size: 50px; }
+        font-size: 50px;
+        color: #ff1a00; }
   .tournaments-dates > .date > .text {
     float: right;
     margin-top: 5px;
@@ -2141,8 +2169,8 @@ body > main > section > main > h2.oldest-posts {
   .tournaments-table > ul {
     list-style-type: none;
     display: grid;
-    grid-template-columns: 10% 40% 15% 10% 25%;
-    grid-template-rows: 70px repeat(5, 40px);
+    grid-template-columns: 12% 34% 15% 14% 25%;
+    grid-template-rows: 50px repeat(5, 40px);
     text-align: center;
     color: black;
     font-weight: 900; }
@@ -2169,6 +2197,10 @@ body > main > section > main > h2.oldest-posts {
   .tournaments-table > .a {
     font-size: 22px; } }
 
+@media (max-width: 850px) {
+  .tournaments-table > ul > .a {
+    font-size: 22px; } }
+
 @media (max-width: 800px) {
   .tournaments-dates {
     width: 60%; }
@@ -2187,11 +2219,11 @@ body > main > section > main > h2.oldest-posts {
     .tournaments-dates > .date > .text {
       width: 62%;
       margin-top: 5px;
-      margin-left: 15px; }
+      margin-left: 10px; }
       .tournaments-dates > .date > .text > p {
         color: black;
         font-weight: 600;
-        font-size: 16px; }
+        font-size: 14px; }
   .tournaments-form {
     width: 37%;
     padding: 0 10px;
@@ -2202,11 +2234,21 @@ body > main > section > main > h2.oldest-posts {
     margin: 0;
     margin-right: 0;
     margin-bottom: 50px;
-    margin-top: 30px; } }
+    margin-top: 30px; }
+    .tournaments-table > ul {
+      grid-template-rows: repeat(6, 40px); }
+      .tournaments-table > ul .a {
+        font-size: 20px; } }
+
+@media (max-width: 710px) {
+  .tournaments-table > ul > .a {
+    font-size: 17px; } }
 
 @media (max-width: 640px) {
   .tournaments-dates {
     width: 95%; }
+    .tournaments-dates > .date > .text > p {
+      font-size: 16px; }
   .tournaments-form {
     display: flex;
     flex-wrap: wrap;
@@ -2227,7 +2269,9 @@ body > main > section > main > h2.oldest-posts {
     width: 100%;
     box-sizing: border-box; }
   .tournaments-table {
-    width: 95%; } }
+    width: 95%; }
+    .tournaments-table > h2 {
+      font-size: 28px; } }
 
 @media (max-width: 480px) {
   .tournaments-dates {
@@ -2247,15 +2291,14 @@ body > main > section > main > h2.oldest-posts {
       width: 60%; }
     .tournaments-form > p:first-child > label {
       display: block; }
+  .tournaments-table > h2 {
+    font-size: 24px; }
   .tournaments-table > ul {
     word-break: normal;
-    grid-template-rows: 70px repeat(5, 40px);
+    grid-template-rows: 50px repeat(5, 40px);
     font-size: 14px; }
     .tournaments-table > ul > .a {
-      background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
-      color: goldenrod;
-      font-weight: bold;
-      text-align: center; } }
+      font-size: 14px; } }
 
 @media (max-width: 320px) {
   .tournaments-dates {
@@ -2264,11 +2307,22 @@ body > main > section > main > h2.oldest-posts {
       flex-direction: row;
       width: 90%;
       height: 180px; }
-  .tournaments-table {
-    font-size: 14px;
-    word-wrap: break-word; }
-    .tournaments-table > ul {
-      grid-template-rows: 70px repeat(5, 60px); }
-      .tournaments-table > ul > .a {
-        text-align: center;
-        font-size: 14px; } }
+  .tournaments-table > h2 {
+    font-size: 20px; }
+  .tournaments-table > ul {
+    grid-template-rows: 50px repeat(5, 40px);
+    font-size: 12px; }
+    .tournaments-table > ul > .a {
+      font-size: 12px; }
+  .tournaments-dates > .date > .date {
+    width: 70%; } }
+
+@media (max-width: 270px) {
+  .tournaments-form > p > input,
+  .tournaments-form > p > select {
+    width: 180px;
+    height: 28px; }
+  .tournaments-form > p:first-child > select {
+    width: 180px; }
+  .tournaments-dates > .date > .text > p {
+    font-size: 14px; } }

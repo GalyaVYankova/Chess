@@ -110,14 +110,50 @@ h1{
     }
 }
 
+.home-main > main{
+    margin-bottom: -120px;
+}
+
 footer {
     background: black;
     color: silver;
     font-size: 18px;
-    padding-bottom: 25px;
-    & > nav > ul{
+    padding-bottom: 20px;
+    & > nav > ul{ 
+        word-wrap: break-word;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         padding-top: 15px;
         padding-left: 20px;
         list-style-type: none;
+        & > li{
+            width: 50%;
+            & > a{
+                color: silver;
+                text-decoration: none;
+            }
+            & > i {
+                margin-right: 5px;
+            }
+        }
+        & > address{
+            word-wrap: break-word;
+        }
+    }
+}
+
+body > footer > nav > ul > li:nth-child(1) > p{
+        text-decoration: underline;
+        font-weight: 900;
+}
+
+@media(max-width: 800px){
+    footer {
+        & > nav > ul{ 
+            & > li{
+                width: 100%;
+            }
+        }
     }
 }

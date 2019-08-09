@@ -495,7 +495,7 @@ body {
   100% {
     transform: translateX(0); } }
 
-@media all and (max-width: 1920px) {
+@media all and (max-width: 1440px) {
   .additional > .site-nav {
     display: none; }
   .wrapper {
@@ -723,6 +723,12 @@ body > footer > nav > ul > li:nth-child(1) > p {
 @media all and (max-width: 275px) {
   .additional > h1 {
     font-size: 2.1rem; } }
+
+@media all and (min-width: 1440px) {
+  .wrapper > img {
+    height: auto; }
+  h1 {
+    font-size: 60px; } }
 
 @media all and (max-width: 1920px) {
   .lessons {

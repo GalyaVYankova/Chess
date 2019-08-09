@@ -149,3 +149,12 @@
     }
 }
 
+@media all and (min-width: 1440px) {
+    .wrapper > img {
+        height: auto;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+}

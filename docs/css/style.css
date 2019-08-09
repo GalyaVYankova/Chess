@@ -728,7 +728,10 @@ body > footer > nav > ul > li:nth-child(1) > p {
   .wrapper > img {
     height: auto; }
   h1 {
-    font-size: 60px; } }
+    font-size: 60px; }
+  .second-home-main,
+  .additional > h1 {
+    display: none; } }
 
 @media all and (max-width: 1920px) {
   .lessons {

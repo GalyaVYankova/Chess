@@ -133,7 +133,6 @@
     .contacts {
         display: block;
         margin: auto;
-        height: 1560px;
         & > article{
             width: 90%;
             display: block;
@@ -252,10 +251,6 @@
 }
 
 @media all and (max-width: 500px){
-    .contacts {
-        height: 1580px;
-    }
-
     .contacts-area {
         height: 515px;
         padding-right: 40px;

@@ -954,8 +954,7 @@ body > footer > nav > ul > li:nth-child(1) > p {
 @media all and (max-width: 800px) {
   .contacts {
     display: block;
-    margin: auto;
-    height: 1560px; }
+    margin: auto; }
     .contacts > article {
       width: 90%;
       display: block; }
@@ -1028,8 +1027,6 @@ body > footer > nav > ul > li:nth-child(1) > p {
           padding: 5px; } }
 
 @media all and (max-width: 500px) {
-  .contacts {
-    height: 1580px; }
   .contacts-area {
     height: 515px;
     padding-right: 40px;

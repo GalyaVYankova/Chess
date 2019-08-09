@@ -638,20 +638,20 @@ body > footer > nav > ul > li:nth-child(1) > p {
       margin: auto; }
       .additional > .site-nav > ul {
         flex-direction: column;
-        padding-bottom: 20px;
-        padding-top: 30px; }
+        padding-bottom: 5px;
+        padding-top: 5px; }
         .additional > .site-nav > ul > li {
           margin: 0;
-          padding: 20px 5px;
+          padding: 5px 3px;
           border-bottom: none;
           text-align: center; }
           .additional > .site-nav > ul > li > a {
             border-bottom: 3px solid black;
             margin: 0;
             width: 50%;
-            font-size: 30px;
+            font-size: 28px;
             display: inline-block;
-            width: 100%;
+            width: 80%;
             height: 100%; }
   .second-home-main {
     display: block;
@@ -1027,7 +1027,7 @@ body > footer > nav > ul > li:nth-child(1) > p {
           font-weight: 900;
           padding: 5px; } }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   .contacts {
     height: 1580px; }
   .contacts-area {

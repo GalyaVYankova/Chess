@@ -725,15 +725,17 @@ body > footer > nav > ul > li:nth-child(1) > p {
     font-size: 2.1rem; } }
 
 @media all and (min-width: 1440px) {
-  .wrapper > img {
-    height: 800px; }
+  .wrapper {
+    margin-bottom: 200px; }
   h1 {
     font-size: 60px; }
   .second-home-main,
   .additional > h1 {
+    display: none; }
+  .site-nav > ul {
     display: none; } }
 
-@media all and (max-width: 1920px) {
+@media all and (max-width: 1440px) {
   .lessons {
     background-image: var(--main-background); }
   .chess-article-laptop {
@@ -843,6 +845,15 @@ body > footer > nav > ul > li:nth-child(1) > p {
       height: 80px; }
     .articles.additional > article > .height {
       padding-top: 0; } }
+
+@media all and (min-width: 1440px) {
+  .articles {
+    margin-bottom: 200px; }
+  .second-home-main,
+  .additional > h1 {
+    display: none; }
+  .site-nav > ul {
+    display: none; } }
 
 .contacts {
   display: flex;

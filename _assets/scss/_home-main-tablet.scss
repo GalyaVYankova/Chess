@@ -150,8 +150,8 @@
 }
 
 @media all and (min-width: 1440px) {
-    .wrapper > img {
-        height: 800px;
+    .wrapper {
+       margin-bottom: 200px;
     }
 
     h1{
@@ -160,6 +160,9 @@
 
     .second-home-main,
     .additional>h1{
+        display: none;
+    }
+    .site-nav > ul {
         display: none;
     }
 }

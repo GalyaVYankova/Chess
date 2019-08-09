@@ -1,4 +1,179 @@
 
+@media all and (max-width: 1920px){
+    /**form**/
+    .tournaments-all{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .tournaments-dates{
+        border: 8px inset #492D3A;
+        margin-top: 45px;
+        display: flex;
+        width: 65%;
+        padding-top: 40px;
+        height: 750px;
+        flex-wrap: wrap;
+        background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
+        background-size: cover;
+        opacity: 0.60;
+        & > h2{
+            width: 100%;
+            text-align: center;
+            color: #4A4A4C;
+            font-weight: 900;
+            font-size: 60px;
+            opacity: 1;
+        }
+        & > .date{
+        width: 32%;
+        height: 300px;
+        border: 2px solid black;
+        background: whitesmoke;
+        display: flex;
+        margin-left: 5px;
+        & > .date{
+            width: 80%;
+            height: 260px;
+            border: 1px solid gray;
+            margin-left: 4px;
+            margin-top: 4px;
+            text-align: center;
+            box-shadow: 5px 7px 5px 0px rgba(0,0,0,0.75);
+            font-weight: 900;
+            font-style: oblique;
+            background: #fff2d4;
+            color: #001f4d;
+            font-weight: 800;
+            word-wrap: break-word;
+            font-size: 35px;
+            & > .number{
+                margin-top: 0;
+                font-size: 80px;
+                color: #ff1a00;
+            }
+        }
+        }
+        & > .date > .text{
+            float: right;
+            margin-top: 5px;
+            margin-left: 15px;
+            & > p{
+            color: black;
+            font-weight: 600;
+            font-size: 35px;
+            }
+        }
+    }
+    
+    .tournaments-dates > .date {
+        opacity: 1;
+    }
+    .calendar-tournaments>ul{
+        display: flex;
+        list-style-type: circle;
+        & > li:first-child{
+        position: relative;
+        top: 20px;
+        left: 20rem;
+        font-size: 40px;
+        }
+        & > li:last-child{
+        position: relative;
+        font-size: 40px;
+        top: 20px;
+        left: 40rem;
+        }
+    }
+    
+    
+    .tournaments-form{
+        border: 8px inset #492D3A;
+        box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75) inset;
+        width: 30%;
+        background: white;
+        margin-top: 45px;
+        padding: 0 20px;
+        & > p {
+        display: block;
+        align-items: left;
+        margin: 15px;
+            & > label {
+            min-width: 100px;
+            font-size: 35px;
+            font-weight: bold;
+            }
+            & > input,
+            & > select{
+                width: 100%;
+                height: 50px;
+                font-size: 30px;
+            }
+            &:nth-child(4){
+                display: block;
+            }
+        }
+        & > input[type="submit"] {
+        display: flex;
+        margin: 0 auto;
+        border: none;
+        border-radius: 25px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background-image: var(--button-background);
+        margin-top: 22px;
+        text-decoration: none;
+        font-family: 'Lobster', cursive;
+        font-size: 2rem;
+        font-weight: 800;
+        color: goldenrod;
+        letter-spacing: 4px;
+        padding: 10px 30px;
+        text-align: center;
+        }
+    }
+    
+    .tournaments-table{
+        margin: 0;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 90%;
+        border: 8px inset #492D3A;
+        word-wrap: break-word;
+        background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
+        & > h2{
+            text-align: center;
+            font-size: 50px;
+            margin: 10px 0;
+        }
+        & > ul{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 12% 34% 15% 14% 25%;
+        grid-template-rows: 120px repeat(5, 70px);
+        text-align: center;
+        color: black;
+        font-weight: 900;
+        & > li{
+            font-size: 40px;
+        }
+        & > .a {
+                background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
+                color: goldenrod;
+                font-weight: bold;
+                font-size: 50px;
+                text-align: center;
+            }
+            & .name{
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1600px){
 /**form**/
 .tournaments-all{
     display: flex;
@@ -46,6 +221,7 @@
         color: #001f4d;
         font-weight: 800;
         word-wrap: break-word;
+        font-size: 20px;
         & > .number{
             margin-top: 0;
             font-size: 50px;
@@ -60,6 +236,7 @@
         & > p{
         color: black;
         font-weight: 600;
+        font-size: 16px;
         }
     }
 }
@@ -105,6 +282,7 @@
         & > select{
             width: 100%;
             height: 28px;
+            font-size: 16px;
         }
         &:nth-child(4){
             display: block;
@@ -141,6 +319,7 @@
     background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
     & > h2{
         text-align: center;
+        font-size: 30px;
     }
     & > ul{
     list-style-type: none;
@@ -150,6 +329,9 @@
     text-align: center;
     color: black;
     font-weight: 900;
+    & > li{
+        font-size: 22px;
+    }
     & > .a {
             background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
             color: goldenrod;
@@ -162,7 +344,7 @@
         }
     }
 }
-
+}
 
 @media(max-width: 960px){
     .tournaments-dates{

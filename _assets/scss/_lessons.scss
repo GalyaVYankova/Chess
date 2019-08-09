@@ -1,3 +1,42 @@
+@media all and (max-width: 1920px){
+    .lessons{
+        background-image: var(--main-background);
+    }
+    
+    .chess-article-laptop{
+        display: none;
+    }
+    
+    header{
+       display: block;
+    }
+    
+    .articles {
+        padding-top: 70px;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 25%);
+        grid-template-rows: repeat(2, 700px);
+        grid-gap: 35px;
+        font-size: 1.8rem;
+        & > article>p{
+            font-size: 2rem;
+        }
+        &>article>img{
+            width: 30%;
+            height: 25%;
+        }
+        &-additional{
+            display: none;
+        }
+    }
+    
+    .main-button{
+        display: none;
+    }
+}
+    
 @media all and (max-width: 1440px){
 .lessons{
     background-image: var(--main-background);
@@ -19,6 +58,7 @@ header{
     grid-template-columns: repeat(3, 25%);
     grid-template-rows: repeat(2, 300px);
     grid-gap: 35px;
+    font-size: 1rem;
     & > article>p{
         font-size: 1.2rem;
     }
@@ -155,15 +195,3 @@ header{
     }
 }
 
-@media all and (min-width: 1440px){
-    .articles{
-        margin-bottom: 200px;
-    }
-    .second-home-main,
-    .additional>h1{
-        display: none;
-    }
-    .site-nav > ul {
-        display: none;
-    }
-}

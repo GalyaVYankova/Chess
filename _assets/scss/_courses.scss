@@ -1,3 +1,141 @@
+@media all and (max-width: 1920px){
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        background-image: var(--main-background);
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px 5px;
+        justify-content: center;
+        & > header{
+            font-size: 36px;
+            font-style: italic;
+            color: #065296;
+            font-weight: 600;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        & > article{
+            display: inline-block;
+            width: 30%;
+            margin-right: 10px;
+            margin-left: 20px;
+            margin-top: 50px;
+            & > div {
+                & > img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+    .calendar{ 
+        display: inline-block;
+        padding-right: 15px;
+        margin-top: 50px;
+        width: 60%;
+        & > ul{
+        list-style-type: none;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(7, 120px);
+        grid-template-rows: 95px 80px 80px;
+            &>.first{
+                grid-column: span 7;
+                text-align: center;
+                padding-top: 20px;
+                font-size: 48px; 
+                color: rgb(206, 34, 34);
+                font-weight: 900;
+            }
+            &>li{
+                word-wrap: break-word;
+                border: 1px solid black;
+                text-align: center;
+                font-size: 30px;
+                padding: 1px;
+                font-weight: bold;
+            }
+        }
+    }
+    
+    .contacts-area{
+        display: inline-block;
+        width: 700px;
+        background: url("../images/Notebook.png");
+        background-size: cover;
+        padding: 45px 30px 0 65px;
+        height: 625px;
+        margin-top: 10px;
+        font-size: 30px;
+        & > label {
+            min-width: 100px;
+            text-align: right;
+        }
+        & > .email{
+            display: block;
+            & > label{ 
+                padding-right: 28px;
+            }
+        }
+        & > .subject{
+            display: block;
+        }
+        & > .textarea{
+            & > textarea{
+                height: 232px; 
+                margin-top: 20px;
+                font-size: 25px;
+                width: 85%;
+            }
+        }
+        & > .submit{
+            & > button {
+            margin: 0 auto;
+            border: none;
+            text-align: center;
+            border-radius: 25px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            background-image: var(--button-background);
+            margin-top: 62px;
+            text-decoration: none;
+            font-family: 'Lobster', cursive;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: goldenrod;
+            letter-spacing: 4px;
+            padding: 10px 30px;
+            width: 55%;
+            }
+        }
+        & > div > input{
+            width: 75%;
+            margin-top: 20px;
+            padding: 3px 0;
+            font-size: 20px;
+        }
+        & > img{
+            position: relative;
+            top: -350px;
+            left: 190px;
+            width: 35%;
+        }
+        & > div:nth-child(1) {
+            font-size: 50px; 
+            color: black;
+            font-weight: 900;
+            font-style: oblique;
+        }
+    }
+    
+    .hours-mobile{
+        display: none;
+    }
+}
+
+@media all and (max-width: 1600px){
 .contacts {
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +176,7 @@
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(7, 70px);
-    grid-template-rows: 75px 50px 50px;
+    grid-template-rows: 60px 50px 50px;
         &>.first{
             grid-column: span 7;
             text-align: center;
@@ -64,7 +202,7 @@
     background: url("../images/Notebook.png");
     background-size: cover;
     padding: 45px 30px 0 65px;
-    height: 550px;
+    height: 560px;
     margin-top: 10px;
     & > label {
         min-width: 50px;
@@ -74,16 +212,19 @@
         display: block;
         & > label{ 
             padding-right: 18px;
+            font-size: 18px;
         }
     }
     & > .subject{
         display: block;
+        font-size: 18px;
     }
     & > .textarea{
         & > textarea{
             height: 232px; 
             margin-top: 20px;
             width: 85%;
+            font-size: 14px;
         }
     }
     & > .submit{
@@ -110,6 +251,7 @@
         width: 75%;
         margin-top: 20px;
         padding: 3px 0;
+        font-size: 14px;
     }
     & > img{
         position: relative;
@@ -127,6 +269,7 @@
 
 .hours-mobile{
     display: none;
+}
 }
 
 @media all and (max-width: 800px){

@@ -495,7 +495,7 @@ body {
   100% {
     transform: translateX(0); } }
 
-@media all and (max-width: 1440px) {
+@media all and (max-width: 1920px) {
   .additional > .site-nav {
     display: none; }
   .wrapper {
@@ -503,110 +503,206 @@ body {
     margin-bottom: -10px; }
   .wrapper > img {
     width: 100%;
-    height: 600px; } }
-
-h1 {
-  text-align: center;
-  color: goldenrod;
-  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
-  font-size: 40px;
-  font-weight: 900;
-  background: #0C110F;
-  padding-top: 20px; }
-
-.second-home-main,
-.additional > h1 {
-  display: none; }
-
-.wrapper > img {
-  height: 550px; }
-
-.site-nav {
-  background: #222627;
-  opacity: 0.8; }
-  .site-nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-    width: 70%;
-    margin: auto;
-    list-style-type: none; }
-    .site-nav > ul > li {
-      padding: 25px 0 15px 0;
-      margin: 25px 0 15px 0;
-      padding: 3px;
-      border-bottom: 3px solid black; }
-      .site-nav > ul > li > a {
-        color: goldenrod;
-        font-size: 34px;
-        text-decoration: none;
-        font-weight: 900;
-        padding: 15px;
-        display: inline-block;
-        width: 100%;
-        height: 100%; }
-
-.site-nav > li.selected > a,
-.site-nav > ul > li > a:hover {
-  cursor: pointer;
-  background: gray;
-  border-radius: 25%;
-  border-bottom: none; }
-
-.home-main {
-  background-image: var(--index-page-background); }
-  .home-main > main {
-    display: flex;
-    justify-content: center;
-    margin-bottom: -10em; }
-    .home-main > main > article {
-      width: 15%;
-      border: 1px solid gray;
-      overflow: hidden;
-      border-radius: 20px;
-      background: white; }
-      .home-main > main > article > div > a > img {
-        width: 100%;
-        opacity: 0.9; }
-      .home-main > main > article > p {
-        font-size: var(--font-size-article-pc, 14px);
-        text-align: right;
-        margin: 0 10px 15px 10px; }
-        .home-main > main > article > p > a {
+    height: 700px; }
+  h1 {
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
+    font-size: 100px;
+    font-weight: 900;
+    background: #0C110F;
+    padding-top: 20px; }
+  .second-home-main,
+  .additional > h1 {
+    display: none; }
+  .site-nav {
+    background: #222627;
+    opacity: 0.8; }
+    .site-nav > ul {
+      display: flex;
+      justify-content: space-evenly;
+      width: 70%;
+      margin: auto;
+      list-style-type: none; }
+      .site-nav > ul > li {
+        padding: 25px 0 15px 0;
+        margin: 25px 0 15px 0;
+        padding: 3px;
+        border-bottom: 3px solid black; }
+        .site-nav > ul > li > a {
+          color: goldenrod;
+          font-size: 50px;
           text-decoration: none;
-          color: black;
+          font-weight: 900;
+          padding: 15px;
           display: inline-block;
           width: 100%;
           height: 100%; }
+  .site-nav > li.selected > a,
+  .site-nav > ul > li > a:hover {
+    cursor: pointer;
+    background: gray;
+    border-radius: 25%;
+    border-bottom: none; }
+  .home-main {
+    background-image: var(--index-page-background); }
+    .home-main > main {
+      display: flex;
+      justify-content: center;
+      margin-bottom: -10em; }
+      .home-main > main > article {
+        width: 15%;
+        border: 1px solid gray;
+        overflow: hidden;
+        border-radius: 20px;
+        background: white;
+        height: 600px; }
+        .home-main > main > article > div > a > img {
+          width: 100%;
+          opacity: 0.9; }
+        .home-main > main > article > p {
+          font-size: var(--font-size-article-pc, 14px);
+          text-align: right;
+          margin: 0 10px 15px 10px; }
+          .home-main > main > article > p > a {
+            font-size: 40px;
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            width: 100%;
+            height: 100%; }
+  .home-main > main {
+    margin-bottom: -120px; }
+  footer {
+    background: black;
+    color: silver;
+    font-size: 18px;
+    padding-bottom: 20px; }
+    footer > nav > ul {
+      word-wrap: break-word;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 15px;
+      padding-left: 20px;
+      list-style-type: none; }
+      footer > nav > ul > li {
+        width: 50%;
+        font-size: 40px; }
+        footer > nav > ul > li > a {
+          color: silver;
+          text-decoration: none; }
+        footer > nav > ul > li > i {
+          margin-right: 5px; }
+      footer > nav > ul > address {
+        word-wrap: break-word;
+        font-size: 40px; }
+  body > footer > nav > ul > li:nth-child(1) > p {
+    text-decoration: underline;
+    font-weight: 900; } }
 
-.home-main > main {
-  margin-bottom: -120px; }
-
-footer {
-  background: black;
-  color: silver;
-  font-size: 18px;
-  padding-bottom: 20px; }
-  footer > nav > ul {
-    word-wrap: break-word;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 15px;
-    padding-left: 20px;
-    list-style-type: none; }
-    footer > nav > ul > li {
-      width: 50%; }
-      footer > nav > ul > li > a {
-        color: silver;
-        text-decoration: none; }
-      footer > nav > ul > li > i {
-        margin-right: 5px; }
-    footer > nav > ul > address {
-      word-wrap: break-word; }
-
-body > footer > nav > ul > li:nth-child(1) > p {
-  text-decoration: underline;
-  font-weight: 900; }
+@media all and (max-width: 1600px) {
+  .wrapper {
+    width: 100%;
+    margin-bottom: -10px; }
+  .wrapper > img {
+    width: 100%;
+    height: 550px; }
+  h1 {
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+    font-weight: 900;
+    background: #0C110F;
+    padding-top: 20px; }
+  .second-home-main,
+  .additional > h1 {
+    display: none; }
+  .site-nav {
+    background: #222627;
+    opacity: 0.8; }
+    .site-nav > ul {
+      display: flex;
+      justify-content: space-evenly;
+      width: 70%;
+      margin: auto;
+      list-style-type: none; }
+      .site-nav > ul > li {
+        padding: 25px 0 15px 0;
+        margin: 25px 0 15px 0;
+        padding: 3px;
+        border-bottom: 3px solid black; }
+        .site-nav > ul > li > a {
+          color: goldenrod;
+          font-size: 34px;
+          text-decoration: none;
+          font-weight: 900;
+          padding: 15px;
+          display: inline-block;
+          width: 100%;
+          height: 100%; }
+  .site-nav > li.selected > a,
+  .site-nav > ul > li > a:hover {
+    cursor: pointer;
+    background: gray;
+    border-radius: 25%;
+    border-bottom: none; }
+  .home-main {
+    background-image: var(--index-page-background); }
+    .home-main > main {
+      display: flex;
+      justify-content: center;
+      margin-bottom: -10em; }
+      .home-main > main > article {
+        width: 15%;
+        border: 1px solid gray;
+        overflow: hidden;
+        border-radius: 20px;
+        background: white;
+        height: 300px; }
+        .home-main > main > article > div > a > img {
+          width: 100%;
+          opacity: 0.9; }
+        .home-main > main > article > p {
+          text-align: right;
+          margin: 0 10px 15px 10px; }
+          .home-main > main > article > p > a {
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            font-size: 20px; }
+  .home-main > main {
+    margin-bottom: -120px; }
+  footer {
+    background: black;
+    color: silver;
+    font-size: 18px;
+    padding-bottom: 20px; }
+    footer > nav > ul {
+      word-wrap: break-word;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-top: 15px;
+      padding-left: 20px;
+      list-style-type: none; }
+      footer > nav > ul > li {
+        width: 50%;
+        font-size: 18px; }
+        footer > nav > ul > li > a {
+          color: silver;
+          text-decoration: none; }
+        footer > nav > ul > li > i {
+          margin-right: 5px; }
+      footer > nav > ul > address {
+        word-wrap: break-word;
+        font-size: 18px; }
+  body > footer > nav > ul > li:nth-child(1) > p {
+    text-decoration: underline;
+    font-weight: 900; } }
 
 @media (max-width: 800px) {
   footer > nav > ul > li {
@@ -724,15 +820,30 @@ body > footer > nav > ul > li:nth-child(1) > p {
   .additional > h1 {
     font-size: 2.1rem; } }
 
-@media all and (min-width: 1440px) {
-  .wrapper {
-    margin-bottom: 200px; }
-  h1 {
-    font-size: 60px; }
-  .second-home-main,
-  .additional > h1 {
+@media all and (max-width: 1920px) {
+  .lessons {
+    background-image: var(--main-background); }
+  .chess-article-laptop {
     display: none; }
-  .site-nav > ul {
+  header {
+    display: block; }
+  .articles {
+    padding-top: 70px;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: repeat(2, 700px);
+    grid-gap: 35px;
+    font-size: 1.8rem; }
+    .articles > article > p {
+      font-size: 2rem; }
+    .articles > article > img {
+      width: 30%;
+      height: 25%; }
+    .articles-additional {
+      display: none; }
+  .main-button {
     display: none; } }
 
 @media all and (max-width: 1440px) {
@@ -749,7 +860,8 @@ body > footer > nav > ul > li:nth-child(1) > p {
     display: grid;
     grid-template-columns: repeat(3, 25%);
     grid-template-rows: repeat(2, 300px);
-    grid-gap: 35px; }
+    grid-gap: 35px;
+    font-size: 1rem; }
     .articles > article > p {
       font-size: 1.2rem; }
     .articles > article > img {
@@ -846,120 +958,221 @@ body > footer > nav > ul > li:nth-child(1) > p {
     .articles.additional > article > .height {
       padding-top: 0; } }
 
-@media all and (min-width: 1440px) {
-  .articles {
-    margin-bottom: 200px; }
-  .second-home-main,
-  .additional > h1 {
-    display: none; }
-  .site-nav > ul {
+@media all and (max-width: 1920px) {
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: var(--main-background);
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 5px;
+    justify-content: center; }
+    .contacts > header {
+      font-size: 36px;
+      font-style: italic;
+      color: #065296;
+      font-weight: 600;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center; }
+    .contacts > article {
+      display: inline-block;
+      width: 30%;
+      margin-right: 10px;
+      margin-left: 20px;
+      margin-top: 50px; }
+      .contacts > article > div > img {
+        width: 100%; }
+  .calendar {
+    display: inline-block;
+    padding-right: 15px;
+    margin-top: 50px;
+    width: 60%; }
+    .calendar > ul {
+      list-style-type: none;
+      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(7, 120px);
+      grid-template-rows: 95px 80px 80px; }
+      .calendar > ul > .first {
+        grid-column: span 7;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 48px;
+        color: #ce2222;
+        font-weight: 900; }
+      .calendar > ul > li {
+        word-wrap: break-word;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 30px;
+        padding: 1px;
+        font-weight: bold; }
+  .contacts-area {
+    display: inline-block;
+    width: 700px;
+    background: url("../images/Notebook.png");
+    background-size: cover;
+    padding: 45px 30px 0 65px;
+    height: 625px;
+    margin-top: 10px;
+    font-size: 30px; }
+    .contacts-area > label {
+      min-width: 100px;
+      text-align: right; }
+    .contacts-area > .email {
+      display: block; }
+      .contacts-area > .email > label {
+        padding-right: 28px; }
+    .contacts-area > .subject {
+      display: block; }
+    .contacts-area > .textarea > textarea {
+      height: 232px;
+      margin-top: 20px;
+      font-size: 25px;
+      width: 85%; }
+    .contacts-area > .submit > button {
+      margin: 0 auto;
+      border: none;
+      text-align: center;
+      border-radius: 25px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      background-image: var(--button-background);
+      margin-top: 62px;
+      text-decoration: none;
+      font-family: 'Lobster', cursive;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: goldenrod;
+      letter-spacing: 4px;
+      padding: 10px 30px;
+      width: 55%; }
+    .contacts-area > div > input {
+      width: 75%;
+      margin-top: 20px;
+      padding: 3px 0;
+      font-size: 20px; }
+    .contacts-area > img {
+      position: relative;
+      top: -350px;
+      left: 190px;
+      width: 35%; }
+    .contacts-area > div:nth-child(1) {
+      font-size: 50px;
+      color: black;
+      font-weight: 900;
+      font-style: oblique; }
+  .hours-mobile {
     display: none; } }
 
-.contacts {
-  display: flex;
-  flex-wrap: wrap;
-  background-image: var(--main-background);
-  text-align: center;
-  margin: 0 auto;
-  padding: 25px 5px;
-  justify-content: center; }
-  .contacts > header {
-    font-size: 26px;
-    font-style: italic;
-    color: #065296;
-    font-weight: 600;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center; }
-  .contacts > article {
-    display: inline-block;
-    width: 30%;
-    margin-right: 10px;
-    margin-left: 20px;
-    margin-top: 50px; }
-    .contacts > article > div > img {
-      width: 100%; }
-
-.calendar {
-  display: inline-block;
-  padding-right: 15px;
-  margin-top: 50px; }
-  .calendar > ul {
-    list-style-type: none;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(7, 70px);
-    grid-template-rows: 75px 50px 50px; }
-    .calendar > ul > .first {
-      grid-column: span 7;
-      text-align: center;
-      padding-top: 20px;
-      font-size: 24px;
-      color: #ce2222;
-      font-weight: 900; }
-    .calendar > ul > li {
-      word-wrap: break-word;
-      border: 1px solid black;
-      text-align: center;
-      font-size: 16px;
-      padding: 1px;
-      font-weight: bold; }
-
-.contacts-area {
-  display: inline-block;
-  width: 700px;
-  background: url("../images/Notebook.png");
-  background-size: cover;
-  padding: 45px 30px 0 65px;
-  height: 550px;
-  margin-top: 10px; }
-  .contacts-area > label {
-    min-width: 50px;
-    text-align: right; }
-  .contacts-area > .email {
-    display: block; }
-    .contacts-area > .email > label {
-      padding-right: 18px; }
-  .contacts-area > .subject {
-    display: block; }
-  .contacts-area > .textarea > textarea {
-    height: 232px;
-    margin-top: 20px;
-    width: 85%; }
-  .contacts-area > .submit > button {
-    margin: 0 auto;
-    border: none;
+@media all and (max-width: 1600px) {
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: var(--main-background);
     text-align: center;
-    border-radius: 25px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-image: var(--button-background);
-    margin-top: 62px;
-    text-decoration: none;
-    font-family: 'Lobster', cursive;
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: goldenrod;
-    letter-spacing: 4px;
-    padding: 10px 30px;
-    width: 55%; }
-  .contacts-area > div > input {
-    width: 75%;
-    margin-top: 20px;
-    padding: 3px 0; }
-  .contacts-area > img {
-    position: relative;
-    top: -350px;
-    left: 190px;
-    width: 35%; }
-  .contacts-area > div:nth-child(1) {
-    font-size: 24px;
-    color: black;
-    font-weight: 900;
-    font-style: oblique; }
-
-.hours-mobile {
-  display: none; }
+    margin: 0 auto;
+    padding: 25px 5px;
+    justify-content: center; }
+    .contacts > header {
+      font-size: 26px;
+      font-style: italic;
+      color: #065296;
+      font-weight: 600;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center; }
+    .contacts > article {
+      display: inline-block;
+      width: 30%;
+      margin-right: 10px;
+      margin-left: 20px;
+      margin-top: 50px; }
+      .contacts > article > div > img {
+        width: 100%; }
+  .calendar {
+    display: inline-block;
+    padding-right: 15px;
+    margin-top: 50px; }
+    .calendar > ul {
+      list-style-type: none;
+      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(7, 70px);
+      grid-template-rows: 60px 50px 50px; }
+      .calendar > ul > .first {
+        grid-column: span 7;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 24px;
+        color: #ce2222;
+        font-weight: 900; }
+      .calendar > ul > li {
+        word-wrap: break-word;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 16px;
+        padding: 1px;
+        font-weight: bold; }
+  .contacts-area {
+    display: inline-block;
+    width: 700px;
+    background: url("../images/Notebook.png");
+    background-size: cover;
+    padding: 45px 30px 0 65px;
+    height: 560px;
+    margin-top: 10px; }
+    .contacts-area > label {
+      min-width: 50px;
+      text-align: right; }
+    .contacts-area > .email {
+      display: block; }
+      .contacts-area > .email > label {
+        padding-right: 18px;
+        font-size: 18px; }
+    .contacts-area > .subject {
+      display: block;
+      font-size: 18px; }
+    .contacts-area > .textarea > textarea {
+      height: 232px;
+      margin-top: 20px;
+      width: 85%;
+      font-size: 14px; }
+    .contacts-area > .submit > button {
+      margin: 0 auto;
+      border: none;
+      text-align: center;
+      border-radius: 25px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      background-image: var(--button-background);
+      margin-top: 62px;
+      text-decoration: none;
+      font-family: 'Lobster', cursive;
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: goldenrod;
+      letter-spacing: 4px;
+      padding: 10px 30px;
+      width: 55%; }
+    .contacts-area > div > input {
+      width: 75%;
+      margin-top: 20px;
+      padding: 3px 0;
+      font-size: 14px; }
+    .contacts-area > img {
+      position: relative;
+      top: -350px;
+      left: 190px;
+      width: 35%; }
+    .contacts-area > div:nth-child(1) {
+      font-size: 24px;
+      color: black;
+      font-weight: 900;
+      font-style: oblique; }
+  .hours-mobile {
+    display: none; } }
 
 @media all and (max-width: 800px) {
   .contacts {
@@ -1152,356 +1365,437 @@ body {
   .post-content > p:last-of-type {
     margin-top: 60px; } }
 
-/**blog.html**/
-.blog {
-  margin-top: 35px;
-  padding: 0 40px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  display: grid;
-  grid-template-columns: repeat(8, 12%);
-  grid-template-rows: repeat(92, 1%);
-  grid-gap: 1px 10px;
-  justify-content: center;
-  word-wrap: break-word; }
-  .blog > .blog-article-description > a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none; }
-    .blog > .blog-article-description > a > p {
-      font-size: 18px; }
-    .blog > .blog-article-description > a > p:last-child {
-      font-size: 16px;
-      color: #001f4d; }
-  .blog > .blog-article-description > a:target,
-  .blog > .blog-article-description > a:active,
-  .blog > .blog-article-description > a:focus,
-  .blog > .blog-article-description > a:hover {
-    color: red;
-    cursor: pointer; }
-
-/****/
-.blog-article-description.mat > a,
-.blog-article-description.structure > a,
-.blog-article-description.material > a,
-.blog-article-description.position > a,
-.blog-article-description.notation > a,
-.blog-article-description.value-add > a {
-  text-align: left; }
-  .blog-article-description.mat > a > h3,
-  .blog-article-description.structure > a > h3,
-  .blog-article-description.material > a > h3,
-  .blog-article-description.position > a > h3,
-  .blog-article-description.notation > a > h3,
-  .blog-article-description.value-add > a > h3 {
-    font-size: 18px; }
-  .blog-article-description.mat > a > p,
-  .blog-article-description.structure > a > p,
-  .blog-article-description.material > a > p,
-  .blog-article-description.position > a > p,
-  .blog-article-description.notation > a > p,
-  .blog-article-description.value-add > a > p {
-    font-size: 16px; }
-  .blog-article-description.mat > a > p:last-child,
-  .blog-article-description.structure > a > p:last-child,
-  .blog-article-description.material > a > p:last-child,
-  .blog-article-description.position > a > p:last-child,
-  .blog-article-description.notation > a > p:last-child,
-  .blog-article-description.value-add > a > p:last-child {
-    font-size: 14px; }
-
-/****/
-.posts-list > h3 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #001f4d;
-  text-decoration: none;
-  width: 75%;
-  margin-left: 2px; }
-
-.posts-list > ol {
-  padding-top: 5px;
-  font-style: oblique;
-  list-style-type: none;
-  width: 75%; }
-  .posts-list > ol > li {
-    text-align: left;
-    padding: 3px 0; }
-    .posts-list > ol > li > a {
-      color: #001f4d;
-      font-size: 20px;
-      display: inline-block;
-      margin-left: 2px;
-      font-weight: 700; }
-    .posts-list > ol > li > a:target,
-    .posts-list > ol > li > a:active,
-    .posts-list > ol > li > a:focus,
-    .posts-list > ol > li > a:hover {
+@media all and (max-width: 1920px) {
+  .blog {
+    padding: 0 40px;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(8, 12%);
+    grid-template-rows: repeat(92, 1%);
+    grid-gap: 1px 10px;
+    justify-content: center;
+    word-wrap: break-word;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px; }
+    .blog > .blog-article-description > a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none; }
+      .blog > .blog-article-description > a > h3 {
+        font-size: 40px; }
+      .blog > .blog-article-description > a > p {
+        font-size: 38px; }
+      .blog > .blog-article-description > a > p:last-child {
+        font-size: 30px;
+        color: #001f4d; }
+    .blog > .blog-article-description > a:target,
+    .blog > .blog-article-description > a:active,
+    .blog > .blog-article-description > a:focus,
+    .blog > .blog-article-description > a:hover {
       color: red;
       cursor: pointer; }
-
-body > main > section > main > div.posts-list > h3 {
-  text-decoration: none; }
-
-body > main > section > main > div.posts-list > ol {
-  width: 80%;
-  margin-left: 5px; }
-
-/*first row*/
-.background {
-  grid-column: 7 / 9;
-  grid-row: 6/67;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  z-index: -10;
-  opacity: 0.15; }
-
-.posts-list {
-  grid-column: 7 / 9;
-  grid-row: 7/10;
-  margin: auto;
-  text-align: center; }
-  .posts-list > h3 {
+    .blog > h2 {
+      grid-column: 1 / 7;
+      grid-row: 2;
+      text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
+      font-weight: 900;
+      font-size: 60px; }
+  body > main > section > main > h2.oldest-posts {
+    grid-column: 1/7;
+    grid-row: 71/72;
+    font-size: 2.8rem;
+    text-shadow: none;
     text-decoration: underline; }
-
-.blog {
-  margin: auto;
-  text-align: center;
-  margin-top: 30px; }
-  .blog > h2 {
-    grid-column: 1 / 7;
-    grid-row: 2;
-    text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
-    font-size: 1.8rem;
-    font-weight: 900; }
-
-/**********/
-/****/
-.game {
-  grid-column: 1 / 4;
-  grid-row: 5/20; }
-  .game > a > img {
+  /****/
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 38px; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 30px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 26px; }
+  /****/
+  .posts-list > h3 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #001f4d;
+    text-decoration: none;
+    width: 75%;
+    margin-left: 2px; }
+  .posts-list > ol {
+    padding-top: 5px;
+    font-style: oblique;
+    list-style-type: none;
+    width: 75%; }
+    .posts-list > ol > li {
+      text-align: left;
+      padding: 3px 0; }
+      .posts-list > ol > li > a {
+        color: #001f4d;
+        font-size: 40px;
+        display: inline-block;
+        margin-left: 2px;
+        font-weight: 700; }
+      .posts-list > ol > li > a:target,
+      .posts-list > ol > li > a:active,
+      .posts-list > ol > li > a:focus,
+      .posts-list > ol > li > a:hover {
+        color: red;
+        cursor: pointer; }
+  body > main > section > main > div.posts-list > h3 {
+    text-decoration: none; }
+  body > main > section > main > div.posts-list > ol {
+    width: 80%;
+    margin-left: 5px; }
+  /*first row*/
+  .background {
+    grid-column: 7 / 9;
+    grid-row: 6/67;
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover; }
+       object-fit: cover;
+    z-index: -10;
+    opacity: 0.15; }
+  .posts-list {
+    grid-column: 7 / 9;
+    grid-row: 7/10;
+    margin: auto;
+    text-align: center; }
+    .posts-list > h3 {
+      text-decoration: underline; }
+  /**********/
+  /****/
+  .game {
+    grid-column: 1 / 4;
+    grid-row: 5/20; }
+    .game > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.game {
+    grid-column: 1 / 4;
+    grid-row: 20/24; }
+  /**/
+  /**/
+  .tactic {
+    grid-column: 4 / 7;
+    grid-row: 5/20; }
+    .tactic > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.tactic {
+    grid-column: 4 / 7;
+    grid-row: 20/24; }
+  /**/
+  /**/
+  .tournaments {
+    grid-column: 1 / 4;
+    grid-row: 27/42; }
+    .tournaments > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.tournaments {
+    grid-column: 1 / 4;
+    grid-row: 42/46; }
+  /**/
+  /**/
+  .plan {
+    grid-column: 4 / 7;
+    grid-row: 27/42; }
+    .plan > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.plan {
+    grid-column: 4 / 7;
+    grid-row: 42/46; }
+  /**/
+  /**/
+  .activity {
+    grid-column: 1 / 4;
+    grid-row: 48/63; }
+    .activity > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.activity {
+    grid-column: 1 / 4;
+    grid-row: 63/67; }
+  /**/
+  /**/
+  .temp {
+    grid-column: 4 / 7;
+    grid-row: 48/63; }
+    .temp > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.temp {
+    grid-column: 4 / 7;
+    grid-row: 63/67; }
+  /**/
+  /*********************/
+  /**/
+  .material {
+    grid-column: 1/2;
+    grid-row: 75/82; }
+    .material > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.material {
+    grid-column: 2 / 3;
+    grid-row: 75/82;
+    font-size: 15px; }
+  /**/
+  /**/
+  .position {
+    grid-column: 3/4;
+    grid-row: 75/82; }
+    .position > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.position {
+    grid-column: 4 / 5;
+    grid-row: 75/82;
+    font-size: 15px; }
+  /**/
+  /**/
+  .notation {
+    grid-column: 5/6;
+    grid-row: 75/82; }
+    .notation > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.notation {
+    grid-column: 6 / 7;
+    grid-row: 75/82;
+    font-size: 15px; }
+  /**/
+  /**/
+  .structure {
+    grid-column: 1 / 2;
+    grid-row: 85/92; }
+    .structure > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.structure {
+    grid-column: 2 / 3;
+    grid-row: 85/92;
+    font-size: 15px; }
+  /**/
+  /**/
+  .mat {
+    grid-column: 3 / 4;
+    grid-row: 85/92; }
+    .mat > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.mat {
+    grid-column: 4 / 5;
+    grid-row: 85/92;
+    font-size: 15px; }
+  /**/
+  /**/
+  .value-add {
+    grid-column: 5 / 6;
+    grid-row: 85/92; }
+    .value-add > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.value-add {
+    grid-column: 6 / 7;
+    grid-row: 85/92;
+    font-size: 15px; }
+  /**/
+  /**/
+  .activity {
+    grid-column: 1 / 4;
+    grid-row: 49/64; }
+    .activity > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.activity {
+    grid-column: 1 / 4;
+    grid-row: 64/68; }
+  /**/
+  /**/
+  .temp {
+    grid-column: 4 / 7;
+    grid-row: 49/64; }
+    .temp > a > img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .blog-article-description.temp {
+    grid-column: 4 / 7;
+    grid-row: 64/68; }
+  /**/ }
 
-.blog-article-description.game {
-  grid-column: 1 / 4;
-  grid-row: 20/24; }
-
-/**/
-/**/
-.tactic {
-  grid-column: 4 / 7;
-  grid-row: 5/20; }
-  .tactic > a > img {
+@media all and (max-width: 1600px) {
+  .blog {
+    margin-top: 35px;
+    padding: 0 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(8, 12%);
+    grid-template-rows: repeat(92, 1%);
+    grid-gap: 1px 10px;
+    justify-content: center;
+    word-wrap: break-word; }
+    .blog > .blog-article-description > a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none; }
+      .blog > .blog-article-description > a > h3 {
+        font-size: 20px; }
+      .blog > .blog-article-description > a > p {
+        font-size: 18px; }
+      .blog > .blog-article-description > a > p:last-child {
+        font-size: 16px;
+        color: #001f4d; }
+    .blog > .blog-article-description > a:target,
+    .blog > .blog-article-description > a:active,
+    .blog > .blog-article-description > a:focus,
+    .blog > .blog-article-description > a:hover {
+      color: red;
+      cursor: pointer; }
+  /****/
+  .blog-article-description.mat > a,
+  .blog-article-description.structure > a,
+  .blog-article-description.material > a,
+  .blog-article-description.position > a,
+  .blog-article-description.notation > a,
+  .blog-article-description.value-add > a {
+    text-align: left; }
+    .blog-article-description.mat > a > h3,
+    .blog-article-description.structure > a > h3,
+    .blog-article-description.material > a > h3,
+    .blog-article-description.position > a > h3,
+    .blog-article-description.notation > a > h3,
+    .blog-article-description.value-add > a > h3 {
+      font-size: 18px; }
+    .blog-article-description.mat > a > p,
+    .blog-article-description.structure > a > p,
+    .blog-article-description.material > a > p,
+    .blog-article-description.position > a > p,
+    .blog-article-description.notation > a > p,
+    .blog-article-description.value-add > a > p {
+      font-size: 16px; }
+    .blog-article-description.mat > a > p:last-child,
+    .blog-article-description.structure > a > p:last-child,
+    .blog-article-description.material > a > p:last-child,
+    .blog-article-description.position > a > p:last-child,
+    .blog-article-description.notation > a > p:last-child,
+    .blog-article-description.value-add > a > p:last-child {
+      font-size: 14px; }
+  /****/
+  .posts-list > h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #001f4d;
+    text-decoration: none;
+    width: 75%;
+    margin-left: 2px; }
+  .posts-list > ol {
+    padding-top: 5px;
+    font-style: oblique;
+    list-style-type: none;
+    width: 75%; }
+    .posts-list > ol > li {
+      text-align: left;
+      padding: 3px 0; }
+      .posts-list > ol > li > a {
+        color: #001f4d;
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 2px;
+        font-weight: 700; }
+      .posts-list > ol > li > a:target,
+      .posts-list > ol > li > a:active,
+      .posts-list > ol > li > a:focus,
+      .posts-list > ol > li > a:hover {
+        color: red;
+        cursor: pointer; }
+  body > main > section > main > div.posts-list > h3 {
+    text-decoration: none; }
+  body > main > section > main > div.posts-list > ol {
+    width: 80%;
+    margin-left: 5px; }
+  /*first row*/
+  .background {
+    grid-column: 7 / 9;
+    grid-row: 6/67;
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover; }
+       object-fit: cover;
+    z-index: -10;
+    opacity: 0.15; }
+  .posts-list {
+    grid-column: 7 / 9;
+    grid-row: 7/10;
+    margin: auto;
+    text-align: center; }
+    .posts-list > h3 {
+      text-decoration: underline; }
+  .blog {
+    margin: auto;
+    text-align: center;
+    margin-top: 30px; }
+    .blog > h2 {
+      grid-column: 1 / 7;
+      grid-row: 2;
+      text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
+      font-size: 1.8rem;
+      font-weight: 900; } }
 
-.blog-article-description.tactic {
-  grid-column: 4 / 7;
-  grid-row: 20/24; }
-
-/**/
-/**/
-.tournaments {
-  grid-column: 1 / 4;
-  grid-row: 27/42; }
-  .tournaments > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.tournaments {
-  grid-column: 1 / 4;
-  grid-row: 42/46; }
-
-/**/
-/**/
-.plan {
-  grid-column: 4 / 7;
-  grid-row: 27/42; }
-  .plan > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.plan {
-  grid-column: 4 / 7;
-  grid-row: 42/46; }
-
-/**/
-/**/
-.activity {
-  grid-column: 1 / 4;
-  grid-row: 48/63; }
-  .activity > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.activity {
-  grid-column: 1 / 4;
-  grid-row: 63/67; }
-
-/**/
-/**/
-.temp {
-  grid-column: 4 / 7;
-  grid-row: 48/63; }
-  .temp > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.temp {
-  grid-column: 4 / 7;
-  grid-row: 63/67; }
-
-/**/
-/*********************/
-body > main > section > main > h2.oldest-posts {
-  grid-column: 1/7;
-  grid-row: 71/72;
-  font-size: 1.6rem;
-  text-shadow: none;
-  text-decoration: underline; }
-
-/**/
-.material {
-  grid-column: 1/2;
-  grid-row: 75/82; }
-  .material > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.material {
-  grid-column: 2 / 3;
-  grid-row: 75/82;
-  font-size: 15px; }
-
-/**/
-/**/
-.position {
-  grid-column: 3/4;
-  grid-row: 75/82; }
-  .position > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.position {
-  grid-column: 4 / 5;
-  grid-row: 75/82;
-  font-size: 15px; }
-
-/**/
-/**/
-.notation {
-  grid-column: 5/6;
-  grid-row: 75/82; }
-  .notation > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.notation {
-  grid-column: 6 / 7;
-  grid-row: 75/82;
-  font-size: 15px; }
-
-/**/
-/**/
-.structure {
-  grid-column: 1 / 2;
-  grid-row: 85/92; }
-  .structure > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.structure {
-  grid-column: 2 / 3;
-  grid-row: 85/92;
-  font-size: 15px; }
-
-/**/
-/**/
-.mat {
-  grid-column: 3 / 4;
-  grid-row: 85/92; }
-  .mat > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.mat {
-  grid-column: 4 / 5;
-  grid-row: 85/92;
-  font-size: 15px; }
-
-/**/
-/**/
-.value-add {
-  grid-column: 5 / 6;
-  grid-row: 85/92; }
-  .value-add > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.value-add {
-  grid-column: 6 / 7;
-  grid-row: 85/92;
-  font-size: 15px; }
-
-/**/
-/**/
-.activity {
-  grid-column: 1 / 4;
-  grid-row: 49/64; }
-  .activity > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.activity {
-  grid-column: 1 / 4;
-  grid-row: 64/68; }
-
-/**/
-/**/
-.temp {
-  grid-column: 4 / 7;
-  grid-row: 49/64; }
-  .temp > a > img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.blog-article-description.temp {
-  grid-column: 4 / 7;
-  grid-row: 64/68; }
-
-/**/
 @media all and (max-width: 800px) {
   /**/
   .posts-list > ol > li > a {
@@ -2049,146 +2343,292 @@ body > main > section > main > h2.oldest-posts {
     .blog-article-description.value-add > a > p:last-child {
       font-size: 10px; } }
 
-/**form**/
-.tournaments-all {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-
-.tournaments-dates {
-  border: 8px inset #492D3A;
-  margin-top: 45px;
-  display: flex;
-  width: 65%;
-  padding-top: 40px;
-  height: 550px;
-  flex-wrap: wrap;
-  background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
-  background-size: cover;
-  opacity: 0.60; }
-  .tournaments-dates > h2 {
-    width: 100%;
-    text-align: center;
-    color: #4A4A4C;
-    font-weight: 900;
-    font-size: 30px;
-    opacity: 1; }
-  .tournaments-dates > .date {
-    width: 32%;
-    height: 190px;
-    border: 2px solid black;
-    background: whitesmoke;
+@media all and (max-width: 1920px) {
+  /**form**/
+  .tournaments-all {
     display: flex;
-    margin-left: 5px; }
-    .tournaments-dates > .date > .date {
-      width: 80%;
-      height: 140px;
-      border: 1px solid gray;
-      margin-left: 4px;
-      margin-top: 4px;
-      text-align: center;
-      box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
-      font-weight: 900;
-      font-style: oblique;
-      background: #fff2d4;
-      color: #001f4d;
-      font-weight: 800;
-      word-wrap: break-word; }
-      .tournaments-dates > .date > .date > .number {
-        margin-top: 0;
-        font-size: 50px;
-        color: #ff1a00; }
-  .tournaments-dates > .date > .text {
-    float: right;
-    margin-top: 5px;
-    margin-left: 15px; }
-    .tournaments-dates > .date > .text > p {
-      color: black;
-      font-weight: 600; }
-
-.tournaments-dates > .date {
-  opacity: 1; }
-
-.calendar-tournaments > ul {
-  display: flex;
-  list-style-type: circle; }
-  .calendar-tournaments > ul > li:first-child {
-    position: relative;
-    top: 20px;
-    left: 20rem;
-    font-size: 40px; }
-  .calendar-tournaments > ul > li:last-child {
-    position: relative;
-    font-size: 40px;
-    top: 20px;
-    left: 40rem; }
-
-.tournaments-form {
-  border: 8px inset #492D3A;
-  box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.75) inset;
-  width: 30%;
-  background: white;
-  margin-top: 45px;
-  padding: 0 20px; }
-  .tournaments-form > p {
-    display: block;
-    align-items: left;
-    margin: 15px; }
-    .tournaments-form > p > label {
-      min-width: 100px;
-      font-size: 20px;
-      font-weight: bold; }
-    .tournaments-form > p > input,
-    .tournaments-form > p > select {
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .tournaments-dates {
+    border: 8px inset #492D3A;
+    margin-top: 45px;
+    display: flex;
+    width: 65%;
+    padding-top: 40px;
+    height: 750px;
+    flex-wrap: wrap;
+    background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
+    background-size: cover;
+    opacity: 0.60; }
+    .tournaments-dates > h2 {
       width: 100%;
-      height: 28px; }
-    .tournaments-form > p:nth-child(4) {
-      display: block; }
-  .tournaments-form > input[type="submit"] {
+      text-align: center;
+      color: #4A4A4C;
+      font-weight: 900;
+      font-size: 60px;
+      opacity: 1; }
+    .tournaments-dates > .date {
+      width: 32%;
+      height: 300px;
+      border: 2px solid black;
+      background: whitesmoke;
+      display: flex;
+      margin-left: 5px; }
+      .tournaments-dates > .date > .date {
+        width: 80%;
+        height: 260px;
+        border: 1px solid gray;
+        margin-left: 4px;
+        margin-top: 4px;
+        text-align: center;
+        box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
+        font-weight: 900;
+        font-style: oblique;
+        background: #fff2d4;
+        color: #001f4d;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-size: 35px; }
+        .tournaments-dates > .date > .date > .number {
+          margin-top: 0;
+          font-size: 80px;
+          color: #ff1a00; }
+    .tournaments-dates > .date > .text {
+      float: right;
+      margin-top: 5px;
+      margin-left: 15px; }
+      .tournaments-dates > .date > .text > p {
+        color: black;
+        font-weight: 600;
+        font-size: 35px; }
+  .tournaments-dates > .date {
+    opacity: 1; }
+  .calendar-tournaments > ul {
     display: flex;
-    margin: 0 auto;
-    border: none;
-    border-radius: 25px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-image: var(--button-background);
-    margin-top: 22px;
-    text-decoration: none;
-    font-family: 'Lobster', cursive;
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: goldenrod;
-    letter-spacing: 4px;
-    padding: 10px 30px;
-    text-align: center; }
-
-.tournaments-table {
-  margin: 0;
-  margin-bottom: 50px;
-  margin-top: 30px;
-  margin-left: 10px;
-  width: 90%;
-  border: 8px inset #492D3A;
-  word-wrap: break-word;
-  background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg"); }
-  .tournaments-table > h2 {
-    text-align: center; }
-  .tournaments-table > ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 12% 34% 15% 14% 25%;
-    grid-template-rows: 50px repeat(5, 40px);
-    text-align: center;
-    color: black;
-    font-weight: 900; }
-    .tournaments-table > ul > .a {
-      background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
+    list-style-type: circle; }
+    .calendar-tournaments > ul > li:first-child {
+      position: relative;
+      top: 20px;
+      left: 20rem;
+      font-size: 40px; }
+    .calendar-tournaments > ul > li:last-child {
+      position: relative;
+      font-size: 40px;
+      top: 20px;
+      left: 40rem; }
+  .tournaments-form {
+    border: 8px inset #492D3A;
+    box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.75) inset;
+    width: 30%;
+    background: white;
+    margin-top: 45px;
+    padding: 0 20px; }
+    .tournaments-form > p {
+      display: block;
+      align-items: left;
+      margin: 15px; }
+      .tournaments-form > p > label {
+        min-width: 100px;
+        font-size: 35px;
+        font-weight: bold; }
+      .tournaments-form > p > input,
+      .tournaments-form > p > select {
+        width: 100%;
+        height: 50px;
+        font-size: 30px; }
+      .tournaments-form > p:nth-child(4) {
+        display: block; }
+    .tournaments-form > input[type="submit"] {
+      display: flex;
+      margin: 0 auto;
+      border: none;
+      border-radius: 25px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      background-image: var(--button-background);
+      margin-top: 22px;
+      text-decoration: none;
+      font-family: 'Lobster', cursive;
+      font-size: 2rem;
+      font-weight: 800;
       color: goldenrod;
-      font-weight: bold;
-      font-size: 24px;
+      letter-spacing: 4px;
+      padding: 10px 30px;
       text-align: center; }
-    .tournaments-table > ul .name {
-      text-align: left; }
+  .tournaments-table {
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 90%;
+    border: 8px inset #492D3A;
+    word-wrap: break-word;
+    background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg"); }
+    .tournaments-table > h2 {
+      text-align: center;
+      font-size: 50px;
+      margin: 10px 0; }
+    .tournaments-table > ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: 12% 34% 15% 14% 25%;
+      grid-template-rows: 120px repeat(5, 70px);
+      text-align: center;
+      color: black;
+      font-weight: 900; }
+      .tournaments-table > ul > li {
+        font-size: 40px; }
+      .tournaments-table > ul > .a {
+        background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
+        color: goldenrod;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center; }
+      .tournaments-table > ul .name {
+        text-align: left; } }
+
+@media all and (max-width: 1600px) {
+  /**form**/
+  .tournaments-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .tournaments-dates {
+    border: 8px inset #492D3A;
+    margin-top: 45px;
+    display: flex;
+    width: 65%;
+    padding-top: 40px;
+    height: 550px;
+    flex-wrap: wrap;
+    background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg");
+    background-size: cover;
+    opacity: 0.60; }
+    .tournaments-dates > h2 {
+      width: 100%;
+      text-align: center;
+      color: #4A4A4C;
+      font-weight: 900;
+      font-size: 30px;
+      opacity: 1; }
+    .tournaments-dates > .date {
+      width: 32%;
+      height: 190px;
+      border: 2px solid black;
+      background: whitesmoke;
+      display: flex;
+      margin-left: 5px; }
+      .tournaments-dates > .date > .date {
+        width: 80%;
+        height: 140px;
+        border: 1px solid gray;
+        margin-left: 4px;
+        margin-top: 4px;
+        text-align: center;
+        box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.75);
+        font-weight: 900;
+        font-style: oblique;
+        background: #fff2d4;
+        color: #001f4d;
+        font-weight: 800;
+        word-wrap: break-word;
+        font-size: 20px; }
+        .tournaments-dates > .date > .date > .number {
+          margin-top: 0;
+          font-size: 50px;
+          color: #ff1a00; }
+    .tournaments-dates > .date > .text {
+      float: right;
+      margin-top: 5px;
+      margin-left: 15px; }
+      .tournaments-dates > .date > .text > p {
+        color: black;
+        font-weight: 600;
+        font-size: 16px; }
+  .tournaments-dates > .date {
+    opacity: 1; }
+  .calendar-tournaments > ul {
+    display: flex;
+    list-style-type: circle; }
+    .calendar-tournaments > ul > li:first-child {
+      position: relative;
+      top: 20px;
+      left: 20rem;
+      font-size: 40px; }
+    .calendar-tournaments > ul > li:last-child {
+      position: relative;
+      font-size: 40px;
+      top: 20px;
+      left: 40rem; }
+  .tournaments-form {
+    border: 8px inset #492D3A;
+    box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.75) inset;
+    width: 30%;
+    background: white;
+    margin-top: 45px;
+    padding: 0 20px; }
+    .tournaments-form > p {
+      display: block;
+      align-items: left;
+      margin: 15px; }
+      .tournaments-form > p > label {
+        min-width: 100px;
+        font-size: 20px;
+        font-weight: bold; }
+      .tournaments-form > p > input,
+      .tournaments-form > p > select {
+        width: 100%;
+        height: 28px;
+        font-size: 16px; }
+      .tournaments-form > p:nth-child(4) {
+        display: block; }
+    .tournaments-form > input[type="submit"] {
+      display: flex;
+      margin: 0 auto;
+      border: none;
+      border-radius: 25px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      background-image: var(--button-background);
+      margin-top: 22px;
+      text-decoration: none;
+      font-family: 'Lobster', cursive;
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: goldenrod;
+      letter-spacing: 4px;
+      padding: 10px 30px;
+      text-align: center; }
+  .tournaments-table {
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 90%;
+    border: 8px inset #492D3A;
+    word-wrap: break-word;
+    background-image: url("https://img.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg?size=338&ext=jpg"); }
+    .tournaments-table > h2 {
+      text-align: center;
+      font-size: 30px; }
+    .tournaments-table > ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: 12% 34% 15% 14% 25%;
+      grid-template-rows: 50px repeat(5, 40px);
+      text-align: center;
+      color: black;
+      font-weight: 900; }
+      .tournaments-table > ul > li {
+        font-size: 22px; }
+      .tournaments-table > ul > .a {
+        background-image: linear-gradient(to right bottom, #2d3b4f, #37374d, #403247, #462e3f, #4a2b35);
+        color: goldenrod;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center; }
+      .tournaments-table > ul .name {
+        text-align: left; } }
 
 @media (max-width: 960px) {
   .tournaments-dates {

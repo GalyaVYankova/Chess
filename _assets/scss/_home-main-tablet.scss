@@ -1,4 +1,8 @@
 @media all and (max-width: 800px) {
+    .wrapper > img {
+        height: 420px;
+    }
+
     .main>h1,
     .home-main,
     .site-header{
@@ -9,17 +13,10 @@
         display: block;
     }
 
-    .wrapper{
-        margin-top: -78px;
-        & > img {
-        height: 400px;
-        padding-top: 80px;
-        }
-    }
-
     .additional>h1{
         display: block;
-        margin-top: -105px;
+        background: #3C4042;
+        padding-top: 20px;
     }
 
     .additional{
@@ -112,15 +109,11 @@
         font-size: 30px;     
     }
     .wrapper > img {
-        height: 340px;
+        height: 320px;
     }
 }
 
 @media all and (max-width: 480px) {
-    .wrapper>img {
-        padding-top: 60px;
-    }
-
     .second-home-main > main {
         display: block;
         & > article{
@@ -143,9 +136,7 @@
 
 @media all and (max-width: 380px) {
     .additional>h1 {
-        font-size: 2.8rem;
-        margin-top: -75px;
-        margin-bottom: 15px;
+        font-size: 2.6rem;
     }
     .wrapper > img {
         height: 240px;

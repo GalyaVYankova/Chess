@@ -495,34 +495,31 @@ body {
   100% {
     transform: translateX(0); } }
 
-@media all and (max-width: 1800px) {
+@media all and (max-width: 1920px) {
   .additional > .site-nav {
     display: none; }
   .wrapper {
     width: 100%;
     margin-bottom: -10px; }
   .wrapper > img {
-    width: 100%; } }
+    width: 100%;
+    height: 600px; } }
 
 h1 {
   text-align: center;
   color: goldenrod;
   text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.6);
-  font-size: 4rem;
-  font-weight: 900; }
+  font-size: 40px;
+  font-weight: 900;
+  background: #0C110F;
+  padding-top: 20px; }
 
 .second-home-main,
 .additional > h1 {
   display: none; }
 
-.wrapper {
-  margin-top: -78px; }
-  .wrapper > img {
-    height: 550px; }
-
-.main > h1 {
-  position: relative;
-  top: 25px; }
+.wrapper > img {
+  height: 550px; }
 
 .site-nav {
   background: #222627;
@@ -569,7 +566,6 @@ h1 {
       background: white; }
       .home-main > main > article > div > a > img {
         width: 100%;
-        height: 120px;
         opacity: 0.9; }
       .home-main > main > article > p {
         font-size: var(--font-size-article-pc, 14px);
@@ -617,20 +613,18 @@ body > footer > nav > ul > li:nth-child(1) > p {
     width: 100%; } }
 
 @media all and (max-width: 800px) {
+  .wrapper > img {
+    height: 420px; }
   .main > h1,
   .home-main,
   .site-header {
     display: none; }
   .additional > .site-nav {
     display: block; }
-  .wrapper {
-    margin-top: -78px; }
-    .wrapper > img {
-      height: 400px;
-      padding-top: 80px; }
   .additional > h1 {
     display: block;
-    margin-top: -105px; }
+    background: #3C4042;
+    padding-top: 20px; }
   .additional {
     display: block;
     margin: auto; }
@@ -703,11 +697,9 @@ body > footer > nav > ul > li:nth-child(1) > p {
   .additional > .site-nav > ul > li > a {
     font-size: 30px; }
   .wrapper > img {
-    height: 340px; } }
+    height: 320px; } }
 
 @media all and (max-width: 480px) {
-  .wrapper > img {
-    padding-top: 60px; }
   .second-home-main > main {
     display: block; }
     .second-home-main > main > article {
@@ -724,9 +716,7 @@ body > footer > nav > ul > li:nth-child(1) > p {
 
 @media all and (max-width: 380px) {
   .additional > h1 {
-    font-size: 2.8rem;
-    margin-top: -75px;
-    margin-bottom: 15px; }
+    font-size: 2.6rem; }
   .wrapper > img {
     height: 240px; } }
 

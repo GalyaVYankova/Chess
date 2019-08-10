@@ -199,10 +199,10 @@
 .contacts-area{
     display: inline-block;
     width: 700px;
+    height: 552px;
     background: url("../images/Notebook.png");
     background-size: cover;
     padding: 45px 30px 0 65px;
-    height: 560px;
     margin-top: 10px;
     & > label {
         min-width: 50px;
@@ -336,8 +336,8 @@
     .contacts-area{
         margin: 20px 30px 20px 20px;
         padding: 30px 30px 30px 70px;
-        height: 490px;
         width: 80%;
+        height: 495px;
         & > .submit{
             & > button {
                 margin-top: 20px;
@@ -395,7 +395,7 @@
 
 @media all and (max-width: 500px){
     .contacts-area {
-        height: 515px;
+        height: 521px;
         padding-right: 40px;
         width: 90%;
         margin: 0 auto;

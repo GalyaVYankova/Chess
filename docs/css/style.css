@@ -1444,7 +1444,8 @@ body {
     word-wrap: break-word;
     margin: auto;
     text-align: center;
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-bottom: 50px; }
     .blog > .blog-article-description > a {
       color: black;
       font-weight: bold;
@@ -1548,7 +1549,7 @@ body {
     opacity: 0.15; }
   .posts-list {
     grid-column: 7 / 9;
-    grid-row: 7/10;
+    grid-row: 7/37;
     margin: auto;
     text-align: center; }
     .posts-list > h3 {
@@ -1746,6 +1747,7 @@ body {
 
 @media all and (max-width: 1600px) {
   .blog {
+    margin-bottom: 50px;
     margin-top: 35px;
     padding: 0 40px;
     padding-bottom: 0;
@@ -1847,7 +1849,7 @@ body {
     opacity: 0.15; }
   .posts-list {
     grid-column: 7 / 9;
-    grid-row: 7/10;
+    grid-row: 7/37;
     margin: auto;
     text-align: center; }
     .posts-list > h3 {
@@ -2169,7 +2171,7 @@ body {
       font-size: 16px; }
   .posts-list > h3 {
     font-size: 22px;
-    grid-row: 7/10; }
+    grid-row: 7/37; }
   .posts-list > ol > li {
     text-align: left;
     padding: 3px 0; }

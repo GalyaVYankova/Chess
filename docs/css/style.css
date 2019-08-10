@@ -1016,9 +1016,9 @@ body {
     background: url("../images/Notebook.png");
     background-size: cover;
     padding: 45px 30px 0 65px;
-    height: 625px;
+    height: 616px;
     margin-top: 10px;
-    font-size: 30px; }
+    font-size: 26px; }
     .contacts-area > label {
       min-width: 100px;
       text-align: right; }
@@ -1044,7 +1044,7 @@ body {
       margin-top: 62px;
       text-decoration: none;
       font-family: 'Lobster', cursive;
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: 800;
       color: goldenrod;
       letter-spacing: 4px;

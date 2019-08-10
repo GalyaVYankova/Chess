@@ -556,7 +556,7 @@ body {
         overflow: hidden;
         border-radius: 20px;
         background: white;
-        height: 450px; }
+        height: 460px; }
         .home-main > main > article > div > a > img {
           width: 100%;
           opacity: 0.9; }
@@ -565,7 +565,7 @@ body {
           text-align: right;
           margin: 0 10px 15px 10px; }
           .home-main > main > article > p > a {
-            font-size: 30px;
+            font-size: 35px;
             text-decoration: none;
             color: black;
             display: inline-block;
@@ -839,7 +839,7 @@ body {
     grid-gap: 35px;
     font-size: 1.8rem; }
     .articles > article > p {
-      font-size: 2rem; }
+      font-size: 2.2rem; }
     .articles > article > img {
       width: 30%;
       height: 25%; }

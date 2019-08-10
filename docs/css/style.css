@@ -2991,7 +2991,9 @@ body {
   .tournaments-table {
     width: 95%; }
     .tournaments-table > h2 {
-      font-size: 28px; } }
+      font-size: 28px; }
+    .tournaments-table > ul {
+      grid-template-rows: 120px repeat(5, 60px); } }
 
 @media (max-width: 480px) {
   .tournaments-dates {
@@ -3015,8 +3017,9 @@ body {
     font-size: 24px; }
   .tournaments-table > ul {
     word-break: normal;
-    grid-template-rows: 50px repeat(5, 40px);
-    font-size: 14px; }
+    grid-template-rows: 50px repeat(5, 35px); }
+    .tournaments-table > ul > li {
+      font-size: 14px; }
     .tournaments-table > ul > .a {
       font-size: 14px; } }
 
@@ -3032,6 +3035,8 @@ body {
   .tournaments-table > ul {
     grid-template-rows: 50px repeat(5, 40px);
     font-size: 12px; }
+    .tournaments-table > ul li {
+      font-size: 12px; }
     .tournaments-table > ul > .a {
       font-size: 12px; }
   .tournaments-dates > .date > .date {

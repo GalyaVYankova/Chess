@@ -484,10 +484,13 @@
     }
 
     .tournaments-table{
+        width: 95%;
         & > h2{
             font-size: 28px;
+        } 
+        & > ul{
+            grid-template-rows: 120px repeat(5, 60px);
         }
-        width: 95%;
     }
 }
 
@@ -528,8 +531,10 @@
         }
         & > ul{
             word-break: normal;
-            grid-template-rows: 50px repeat(5, 40px);
-            font-size: 14px;
+            grid-template-rows: 50px repeat(5, 35px);
+            & > li{
+                font-size: 14px;
+            }
             & > .a {
             font-size: 14px;
             }
@@ -554,6 +559,9 @@
         & > ul{
             grid-template-rows: 50px repeat(5, 40px);
             font-size: 12px;
+            & li{
+                font-size: 12px;
+            }
             & > .a {
             font-size: 12px;
             }

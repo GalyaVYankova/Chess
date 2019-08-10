@@ -1,4 +1,4 @@
-@media all and (max-width: 1920px) {
+@media all and (min-width: 1600px) {
     .additional>.site-nav{
         display: none;
     }
@@ -81,7 +81,7 @@ h1{
         overflow: hidden;
         border-radius: 20px;
         background: white;
-        height: 600px;
+        height: 450px;
         & > div > a > img{
             width: 100%;
             opacity: 0.9;
@@ -91,7 +91,7 @@ h1{
             text-align: right;
             margin: 0 10px 15px 10px;
             & > a{
-                    font-size: 40px;
+                    font-size: 30px;
                     text-decoration: none;
                     color: black;
                     display: inline-block;
@@ -122,7 +122,7 @@ footer {
         list-style-type: none;
         & > li{
             width: 50%;
-            font-size: 40px;
+            font-size: 30px;
             & > a{
                 color: silver;
                 text-decoration: none;
@@ -133,7 +133,7 @@ footer {
         }
         & > address{
             word-wrap: break-word;
-            font-size: 40px;
+            font-size: 30px;
         }
     }
 }
@@ -145,7 +145,10 @@ body > footer > nav > ul > li:nth-child(1) > p{
 }
 
 @media all and (max-width: 1600px) {
-
+    .additional{
+        display: none;
+    }
+    
     .wrapper{
         width: 100%;
         margin-bottom: -10px;

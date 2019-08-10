@@ -1,5 +1,5 @@
 
-@media all and (max-width: 1920px){
+@media all and (min-width: 1600px){
     /**form**/
     .tournaments-all{
         display: flex;
@@ -62,7 +62,7 @@
             & > p{
             color: black;
             font-weight: 600;
-            font-size: 35px;
+            font-size: 30px;
             }
         }
     }

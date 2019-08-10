@@ -1,4 +1,4 @@
-@media all and (max-width: 1920px){
+@media all and (min-width: 1600px){
 .blog{
     padding: 0 40px;
     padding-bottom: 0;
@@ -16,10 +16,10 @@
         font-weight: bold;
         text-decoration: none;
         & > h3{
-            font-size: 40px;
+            font-size: 36px;
         }
         & > p{
-            font-size: 38px;
+            font-size: 34px;
         }
         & > p:last-child{
             font-size: 30px;
@@ -509,4 +509,266 @@ body > main > section > main > div.posts-list > ol{
             font-weight: 900;
         }
     }
-}    
+
+    .background{
+        grid-column: 7 / 9;
+        grid-row: 6/67;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -10;
+        opacity: 0.15;
+    }
+    
+    .posts-list{
+        grid-column: 7 / 9;
+        grid-row: 7/10;
+        margin: auto;
+        text-align: center;
+        & > h3{
+            text-decoration: underline;
+        }
+    }
+    
+    /**********/
+    
+    /****/
+    .game{
+        grid-column: 1 / 4;
+        grid-row: 5/20;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.game{
+        grid-column: 1 / 4;
+        grid-row: 20/24;
+    }
+    /**/
+    
+    /**/
+    .tactic{
+        grid-column: 4 / 7;
+        grid-row: 5/20;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.tactic{
+        grid-column: 4 / 7;
+        grid-row: 20/24;
+    }
+    /**/
+    
+    /**/
+    .tournaments{
+        grid-column: 1 / 4;
+        grid-row: 27/42;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.tournaments{
+        grid-column: 1 / 4;
+        grid-row: 42/46;
+    }
+    /**/
+    
+    /**/
+    .plan{
+        grid-column: 4 / 7;
+        grid-row: 27/42;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.plan{
+        grid-column: 4 / 7;
+        grid-row: 42/46;
+    }
+    /**/
+    
+    /**/
+    .activity{
+        grid-column: 1 / 4;
+        grid-row: 48/63;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.activity{
+        grid-column: 1 / 4;
+        grid-row: 63/67;
+    }
+    /**/
+    
+    /**/
+    .temp{
+        grid-column: 4 / 7;
+        grid-row: 48/63;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.temp{
+        grid-column: 4 / 7;
+        grid-row: 63/67;
+    }
+    /**/
+    
+    /*********************/
+    
+    /**/
+    .material{
+        grid-column: 1/2;
+        grid-row: 75/82;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.material{
+        grid-column: 2 / 3;
+        grid-row: 75/82;
+        font-size: 15px;
+    }
+    /**/
+    
+    /**/
+    .position{
+        grid-column: 3/4;
+        grid-row: 75/82;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.position{
+        grid-column: 4 / 5;
+        grid-row: 75/82;
+        font-size: 15px;
+    }
+    /**/
+    
+    /**/
+    .notation{
+        grid-column: 5/6;
+        grid-row: 75/82;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.notation{
+        grid-column: 6 / 7;
+        grid-row: 75/82;
+        font-size: 15px;
+    }
+    /**/
+    
+    /**/
+    .structure{
+        grid-column: 1 / 2;
+        grid-row: 85/92;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.structure{
+        grid-column: 2 / 3;
+        grid-row: 85/92;
+        font-size: 15px;
+    }
+    /**/
+    
+    /**/
+    .mat{
+        grid-column: 3 / 4;
+        grid-row: 85/92;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.mat{
+        grid-column: 4 / 5;
+        grid-row: 85/92;
+        font-size: 15px;
+    }
+    /**/
+    
+    /**/
+    .value-add{
+        grid-column: 5 / 6;
+        grid-row: 85/92;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.value-add{
+        grid-column: 6 / 7;
+        grid-row: 85/92;
+        font-size: 15px;
+    }
+    /**/
+    
+    /**/
+    .activity{
+        grid-column: 1 / 4;
+        grid-row: 49/64;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.activity{
+        grid-column: 1 / 4;
+        grid-row: 64/68;
+    }
+    /**/
+    
+    /**/
+    .temp{
+        grid-column: 4 / 7;
+        grid-row: 49/64;
+        & > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .blog-article-description.temp{
+        grid-column: 4 / 7;
+        grid-row: 64/68;
+    }
+    /**/
+
+    body > main > section > main > h2.oldest-posts{
+        grid-column: 1/7;
+        grid-row: 71/72;
+        font-size: 1.8rem;
+        text-shadow: none;
+        text-decoration: underline;
+    }
+}

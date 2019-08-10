@@ -1549,7 +1549,7 @@ body {
     opacity: 0.15; }
   .posts-list {
     grid-column: 7 / 9;
-    grid-row: 7/37;
+    grid-row: 7/65;
     margin: auto;
     text-align: center; }
     .posts-list > h3 {
@@ -1849,7 +1849,7 @@ body {
     opacity: 0.15; }
   .posts-list {
     grid-column: 7 / 9;
-    grid-row: 7/37;
+    grid-row: 7/65;
     margin: auto;
     text-align: center; }
     .posts-list > h3 {
@@ -2171,7 +2171,7 @@ body {
       font-size: 16px; }
   .posts-list > h3 {
     font-size: 22px;
-    grid-row: 7/37; }
+    grid-row: 7/65; }
   .posts-list > ol > li {
     text-align: left;
     padding: 3px 0; }

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/Chess/feed.xml" rel="self" type="application/atom+xml" /><link href="/Chess/" rel="alternate" type="text/html" /><updated>2019-08-10T12:39:28+03:00</updated><id>/Chess/feed.xml</id><title type="html">Chess</title><subtitle></subtitle><entry><title type="html">Активност на фигурите</title><link href="/Chess/2019/08/05/activity.html" rel="alternate" type="text/html" title="Активност на фигурите" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/activity</id><content type="html" xml:base="/Chess/2019/08/05/activity.html">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/Chess/feed.xml" rel="self" type="application/atom+xml" /><link href="/Chess/" rel="alternate" type="text/html" /><updated>2019-08-10T14:04:52+03:00</updated><id>/Chess/feed.xml</id><title type="html">Chess</title><subtitle></subtitle><entry><title type="html">Активност на фигурите</title><link href="/Chess/2019/08/05/activity.html" rel="alternate" type="text/html" title="Активност на фигурите" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/activity</id><content type="html" xml:base="/Chess/2019/08/05/activity.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-8.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
-&lt;h3&gt;Кон&lt;/h3&gt;
-&lt;p&gt;Конете са единствените близкобойни от леките и тежките фигури, затова трябва да бъдат близо до основното действие. Добри за тях полета са:&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Кон&lt;/h3&gt;
+Конете са единствените близкобойни от леките и тежките фигури, затова трябва да бъдат близо до основното действие. Добри за тях полета са:&lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;- централните &lt;/li&gt;
 	&lt;li&gt;- полетата, от които владеят централните полета&lt;/li&gt;
@@ -28,7 +28,7 @@
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Оценка на позицията</title><link href="/Chess/2019/08/05/value.html" rel="alternate" type="text/html" title="Оценка на позицията" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/value</id><content type="html" xml:base="/Chess/2019/08/05/value.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-7.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;За да се оцени дадена позиция&lt;/b&gt; се анализират отделните й елементи. Преимуществата са дълготрайни или краткотрайни.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;За да се оцени дадена позиция&lt;/h3&gt; се анализират отделните й елементи. Преимуществата са дълготрайни или краткотрайни.&lt;/p&gt;
 &lt;p&gt;Дълготрайни преимущества са:&lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;- материал&lt;/li&gt;
@@ -51,7 +51,7 @@
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Турнири</title><link href="/Chess/2019/08/05/tournaments.html" rel="alternate" type="text/html" title="Турнири" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/tournaments</id><content type="html" xml:base="/Chess/2019/08/05/tournaments.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-12.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Шахматните турнири&lt;/b&gt; представляват група шахматисти участващи в състезание, организирано и ръководено от главен съдия, който може да има помощник съдии.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Шахматните турнири&lt;/h3&gt; представляват група шахматисти участващи в състезание, организирано и ръководено от главен съдия, който може да има помощник съдии.&lt;/p&gt;
 &lt;h3&gt;Характеристики на турнирите са:&lt;/h3&gt;
 &lt;ul&gt;
 	&lt;li&gt;- дата и час на провеждане&lt;/li&gt;
@@ -72,7 +72,7 @@
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Позиция на царя</title><link href="/Chess/2019/08/05/position.html" rel="alternate" type="text/html" title="Позиция на царя" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/position</id><content type="html" xml:base="/Chess/2019/08/05/position.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-10.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Царят&lt;/b&gt; започва партията на една от централните линии. Там не е безопасно за него, защото може да бъде атакуван и от двата фланга, особено ако до него има открити линии. Затова се прави рокада, като така се развива и топа. Добри защитници на царя са пешките и те сформират пешечно прикритие. Най-доброто пешечно прикритие са три пешки на линията пред него. Понякога е полезно една от пешките да бъде преместена едно поле напред с цел да:&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Царят&lt;/h3&gt; започва партията на една от централните линии. Там не е безопасно за него, защото може да бъде атакуван и от двата фланга, особено ако до него има открити линии. Затова се прави рокада, като така се развива и топа. Добри защитници на царя са пешките и те сформират пешечно прикритие. Най-доброто пешечно прикритие са три пешки на линията пред него. Понякога е полезно една от пешките да бъде преместена едно поле напред с цел да:&lt;/p&gt;
 &lt;ul&gt;
 	&lt;li&gt;- отнеме поле, от което противникова фигура може да атакува&lt;/li&gt;
 	&lt;li&gt;- освободи поле на царя, на което да избяга от мат на последна линия&lt;/li&gt;
@@ -87,7 +87,7 @@
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">План за игра</title><link href="/Chess/2019/08/05/plan.html" rel="alternate" type="text/html" title="План за игра" /><published>2019-08-05T12:57:00+03:00</published><updated>2019-08-05T12:57:00+03:00</updated><id>/Chess/2019/08/05/plan</id><content type="html" xml:base="/Chess/2019/08/05/plan.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-11.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Планът за игра&lt;/b&gt; зависи от оценката на позицията. При наличие на дълготрайно преимущество, то трябва да бъде запазено и към него да се прибавят краткотрайни, а при наличие на краткотрайни - да бъдат превърнати в дълготрайни.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Планът за игра&lt;/h3&gt; зависи от оценката на позицията. При наличие на дълготрайно преимущество, то трябва да бъде запазено и към него да се прибавят краткотрайни, а при наличие на краткотрайни - да бъдат превърнати в дълготрайни.&lt;/p&gt;
 &lt;h3&gt;Размени&lt;/h3&gt;
 &lt;p&gt;Леки и тежки фигури се стреми да сменя страната, която има материално преимущество. Колкото по-малко фигури има на дъската, толкова по-голямо значение има материалът в повече.&lt;/p&gt;
 &lt;p&gt;Леки и тежки фигури, особено дамитесе стреми да сменя страната, чийто цар е в опасност.&lt;/p&gt;
@@ -107,7 +107,7 @@
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Пешечна структура</title><link href="/Chess/2019/08/05/structure.html" rel="alternate" type="text/html" title="Пешечна структура" /><published>2019-08-05T12:56:00+03:00</published><updated>2019-08-05T12:56:00+03:00</updated><id>/Chess/2019/08/05/structure</id><content type="html" xml:base="/Chess/2019/08/05/structure.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-1.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Пешечната структура&lt;/b&gt; представлява броят и местоположението на пешките и е от огромно значение за всяка шахматна позиция.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Пешечната структура&lt;/h3&gt; представлява броят и местоположението на пешките и е от огромно значение за всяка шахматна позиция.&lt;/p&gt;
 &lt;h3&gt;Пешечен остров&lt;/h3&gt;
 &lt;p&gt;Пешечен остров представлява група от пешки, при която на съседните вертикали липсват пешки. Счита се, че пешечната структура е по-силна, когато има по-малко пешечни острови.&lt;/p&gt;
 &lt;h3&gt;Проходна пешка&lt;/h3&gt;
@@ -149,7 +149,7 @@
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Стадии на шахматната партия</title><link href="/Chess/2019/08/05/chess-game.html" rel="alternate" type="text/html" title="Стадии на шахматната партия" /><published>2019-08-05T12:56:00+03:00</published><updated>2019-08-05T12:56:00+03:00</updated><id>/Chess/2019/08/05/chess-game</id><content type="html" xml:base="/Chess/2019/08/05/chess-game.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-6.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Шахматната партия има три стадия - дебют, мителшпил и ендшпил.&lt;/p&gt;
+&lt;p&gt;&lt;h3&gt;Шахматната партия има три стадия&lt;/h3&gt; - дебют, мителшпил и ендшпил.&lt;/p&gt;
 &lt;h3&gt;Дебют&lt;/h3&gt;
 &lt;p&gt;Дебютът е началният стадий на шахматната партия. Той започва от първия ход и завършва с развитието на последната фигура.&lt;/p&gt;
 &lt;p&gt;В дебюта целите са:&lt;/p&gt;
@@ -195,7 +195,7 @@
 &lt;p&gt;&lt;button class=&quot;link&quot;&gt;&lt;a href=&quot;/Chess/blog/&quot;&gt;Назад&lt;/a&gt;&lt;/button&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Мат</title><link href="/Chess/2019/08/05/mat.html" rel="alternate" type="text/html" title="Мат" /><published>2019-08-05T12:55:00+03:00</published><updated>2019-08-05T12:55:00+03:00</updated><id>/Chess/2019/08/05/mat</id><content type="html" xml:base="/Chess/2019/08/05/mat.html">&lt;hr /&gt;
 &lt;p&gt;&lt;img src=&quot;/Chess/images/blog-16.jpg&quot; alt=&quot;blog-image&quot; class=&quot;image-left-small&quot; /&gt;&lt;/p&gt;
 
-&lt;h3&gt;Мат&lt;/h3&gt;
+&lt;p&gt;&lt;h3&gt;Мат&lt;/h3&gt;&lt;/p&gt;
 &lt;p&gt;Позициите, в които може да бъде даден мат са най-разнообразни, но има често срещани матови конструкции.&lt;/p&gt;
 &lt;h3&gt;Мат на последен хоризонтал&lt;/h3&gt;
 &lt;p&gt;Това е мат, при който тежка фигура и противниковият цар се намират на последния хоризонтал.&lt;/p&gt;
